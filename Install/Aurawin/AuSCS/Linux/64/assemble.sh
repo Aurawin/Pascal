@@ -1,16 +1,16 @@
 App="AuSCS";
-Version=$(sed -n 1p /Developer/Source/Builds/AppBuild/Linux/64/AppBuild.inc);
+Version=$(sed -n 1p /Developer/Internal/Pascal/Build/AppBuild/Linux/64/AppBuild.inc);
 Version="${Version%\'}";
 Version="${Version#\'}";
 echo "Assembling $App-$Version ...";
 Opts="-9 -j";
-Root="/Developer/Source/Install/Aurawin/$App";
+Root="/Developer/Internal/Pascal/Install/Aurawin/$App";
 Base="$Root/Linux/64";
 Suffix="linux-x64.zip";
 ZipFile="$App-$Version-$Suffix";
 Zip="$Base/$ZipFile";
-Build="/Developer/Source/Builds/Aurawin/$App/Linux/64";
-PTH_UL="/Developer/Source/Install/Aurawin/Uploads";
+Build="/Developer/Internal/Pascal/Build/Aurawin/$App/Linux/64";
+PTH_UL="/Developer/Internal/Pascal/Install/Aurawin/Uploads";
 AuProcess="$Base/AuProcess";
 AuService="$Base/AuService";
 aurawin="$Base/aurawin";
@@ -34,9 +34,9 @@ echo "Assembling Uploads...";
 
 rm -f $PTH_UL/$App-*$Suffix;
 cp -f $Zip $PTH_UL/$ZipFile;
-svn -q --force add $PTH_UL/$ZipFile;
+git add -f $PTH_UL/$ZipFile;
 
-svn commit $Base -m "$App-$Version"
-svn commit $PTH_UL -m "$App-$Version"
+git commit $Base -m "$App-$Version"
+git commit $PTH_UL -m "$App-$Version"
 
 echo "Assembly of $App-$Version compelete!";
