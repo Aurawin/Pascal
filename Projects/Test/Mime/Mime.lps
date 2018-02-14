@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="Mime.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Mime"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="12" Y="20"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../Libraries/Core/uMime.pas"/>
+        <UnitName Value="uMime"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="60"/>
+        <CursorPos X="3" Y="64"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../Libraries/Core/uByteArray.pas"/>
+        <UnitName Value="uByteArray"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="47"/>
+        <CursorPos X="1" Y="61"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../Libraries/Core/uMime.Decode.Code.inc"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="74" Y="20"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="20" HistoryIndex="19">
+      <Position1>
+        <Filename Value="../../../Libraries/Core/uByteArray.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="8" Column="13" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="9" Column="13" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="27" Column="1" TopLine="2"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="15" Column="1" TopLine="2"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="16" Column="1" TopLine="2"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="17" Column="1" TopLine="2"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="18" Column="1" TopLine="2"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="19" Column="1" TopLine="2"/>
+      </Position9>
+      <Position10>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="20" Column="1" TopLine="2"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="22" Column="1" TopLine="2"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../../Libraries/Core/uMime.pas"/>
+        <Caret Line="64" Column="3" TopLine="60"/>
+      </Position12>
+      <Position13>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="27" Column="1" TopLine="2"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../../Libraries/Core/uMime.Decode.Code.inc"/>
+        <Caret Line="14" Column="1" TopLine="11"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../../Libraries/Core/uMime.Decode.Code.inc"/>
+        <Caret Line="20" Column="74" TopLine="11"/>
+      </Position15>
+      <Position16>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="27" Column="1" TopLine="2"/>
+      </Position16>
+      <Position17>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="19" Column="29" TopLine="2"/>
+      </Position17>
+      <Position18>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="27" Column="1" TopLine="2"/>
+      </Position18>
+      <Position19>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="22" Column="1" TopLine="2"/>
+      </Position19>
+      <Position20>
+        <Filename Value="Mime.lpr"/>
+        <Caret Line="27" Column="1" TopLine="2"/>
+      </Position20>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="3">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="uMime.lpr"/>
+        <Line Value="18"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Mime.lpr"/>
+        <Line Value="27"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Mime.lpr"/>
+        <Line Value="22"/>
+      </Item3>
+    </BreakPoints>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

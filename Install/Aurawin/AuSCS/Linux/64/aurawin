@@ -1,0 +1,98 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          aurawin
+# Required-Start:    
+# Required-Stop:     
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start aurawin service at boot time
+# Description:       Enable service provided by aurawin service.
+### END INIT INFO
+
+SCS_SERVICE_SCRIPT="aurawin";
+SCS_START_OPTIONS="-r";
+SCS_STOP_OPTIONS="s";
+SCS_DIR="/usr/local/AuSCS/";
+SCS_FILENAME="AuService";
+SCS_PROCESS_NAME="AuProcess";
+SCS_FILE="$SCS_DIR$SCS_FILENAME";
+SCS_PROCESS_FILE="$SCS_DIR$SCS_PROCESS_NAME";
+
+start() {
+	if [ -f $SCS_FILE ]; then 
+	  #reset       
+	  echo -n "Starting Aurawin Social Computing Server: "
+	  RETVALS=$(start-stop-daemon -S -b -x $SCS_FILE -- $SCS_START_OPTIONS)
+			
+          Count=${#RETVALS[@]}
+	  RETVAL="[FAIL]"
+		
+          if [ $Count -eq 0 ]; then
+	    RETVAL="[OK]"
+	  elif [ $Count -eq 1 ]; then
+	    if [ ${#RETVALS[0]} -eq 0 ]; then
+	      RETVAL="[OK]"	
+	    else 
+	      iStart=${#SCS_FILE}
+	      iLength=${#RETVALS[0]}
+	      Response=${RETVALS[0]:(iStart+1):7}
+	      RETVAL=$Response
+	      if [ "$Response" == "already" ]; then
+	        RETVAL="[OK]"
+	      fi
+	    fi				
+  	  fi
+	  echo $RETVAL
+          return 0
+	else
+	  echo "Aurawin Social Computing Server not installed" $SCS_DIR
+	  exit 2;	
+	fi
+}
+
+stop() {
+	echo -n "Shutting down Aurawin Social Computing Server:"
+	RETVALS=$(start-stop-daemon -K -x $SCS_FILE -- $SCS_STOP_OPTIONS -n $SCS_PROCESS_NAME)
+	PROCKILLS=$(killall -w -q -e $SCS_PROCESS_NAME $SCS_FILENAME)
+	Count=${#RETVALS[@]}
+	Index=0	
+	RETVAL="[FAIL]"
+	if [ $Count -eq 1 ]; then
+		if [ ${#RETVALS[0]} -eq 0 ]; then
+			RETVAL="[OK]"	
+		else 
+			Response=${RETVALS[0]:0:2}
+			RETVAL=$Response
+			if [ "$Response" == "No" ]; then
+				RETVAL="[OK]"
+			fi
+		fi			
+	else
+		RETVAL="[OK]"
+	fi 
+
+	echo $RETVAL	
+        return 0
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $SCS_SERVICE_SCRIPT
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+	echo "Aurawin Social Computing Server [Invalid Startup Parameters]"        
+	echo "Usage:  {start|stop|status|restart}"
+        exit 1
+        ;;
+esac
+exit $?

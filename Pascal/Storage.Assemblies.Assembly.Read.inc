@@ -1,0 +1,13 @@
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.ID,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.ParentID,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Created,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Modified,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Scheduled,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.State,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Privacy,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Admins,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Files,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Comments,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Assemblies,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Title,poNone,oNone,Commands);
+  Core.Database.AddCommand(iCount, TableP,useForFields,IDs.Description,poNone,oNone,Commands);

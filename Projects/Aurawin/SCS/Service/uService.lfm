@@ -1,0 +1,19 @@
+object dmAurawin: TdmAurawin
+  DaemonDefs = <  
+    item
+      DaemonClassName = 'TAurawinSCS'
+      Name = 'SCSDaemon'
+      Description = 'Provides domains with Email, Content Managment, Interactive Search, and Collaboration'
+      DisplayName = 'Aurawin Social Computing Server'
+      Options = [doAllowStop, doAllowPause]
+      WinBindings.Dependencies = <>
+      WinBindings.StartType = stBoot
+      WinBindings.WaitHint = 0
+      WinBindings.IDTag = 0
+      WinBindings.ServiceType = stWin32
+      WinBindings.ErrorSeverity = esIgnore
+      LogStatusReport = False
+    end>
+  left = 62
+  top = 391
+end

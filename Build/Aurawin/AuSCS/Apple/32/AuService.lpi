@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <Title Value="Aurawin SCS"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2010"/>
+      <MinorVersionNr Value="4"/>
+      <RevisionNr Value="18"/>
+      <BuildNr Value="1"/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable Comments="" CompanyName="Aurawin LLC" FileDescription="Aurawin Service Application" FileVersion="2010.4.18.1" InternalName="SCS" LegalCopyright="2010" LegalTrademarks="" OriginalFilename="" ProductName="" ProductVersion="2010"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="-r"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="LazDaemon"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="Service.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Service"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uService.pas"/>
+        <ComponentName Value="dmAurawin"/>
+        <UnitName Value="uService"/>
+        <TopLine Value="30"/>
+        <CursorPos X="3" Y="36"/>
+        <UsageCount Value="20"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uDaemon.pas"/>
+        <ComponentName Value="AurawinSCS"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uDaemon"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="14"/>
+        <UsageCount Value="20"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AurawinSCS"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="uDaemon"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="31"/>
+        <CursorPos X="3" Y="36"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmAurawin"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uService"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="8" Y="36"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\Lazarus\components\daemon\lazdaemonapp.pp"/>
+        <UnitName Value="lazdaemonapp"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\Lazarus\examples\cleandir\cleandirs.lpr"/>
+        <UnitName Value="cleandirs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\FPC\packages\fcl-extra\src\daemonapp.pp"/>
+        <UnitName Value="daemonapp"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="404"/>
+        <CursorPos X="14" Y="426"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <JumpHistory Count="13" HistoryIndex="12">
+      <Position1>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Service.lpr"/>
+        <Caret Line="7" Column="19" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <Caret Line="22" Column="13" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <Caret Line="36" Column="20" TopLine="22"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Service.lpr"/>
+        <Caret Line="14" Column="51" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Service.lpr"/>
+        <Caret Line="15" Column="27" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <Caret Line="36" Column="20" TopLine="22"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <Caret Line="18" Column="21" TopLine="1"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <Caret Line="36" Column="26" TopLine="31"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <Caret Line="36" Column="8" TopLine="31"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <Caret Line="36" Column="26" TopLine="31"/>
+      </Position11>
+      <Position12>
+        <Filename Value="Service.lpr"/>
+        <Caret Line="14" Column="5" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <Caret Line="36" Column="3" TopLine="31"/>
+      </Position13>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <OtherUnitFiles Value="C:\Developer\Source\Projects\SCS\Daemon\"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="4">
+      <Item1>
+        <Source Value="..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <Line Value="36"/>
+      </Item1>
+      <Item2>
+        <Source Value="Service.lpr"/>
+        <Line Value="14"/>
+      </Item2>
+      <Item3>
+        <Source Value="Service.lpr"/>
+        <Line Value="14"/>
+      </Item3>
+      <Item4>
+        <Source Value="..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <Line Value="36"/>
+      </Item4>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

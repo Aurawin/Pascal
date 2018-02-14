@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1403528338"/>
+  <Params Value=" -MObjFPC -Scgi -Os3 -g -gl -vewnhibq -Fl/opt/gnome/lib -Fu/Developer/Lazarus/lcl/units/x86_64-linux/gtk2 -Fu/Developer/Lazarus/lcl/units/x86_64-linux -Fu/Developer/Lazarus/components/lazutils/lib/x86_64-linux -Fu/Developer/Lazarus/packager/units/x86_64-linux -Fu/Developer/Source/Projects/Stocks/ -l -dLCL -dLCLgtk2 Stocks.lpr"/>
+</CONFIG>

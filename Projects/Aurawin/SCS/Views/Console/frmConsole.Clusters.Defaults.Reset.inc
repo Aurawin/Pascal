@@ -1,0 +1,9 @@
+FLoading:=True;
+Try
+  cbClusters_Default_Service.Checked:=false;
+  cbClusters_Default_Service.Enabled:=false;
+  tbClustersDefaultScale.Position:=0;
+  tbClustersDefaultScale.Enabled:=false;
+Finally
+  FLoading:=False;
+end;

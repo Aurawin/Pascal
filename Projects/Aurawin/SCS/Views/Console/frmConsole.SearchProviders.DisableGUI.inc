@@ -1,0 +1,22 @@
+GUI.Lock;
+Try
+  txtProviderName.Clear;
+  txtProviderName.Enabled:=false;
+  txtProviderDomain.Clear;
+  txtProviderDomain.Enabled:=false;
+  txtProviderPort.Clear;
+  txtProviderPort.Enabled:=false;
+  tbSearchScale.Position:=0;
+  tbSearchScale.Enabled:=false;
+  txtProviderMaxResults.Clear;
+  txtProviderMaxResults.Enabled:=false;
+  txtProviderQueryString.Clear;
+  txtProviderQueryString.Enabled:=false;
+  lvProviderService.Enabled:=false;
+  btnProviderLandingPageLoad.Enabled:=false;
+  btnProviderLandingPageSaveAs.Enabled:=false;
+  btnProviderLandingPageEdit.Enabled:=false;
+  btnProviderLandingPageClear.Enabled:=false;
+Finally
+  GUI.UnLock;
+end;

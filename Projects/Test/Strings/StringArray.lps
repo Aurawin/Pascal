@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="StringArray.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="StringArray"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <CursorPos X="31" Y="43"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <UnitName Value="uStringArray"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="256"/>
+        <CursorPos X="1" Y="269"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="448"/>
+        <CursorPos X="1" Y="462"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../FPC/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="713"/>
+        <CursorPos X="11" Y="728"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../FPC/rtl/objpas/strutils.pp"/>
+        <UnitName Value="strutils"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="663"/>
+        <CursorPos X="14" Y="671"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="207"/>
+        <CursorPos X="1" Y="231"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <UnitName Value="uVarString"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="207"/>
+        <CursorPos X="1" Y="208"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="445" Column="1" TopLine="430"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="447" Column="1" TopLine="430"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="448" Column="1" TopLine="430"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="449" Column="1" TopLine="430"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="451" Column="1" TopLine="430"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="452" Column="1" TopLine="430"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="453" Column="1" TopLine="430"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="462" Column="1" TopLine="448"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="277" Column="1" TopLine="261"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="278" Column="1" TopLine="261"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="276" Column="1" TopLine="261"/>
+      </Position11>
+      <Position12>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="9" Column="22" TopLine="1"/>
+      </Position12>
+      <Position13>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="24" Column="1" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="277" Column="1" TopLine="255"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="256" Column="27" TopLine="255"/>
+      </Position15>
+      <Position16>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position16>
+      <Position17>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <Caret Line="219" Column="9" TopLine="199"/>
+      </Position17>
+      <Position18>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <Caret Line="207" Column="64" TopLine="201"/>
+      </Position18>
+      <Position19>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <Caret Line="215" Column="1" TopLine="207"/>
+      </Position19>
+      <Position20>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="276" Column="54" TopLine="262"/>
+      </Position20>
+      <Position21>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="25" Column="1" TopLine="1"/>
+      </Position21>
+      <Position22>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="276" Column="1" TopLine="262"/>
+      </Position22>
+      <Position23>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <Caret Line="219" Column="17" TopLine="207"/>
+      </Position23>
+      <Position24>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="25" Column="1" TopLine="1"/>
+      </Position24>
+      <Position25>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <Caret Line="276" Column="1" TopLine="262"/>
+      </Position25>
+      <Position26>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="29" Column="5" TopLine="12"/>
+      </Position26>
+      <Position27>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="14" Column="1" TopLine="4"/>
+      </Position27>
+      <Position28>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="26" Column="5" TopLine="11"/>
+      </Position28>
+      <Position29>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="32" Column="5" TopLine="13"/>
+      </Position29>
+      <Position30>
+        <Filename Value="StringArray.lpr"/>
+        <Caret Line="30" Column="57" TopLine="19"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="StringArray.lpr"/>
+        <Line Value="63"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="StringArray.lpr"/>
+        <Line Value="57"/>
+      </Item2>
+    </BreakPoints>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

@@ -1,0 +1,30 @@
+With NodeP^ do begin
+  ID:=Fields.FieldByName(Node.DB.Keys.ID).AsLargeInt;
+  DomainID:=Fields.FieldByName(Node.DB.Keys.DomainID).AsLargeInt;
+  ClusterID:=Fields.FieldByName(Node.DB.Keys.ClusterID).AsLargeInt;
+  ResourceID:=Fields.FieldByName(Node.DB.Keys.ResourceID).AsLargeInt;
+  IP:=Fields.FieldByName(Node.DB.Keys.InfoIP).AsLargeInt;
+  GroupID:=Fields.FieldByName(Node.DB.Keys.GroupID).AsLargeInt;
+  UserID:=Fields.FieldByName(Node.DB.Keys.UserID).AsLargeInt;
+  Stats.Streams:=Fields.FieldByName(Node.DB.Keys.StatsStreams).AsLargeInt;
+  Stats.Sessions:=Fields.FieldByName(Node.DB.Keys.StatsSessions).AsLargeInt;
+  Stats.Filtered:=Fields.FieldByName(Node.DB.Keys.StatsFiltered).AsLargeInt;
+  Stats.Transactions:=Fields.FieldByName(Node.DB.Keys.StatsTX).AsLargeInt;
+  Stats.PTX_Sent:=Fields.FieldByName(Node.DB.Keys.StatsPTXSent).AsLargeInt;
+  Stats.PTX_Received:=Fields.FieldByName(Node.DB.Keys.StatsPTXRcvd).AsLargeInt;
+  Stats.MB_Received:=Fields.FieldByName(Node.DB.Keys.StatsMBRcvd).AsLargeInt;
+  Stats.MB_Sent:=Fields.FieldByName(Node.DB.Keys.StatsMBSent).AsLargeInt;
+  Stats.MEM_Total:=Fields.FieldByName(Node.DB.Keys.MemTotal).AsLargeInt;
+  Stats.MEM_Free:=Fields.FieldByName(Node.DB.Keys.MemFree).AsLargeInt;
+  Stats.MEM_Used:=Fields.FieldByName(Node.DB.Keys.MemUsed).AsLargeInt;
+  Stats.CPU_Usage:=Fields.FieldByName(Node.DB.Keys.CPU).AsInteger;
+  Alias:=Fields.FieldByName(Node.DB.Keys.InfoAlias).AsString;
+  with Disk do begin
+    Enabled:=Fields.FieldByName(Node.DB.Keys.DiskEnabled).AsBoolean;
+    Live:=Fields.FieldByName(Node.DB.Keys.DiskLive).AsBoolean;
+    Device:=Fields.FieldByName(Node.DB.Keys.DiskDevice).AsString;
+    Capacity:=Fields.FieldByName(Node.DB.Keys.DiskCapacity).AsLargeInt;
+    Consumption:=Fields.FieldByName(Node.DB.Keys.DiskConsumption).AsLargeInt;
+    Available:=Fields.FieldByName(Node.DB.Keys.DiskAvailable).AsLargeInt;
+  end;
+end;

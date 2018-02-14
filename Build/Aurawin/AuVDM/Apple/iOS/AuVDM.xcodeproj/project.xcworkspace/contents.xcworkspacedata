@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "self:/Developer/Source/Builds/Aurawin/AuVDM/AuVDM/AuVDM.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../AuVDM">
+   </FileRef>
+   <FileRef
+      location = "group:">
+   </FileRef>
+   <FileRef
+      location = "group:../AuVDMTests">
+   </FileRef>
+   <FileRef
+      location = "group:../Settings.bundle">
+   </FileRef>
+   <FileRef
+      location = "group:../uSettings.swift">
+   </FileRef>
+</Workspace>

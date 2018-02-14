@@ -1,0 +1,9 @@
+GUI.Lock;
+Try
+  txtKeywordName.Clear;
+  txtKeywordValue.Clear;
+  gbKeywordEditor.Visible:=False;
+  lvKeywords.Enabled:=true;
+finally
+  GUI.Unlock;
+end;

@@ -1,0 +1,11 @@
+Type TSocketPollEvent=TKEvent;
+Type TKQueue=cint;
+Type TSocketPollEvents=Array[0..QUEUE_POLL_SIZE] of TKEvent;
+Type TSocketEventQueue=TKQueue;
+Type TSocketEventCallback=procedure(Socket:Sockets.TSocket; Var Event:TKEvent);
+procedure SocketEventsPoll(kQueue:TKQueue; qEvents:TSocketPollEvents; Callback:TSocketEventCallback);
+procedure SocketEventsAttach(kQueue:TKQueue; Const Socket:Sockets.TSocket; Flags:TSocketFilter);
+procedure SocketEventsDetach(kQueue:TKQueue; Const Socket:Sockets.TSocket);
+procedure SocketEventsInitQueues(var qRecv,qWrite,qConn,qDiscon:TKQueue);
+procedure SocketEventsCreateQueues(var qRecv,qWrite,qConn,qDiscon:TKQueue);
+function SocketEventsCreateQueue():TKQueue;

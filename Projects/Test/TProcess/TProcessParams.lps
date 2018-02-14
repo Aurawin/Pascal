@@ -1,0 +1,252 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="TProcessParams.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TProcessParams"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="54"/>
+        <CursorPos X="67" Y="104"/>
+        <UsageCount Value="48"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../../FPC/rtl/inc/objpash.inc"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="181"/>
+        <CursorPos X="23" Y="193"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../FPC/packages/fcl-process/src/process.pp"/>
+        <UnitName Value="process"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="23"/>
+        <CursorPos X="48" Y="24"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../FPC/packages/fcl-process/src/unix/process.inc"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="385"/>
+        <CursorPos X="7" Y="401"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../FPC/rtl/objpas/sysutils/filutilh.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="60"/>
+        <CursorPos X="10" Y="94"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../FPC/rtl/unix/sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="523"/>
+        <CursorPos X="10" Y="550"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../FPC/packages/fcl-net/src/resolve.pp"/>
+        <UnitName Value="resolve"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="178"/>
+        <CursorPos X="29" Y="122"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../FPC/packages/fcl-net/examples/testdns.pp"/>
+        <UnitName Value="testdns"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="62"/>
+        <CursorPos X="19" Y="73"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../Libraries/Encryption/uSSL.pas"/>
+        <UnitName Value="uSSL"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="594"/>
+        <CursorPos X="23" Y="610"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../Libraries/RSR/uRSR.pas"/>
+        <UnitName Value="uRSR"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="827"/>
+        <CursorPos X="6" Y="834"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit9>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="70" Column="1" TopLine="51"/>
+      </Position1>
+      <Position2>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="71" Column="1" TopLine="51"/>
+      </Position2>
+      <Position3>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="63" Column="1" TopLine="54"/>
+      </Position3>
+      <Position4>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="81" Column="46" TopLine="54"/>
+      </Position4>
+      <Position5>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="101" Column="1" TopLine="54"/>
+      </Position5>
+      <Position6>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="44" Column="1" TopLine="17"/>
+      </Position6>
+      <Position7>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="46" Column="1" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="59" Column="1" TopLine="41"/>
+      </Position8>
+      <Position9>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="60" Column="1" TopLine="41"/>
+      </Position9>
+      <Position10>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="61" Column="1" TopLine="41"/>
+      </Position10>
+      <Position11>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="62" Column="1" TopLine="41"/>
+      </Position11>
+      <Position12>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="63" Column="1" TopLine="41"/>
+      </Position12>
+      <Position13>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="64" Column="1" TopLine="41"/>
+      </Position13>
+      <Position14>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="66" Column="1" TopLine="41"/>
+      </Position14>
+      <Position15>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="67" Column="1" TopLine="41"/>
+      </Position15>
+      <Position16>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="68" Column="1" TopLine="41"/>
+      </Position16>
+      <Position17>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="69" Column="1" TopLine="41"/>
+      </Position17>
+      <Position18>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="71" Column="1" TopLine="41"/>
+      </Position18>
+      <Position19>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="74" Column="1" TopLine="41"/>
+      </Position19>
+      <Position20>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="75" Column="1" TopLine="41"/>
+      </Position20>
+      <Position21>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="76" Column="1" TopLine="41"/>
+      </Position21>
+      <Position22>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="77" Column="1" TopLine="41"/>
+      </Position22>
+      <Position23>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="78" Column="1" TopLine="41"/>
+      </Position23>
+      <Position24>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="79" Column="1" TopLine="41"/>
+      </Position24>
+      <Position25>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="80" Column="1" TopLine="41"/>
+      </Position25>
+      <Position26>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="81" Column="1" TopLine="41"/>
+      </Position26>
+      <Position27>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="82" Column="1" TopLine="41"/>
+      </Position27>
+      <Position28>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="83" Column="1" TopLine="41"/>
+      </Position28>
+      <Position29>
+        <Filename Value="TProcessParams.lpr"/>
+        <Caret Line="85" Column="1" TopLine="41"/>
+      </Position29>
+      <Position30>
+        <Filename Value="../../../Libraries/RSR/uRSR.pas"/>
+        <Caret Line="1" Column="1" TopLine="118"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="TProcessParams.lpr"/>
+        <Line Value="59"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="TProcessParams.lpr"/>
+        <Line Value="101"/>
+      </Item2>
+    </BreakPoints>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

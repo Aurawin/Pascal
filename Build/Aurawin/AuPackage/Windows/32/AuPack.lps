@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="AuPack.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AuPack"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="43"/>
+        <CursorPos X="34" Y="6"/>
+        <UsageCount Value="22"/>
+        <Bookmarks Count="1">
+          <Item0 X="7" Y="46" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\objpas.pp"/>
+        <UnitName Value="objpas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="220"/>
+        <CursorPos X="31" Y="232"/>
+        <UsageCount Value="10"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win64\system.pp"/>
+        <UnitName Value="System"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="146"/>
+        <CursorPos X="15" Y="152"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uStringArray.pas"/>
+        <UnitName Value="uStringArray"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="185"/>
+        <CursorPos X="34" Y="191"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uKPList.pas"/>
+        <UnitName Value="uKPList"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="615"/>
+        <CursorPos X="1" Y="639"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\AppBuild\Windows\64\AppBuild.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\paszlib\src\zipper.pp"/>
+        <UnitName Value="zipper"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="339"/>
+        <CursorPos X="12" Y="316"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\Libraries\Encryption\uZip.pas"/>
+        <UnitName Value="uZip"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="418"/>
+        <CursorPos X="38" Y="439"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="54" Column="1" TopLine="39"/>
+      </Position1>
+      <Position2>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="57" Column="1" TopLine="39"/>
+      </Position2>
+      <Position3>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="70" Column="1" TopLine="55"/>
+      </Position3>
+      <Position4>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="72" Column="1" TopLine="55"/>
+      </Position4>
+      <Position5>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="78" Column="1" TopLine="55"/>
+      </Position5>
+      <Position6>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="74" Column="29" TopLine="57"/>
+      </Position6>
+      <Position7>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="54" Column="1" TopLine="42"/>
+      </Position7>
+      <Position8>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="57" Column="1" TopLine="42"/>
+      </Position8>
+      <Position9>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="71" Column="1" TopLine="47"/>
+      </Position9>
+      <Position10>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="82" Column="1" TopLine="67"/>
+      </Position10>
+      <Position11>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="54" Column="1" TopLine="42"/>
+      </Position11>
+      <Position12>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="57" Column="1" TopLine="42"/>
+      </Position12>
+      <Position13>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="71" Column="1" TopLine="52"/>
+      </Position13>
+      <Position14>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="81" Column="16" TopLine="57"/>
+      </Position14>
+      <Position15>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="54" Column="1" TopLine="39"/>
+      </Position15>
+      <Position16>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="57" Column="1" TopLine="39"/>
+      </Position16>
+      <Position17>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="71" Column="1" TopLine="56"/>
+      </Position17>
+      <Position18>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="73" Column="1" TopLine="56"/>
+      </Position18>
+      <Position19>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="79" Column="1" TopLine="56"/>
+      </Position19>
+      <Position20>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="59" Column="6" TopLine="57"/>
+      </Position20>
+      <Position21>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="54" Column="1" TopLine="39"/>
+      </Position21>
+      <Position22>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="69" Column="1" TopLine="62"/>
+      </Position22>
+      <Position23>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="71" Column="1" TopLine="62"/>
+      </Position23>
+      <Position24>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="77" Column="1" TopLine="62"/>
+      </Position24>
+      <Position25>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="66" Column="8" TopLine="62"/>
+      </Position25>
+      <Position26>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="74" Column="6" TopLine="62"/>
+      </Position26>
+      <Position27>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="71" Column="23" TopLine="56"/>
+      </Position27>
+      <Position28>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="75" Column="4" TopLine="56"/>
+      </Position28>
+      <Position29>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="69" Column="1" TopLine="54"/>
+      </Position29>
+      <Position30>
+        <Filename Value="AuPack.lpr"/>
+        <Caret Line="6" Column="34" TopLine="1"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

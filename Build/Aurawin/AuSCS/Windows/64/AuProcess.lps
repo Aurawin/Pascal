@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="269">
+      <Unit0>
+        <Filename Value="AuProcess.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="31" Y="4"/>
+        <UsageCount Value="202"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmAuraDisks.pas"/>
+        <UsageCount Value="111"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSecurity.Read.FilterItem.inc"/>
+        <CursorPos Y="5"/>
+        <UsageCount Value="181"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../Libraries/Database/uDatabase.SQL_SumDataLength.inc"/>
+        <TopLine Value="23"/>
+        <CursorPos X="29" Y="39"/>
+        <UsageCount Value="179"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmCollages.Collages.Images.Fields.inc"/>
+        <CursorPos X="66" Y="11"/>
+        <UsageCount Value="172"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../Libraries/Database/uDatabase.SQL_Sum.inc"/>
+        <TopLine Value="59"/>
+        <CursorPos X="3" Y="74"/>
+        <UsageCount Value="107"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../Libraries/Database/uDatabase.SQL_Insert.Reset.inc"/>
+        <CursorPos Y="7"/>
+        <UsageCount Value="60"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSearch.Query.Read.Fields.inc"/>
+        <UsageCount Value="71"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../Libraries/RSR/uRSR.pas"/>
+        <TopLine Value="6"/>
+        <CursorPos X="16" Y="13"/>
+        <UsageCount Value="68"/>
+        <Bookmarks Count="1">
+          <Item0 Y="211" ID="1"/>
+        </Bookmarks>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../../Libraries/RSR/hRSR.pas"/>
+        <TopLine Value="73"/>
+        <UsageCount Value="63"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="48"/>
+        <Bookmarks Count="1">
+          <Item0 X="28" Y="67" ID="1"/>
+        </Bookmarks>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../../Projects/SCS/hSRConsts.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="93"/>
+        <CursorPos Y="110"/>
+        <UsageCount Value="55"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSocial.pas"/>
+        <UnitName Value="Storage.Social"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="276"/>
+        <CursorPos X="32" Y="285"/>
+        <UsageCount Value="87"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../../Projects/SCS/Core/coSocial.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="82"/>
+        <Bookmarks Count="1">
+          <Item0 X="15" Y="1595" ID="2"/>
+        </Bookmarks>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../../Projects/SCS/Core/uCoreObjects.pas"/>
+        <TopLine Value="55"/>
+        <CursorPos X="9" Y="77"/>
+        <UsageCount Value="87"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../../Projects/SCS/Core/coVDM.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="46"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmUserAccounts.pas"/>
+        <UnitName Value="Storage.UserAccounts"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14"/>
+        <UsageCount Value="53"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmUserStorage.pas"/>
+        <TopLine Value="5916"/>
+        <CursorPos X="40" Y="5935"/>
+        <UsageCount Value="93"/>
+        <Bookmarks Count="5">
+          <Item0 X="5" Y="1641" ID="7"/>
+          <Item1 Y="1390" ID="3"/>
+          <Item2 X="3" Y="2703" ID="4"/>
+          <Item3 Y="2720" ID="5"/>
+          <Item4 X="16" Y="4572"/>
+        </Bookmarks>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.HTTP.Code.inc"/>
+        <CursorPos X="3" Y="4"/>
+        <UsageCount Value="84"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../../../Libraries/RSR/hHTTP.pas"/>
+        <TopLine Value="740"/>
+        <CursorPos X="3" Y="750"/>
+        <UsageCount Value="65"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../../../Projects/SCS/Stored/uDBModule.pas"/>
+        <CursorPos X="21"/>
+        <UsageCount Value="82"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.HTTP.Type.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="31"/>
+        <UsageCount Value="67"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../../../Libraries/Core/uKPList.pas"/>
+        <TopLine Value="444"/>
+        <CursorPos X="45" Y="474"/>
+        <UsageCount Value="35"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../../../../Libraries/Core/uStringArray.pas"/>
+        <TopLine Value="631"/>
+        <CursorPos X="23" Y="653"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../../../../Projects/SCS/Core/coSearch.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="31"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSearch.pas"/>
+        <TopLine Value="483"/>
+        <CursorPos Y="514"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="525"/>
+          <CursorPos Y="560"/>
+        </ExtraEditor1>
+        <UsageCount Value="1"/>
+        <Bookmarks Count="1">
+          <Item0 Y="1056" ID="6"/>
+        </Bookmarks>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../../../../../Projects/SCS/Core/coAvatar.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="242"/>
+        <CursorPos X="23" Y="249"/>
+        <UsageCount Value="56"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../../../../Projects/SCS/Stored/uStorage.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="3" Y="81"/>
+        <UsageCount Value="3"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../../../../../Libraries/RSR/uRSR.SocketEvents.Code.inc"/>
+        <UsageCount Value="9"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="92"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.TransportReceive.Methods.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1124"/>
+        <CursorPos X="117" Y="1145"/>
+        <UsageCount Value="109"/>
+        <Bookmarks Count="1">
+          <Item0 Y="649" ID="2"/>
+        </Bookmarks>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../../../../../Projects/SCS/Core/coPurchases.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="311"/>
+        <CursorPos X="15" Y="339"/>
+        <UsageCount Value="4"/>
+        <Bookmarks Count="1">
+          <Item0 X="29" Y="27" ID="1"/>
+        </Bookmarks>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmFAT.pas"/>
+        <TopLine Value="3432"/>
+        <CursorPos X="24" Y="3450"/>
+        <UsageCount Value="57"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../../../../../Projects/SCS/Core/uCoreObjects.StatusCodes.inc"/>
+        <TopLine Value="2"/>
+        <CursorPos X="36" Y="30"/>
+        <UsageCount Value="87"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../../../../../Libraries/Core/uSocketUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="59"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSecurity.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="662"/>
+        <CursorPos X="12" Y="674"/>
+        <UsageCount Value="89"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.MailManager.Methods.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="14"/>
+        <UsageCount Value="8"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.Code.ExtractUser.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="16"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="../../../../../../FPC/rtl/unix/tthread.inc"/>
+        <TopLine Value="110"/>
+        <CursorPos Y="129"/>
+        <UsageCount Value="59"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="../../../../../Libraries/Database/hDatabase.pas"/>
+        <TopLine Value="358"/>
+        <CursorPos X="13" Y="402"/>
+        <UsageCount Value="11"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="../../../../../../FPC/rtl/linux/ossysc.inc"/>
+        <TopLine Value="198"/>
+        <CursorPos Y="218"/>
+        <UsageCount Value="10"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="../../../../../../FPC/rtl/unix/aliasptp.inc"/>
+        <TopLine Value="41"/>
+        <CursorPos X="5" Y="61"/>
+        <UsageCount Value="7"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="../../../../../Libraries/uAppBuild.pas"/>
+        <CursorPos X="52" Y="19"/>
+        <UsageCount Value="6"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmCollages.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="759"/>
+        <CursorPos X="20" Y="775"/>
+        <UsageCount Value="87"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="../../../../../Projects/SCS/Core/coCollages.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="590"/>
+        <CursorPos X="36" Y="602"/>
+        <UsageCount Value="113"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="../../../../../../FPC/rtl/inc/astrings.inc"/>
+        <TopLine Value="113"/>
+        <CursorPos Y="135"/>
+        <UsageCount Value="3"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="../../../../../Projects/SCS/Core/coAccount.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="11"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmAvatars.pas"/>
+        <TopLine Value="95"/>
+        <CursorPos X="7" Y="119"/>
+        <UsageCount Value="99"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="../../../../../Libraries/Core/uMime.pas"/>
+        <TopLine Value="46"/>
+        <CursorPos X="10" Y="70"/>
+        <UsageCount Value="5"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="../../../../../Libraries/Core/uFileUtils.pas"/>
+        <TopLine Value="340"/>
+        <CursorPos X="56" Y="354"/>
+        <UsageCount Value="25"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmMatrixNodes.pas"/>
+        <TopLine Value="153"/>
+        <CursorPos X="13" Y="174"/>
+        <UsageCount Value="22"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.Transport.Receive.Dec.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="70"/>
+        <UsageCount Value="53"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="../../../../../Libraries/Core/uImage.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="10"/>
+        <UsageCount Value="18"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="../../../../../Projects/SCS/Core/coSpectrum.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3824"/>
+        <CursorPos X="45" Y="3839"/>
+        <UsageCount Value="7"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3d.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="26"/>
+        <UsageCount Value="5"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.ReceiveMailServer.Protected.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.MailManager.Private.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="2"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="../../../../../Libraries/Core/uVarString.pas"/>
+        <TopLine Value="66"/>
+        <CursorPos Y="89"/>
+        <UsageCount Value="4"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.MailManager.Protected.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="2"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.Implements.Consts.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.AuraCore.Net.Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="303"/>
+        <CursorPos X="24" Y="322"/>
+        <UsageCount Value="3"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.AuraCore.Net.Type.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="3"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="../../../../../Projects/SCS/Core/coLogin.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="500"/>
+        <CursorPos X="24" Y="512"/>
+        <UsageCount Value="7"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.Media.Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="479"/>
+        <CursorPos X="25" Y="489"/>
+        <UsageCount Value="3"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.Media.Type.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="36" Y="31"/>
+        <UsageCount Value="3"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.SetupStorage.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="15"/>
+        <UsageCount Value="4"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="../../../../../Projects/SCS/Core/coPayments.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="310"/>
+        <CursorPos X="15" Y="339"/>
+        <UsageCount Value="4"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="../../../../../Projects/SCS/Console/frmConsole.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3371"/>
+        <CursorPos X="109" Y="3395"/>
+        <UsageCount Value="2"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="../../../../../Projects/SCS/Core/coPostInfo.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos Y="33"/>
+        <UsageCount Value="3"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="../../../../../Pascal/Core.Database.Types.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="515"/>
+        <CursorPos X="22" Y="528"/>
+        <UsageCount Value="6"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="../../../../../Pascal/RSR.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="6"/>
+        <UsageCount Value="3"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="../../../../../../FPC/packages/fv/src/dialogs.pas"/>
+        <UnitName Value="Dialogs"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="266"/>
+        <CursorPos X="45" Y="268"/>
+        <UsageCount Value="2"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="../../../../../Pascal/Storage.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="23"/>
+        <UsageCount Value="4"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Uses.General.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="18"/>
+        <UsageCount Value="5"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="../../../../../Pascal/Core.Queue.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="26" Y="56"/>
+        <UsageCount Value="4"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="../../../../../Pascal/Storage.Commerce.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1584"/>
+        <CursorPos X="24" Y="1603"/>
+        <UsageCount Value="4"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="../../../../../Pascal/Storage.Security.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="751"/>
+        <CursorPos X="35" Y="762"/>
+        <UsageCount Value="4"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="../../../../../Pascal/Storage.MatrixQueue.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="152"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="1"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="../../../../../Pascal/App.Consts.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="49"/>
+        <UsageCount Value="14"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="../../../../../Pascal/RSR.Core.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="481"/>
+        <UsageCount Value="15"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Uses.Servers.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="15"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uAuDiskd.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="61" Y="112"/>
+        <UsageCount Value="2"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="../../../../../Pascal/Storage.DNS.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <CursorPos X="22" Y="163"/>
+        <UsageCount Value="5"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="../../../../../Pascal/Core.Database.Monitor.Notify.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="1"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="../../../../../Pascal/Core.Database.Timer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="22"/>
+        <UsageCount Value="4"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="../../../../../Pascal/Storage.Intrusion.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="77"/>
+        <CursorPos X="22" Y="93"/>
+        <UsageCount Value="3"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="../../../../../Pascal/Storage.Collages.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1225"/>
+        <CursorPos X="16" Y="1236"/>
+        <UsageCount Value="6"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="../../../../../Pascal/Core.Database.Monitor.Types.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="../../../../../Pascal/Storage.UserAccounts.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="924"/>
+        <CursorPos X="32" Y="936"/>
+        <UsageCount Value="9"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="../../../../../Pascal/Storage.MatrixServices.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="51"/>
+        <CursorPos X="12" Y="67"/>
+        <UsageCount Value="5"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="../../../../../Pascal/RSR.SocketEvents.Windows.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="42" Y="93"/>
+        <UsageCount Value="2"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/uEngine.OnDataReceived.ProcessSocial.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="206"/>
+        <CursorPos X="42" Y="222"/>
+        <UsageCount Value="2"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.InitializeNodeConfig.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="33" Y="39"/>
+        <UsageCount Value="4"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.SetupMatrix.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="51" Y="27"/>
+        <UsageCount Value="4"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="../../../../../Projects/SCS/Console/frmConsole.Domain.User.Edit.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="35" Y="12"/>
+        <UsageCount Value="2"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Constructor.Run.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="13" Y="20"/>
+        <UsageCount Value="4"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="../../../../../Pascal/Storage.HTTPLogs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="168"/>
+        <CursorPos X="9" Y="183"/>
+        <UsageCount Value="10"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="../../../../../Pascal/Storage.MatrixNodes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos Y="58"/>
+        <UsageCount Value="4"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="../../../../../Pascal/Storage.SrchProviders.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="120"/>
+        <CursorPos X="89" Y="134"/>
+        <UsageCount Value="4"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.WebSocket.Type.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos X="5" Y="66"/>
+        <UsageCount Value="2"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="../../../../../Projects/SCS/Daemons/hHTTPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="15"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="../../../../../Pascal/Core.Arrays.LargeWord.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="276"/>
+        <CursorPos X="41" Y="295"/>
+        <UsageCount Value="3"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="../../../../../Projects/SCS/Core/coSyndication.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="3"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="../../../../../Pascal/Storage.Syndication.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="7"/>
+        <Bookmarks Count="2">
+          <Item0 X="26" Y="189" ID="1"/>
+          <Item1 Y="530" ID="2"/>
+        </Bookmarks>
+      </Unit103>
+      <Unit104>
+        <Filename Value="../../../../../Pascal/Storage.Syndication.Feeds.Assign.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="51" Y="5"/>
+        <UsageCount Value="3"/>
+      </Unit104>
+      <Unit105>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Private.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="46" Y="13"/>
+        <UsageCount Value="4"/>
+      </Unit105>
+      <Unit106>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/Deprecated/hSRConsts.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos X="17" Y="36"/>
+        <UsageCount Value="15"/>
+      </Unit106>
+      <Unit107>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.SetupTimers.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="72" Y="33"/>
+        <UsageCount Value="4"/>
+      </Unit107>
+      <Unit108>
+        <Filename Value="../../../../../Projects/SCS/Core/coSessions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="600"/>
+        <CursorPos Y="606"/>
+        <UsageCount Value="4"/>
+        <Bookmarks Count="1">
+          <Item0 X="55" Y="310" ID="1"/>
+        </Bookmarks>
+      </Unit108>
+      <Unit109>
+        <Filename Value="../../../../../Projects/SCS/Core/coProviders.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="281"/>
+        <CursorPos X="28" Y="301"/>
+        <UsageCount Value="3"/>
+      </Unit109>
+      <Unit110>
+        <Filename Value="../../../../../Projects/SCS/Providers/uProviders.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="120"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="4"/>
+        <Bookmarks Count="1">
+          <Item0 X="22" Y="70" ID="1"/>
+        </Bookmarks>
+      </Unit110>
+      <Unit111>
+        <Filename Value="../../../../../Pascal/Storage.SrchQueries.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos Y="94"/>
+        <UsageCount Value="4"/>
+      </Unit111>
+      <Unit112>
+        <Filename Value="../../../../../Pascal/Storage.AuraDisks.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="394"/>
+        <CursorPos Y="425"/>
+        <UsageCount Value="3"/>
+      </Unit112>
+      <Unit113>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSrchQueries.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="5" Y="58"/>
+        <UsageCount Value="2"/>
+      </Unit113>
+      <Unit114>
+        <Filename Value="../../../../../Pascal/Storage.SrchTmpUserInteractions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="94"/>
+        <CursorPos Y="110"/>
+        <UsageCount Value="2"/>
+      </Unit114>
+      <Unit115>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSrchTmpUserInteractions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="33" Y="44"/>
+        <UsageCount Value="2"/>
+      </Unit115>
+      <Unit116>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/uEngine.SyncUploadSocial.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="44" Y="48"/>
+        <UsageCount Value="1"/>
+      </Unit116>
+      <Unit117>
+        <Filename Value="../../../../../Pascal/Storage.RTSP.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="54"/>
+        <UsageCount Value="3"/>
+      </Unit117>
+      <Unit118>
+        <Filename Value="../../../../../Projects/SCS/Providers/uGoogle.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="153"/>
+        <CursorPos X="81" Y="171"/>
+        <UsageCount Value="2"/>
+      </Unit118>
+      <Unit119>
+        <Filename Value="../../../../../Pascal/Storage.SrchResults.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="39"/>
+        <CursorPos X="5" Y="53"/>
+        <UsageCount Value="4"/>
+      </Unit119>
+      <Unit120>
+        <Filename Value="../../../../../Pascal/Storage.Apps.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="16"/>
+        <CursorPos Y="39"/>
+        <UsageCount Value="13"/>
+      </Unit120>
+      <Unit121>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSrchResults.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="33"/>
+        <CursorPos Y="51"/>
+        <UsageCount Value="3"/>
+      </Unit121>
+      <Unit122>
+        <Filename Value="../../../../../Pascal/Storage.SrchUserLayer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="104"/>
+        <CursorPos X="105" Y="104"/>
+        <UsageCount Value="2"/>
+      </Unit122>
+      <Unit123>
+        <Filename Value="../../../../../Projects/SCS/Stored/dbmSrchProviders.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="1"/>
+      </Unit123>
+      <Unit124>
+        <Filename Value="../../../../../Pascal/Storage.TmpAccounts.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="142"/>
+        <CursorPos Y="105"/>
+        <UsageCount Value="4"/>
+      </Unit124>
+      <Unit125>
+        <Filename Value="../../../../../Projects/SCS/Core/coData.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="302"/>
+        <CursorPos X="75" Y="314"/>
+        <UsageCount Value="4"/>
+      </Unit125>
+      <Unit126>
+        <Filename Value="../../../../../Projects/SCS/Core/coApp.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="697"/>
+        <CursorPos X="27" Y="709"/>
+        <UsageCount Value="4"/>
+      </Unit126>
+      <Unit127>
+        <Filename Value="../../../../../Pascal/Storage.SrchSessions.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="818"/>
+        <CursorPos X="33" Y="828"/>
+        <UsageCount Value="4"/>
+      </Unit127>
+      <Unit128>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Uses.DBModules.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="39"/>
+      </Unit128>
+      <Unit129>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.WebSocket.Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="237"/>
+        <CursorPos X="25" Y="246"/>
+        <UsageCount Value="2"/>
+      </Unit129>
+      <Unit130>
+        <Filename Value="../../../../../Pascal/RSR.HTTP.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="132"/>
+        <CursorPos X="16" Y="132"/>
+        <UsageCount Value="2"/>
+      </Unit130>
+      <Unit131>
+        <Filename Value="../../../../../Pascal/Encryption.SHA.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="20"/>
+        <UsageCount Value="2"/>
+      </Unit131>
+      <Unit132>
+        <Filename Value="../../../../../Pascal/Encryption.zStream.pp"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+      </Unit132>
+      <Unit133>
+        <Filename Value="../../../../../../FPC/packages/hash/src/sha1.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="284"/>
+        <CursorPos X="6" Y="292"/>
+        <UsageCount Value="2"/>
+      </Unit133>
+      <Unit134>
+        <Filename Value="../../../../../Pascal/Encryption.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="69"/>
+        <CursorPos Y="86"/>
+        <UsageCount Value="2"/>
+      </Unit134>
+      <Unit135>
+        <Filename Value="../../../../../Pascal/Encryption.Tools.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <UsageCount Value="2"/>
+      </Unit135>
+      <Unit136>
+        <Filename Value="../../../../../Pascal/Storage.CoreObjects.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <UsageCount Value="15"/>
+      </Unit136>
+      <Unit137>
+        <Filename Value="../../../../../Projects/SCS/Core/coRSS.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="264"/>
+        <CursorPos X="39" Y="283"/>
+        <UsageCount Value="2"/>
+      </Unit137>
+      <Unit138>
+        <Filename Value="../../../../../Projects/SCS/Core/Deprecated/uCoreObjects.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="886"/>
+        <CursorPos X="48" Y="896"/>
+        <UsageCount Value="2"/>
+      </Unit138>
+      <Unit139>
+        <Filename Value="../../../../../Projects/DNS/uMain.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="8"/>
+        <UsageCount Value="2"/>
+      </Unit139>
+      <Unit140>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.Proxy.Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="135"/>
+        <CursorPos X="23" Y="144"/>
+        <UsageCount Value="3"/>
+      </Unit140>
+      <Unit141>
+        <Filename Value="../../../../../Pascal/Storage.Keywords.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="11" Y="40"/>
+        <UsageCount Value="3"/>
+      </Unit141>
+      <Unit142>
+        <Filename Value="../../../../../Pascal/Storage.FAT.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="901"/>
+        <CursorPos Y="927"/>
+        <UsageCount Value="3"/>
+      </Unit142>
+      <Unit143>
+        <Filename Value="../../../../../Pascal/Storage.RSS.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="356"/>
+        <CursorPos Y="375"/>
+        <UsageCount Value="3"/>
+      </Unit143>
+      <Unit144>
+        <Filename Value="../../../../../Pascal/Storage.Domains.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="27" Y="45"/>
+        <UsageCount Value="39"/>
+      </Unit144>
+      <Unit145>
+        <Filename Value="../../../../../Pascal/Storage.MatrixClusters.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="39" Y="66"/>
+        <UsageCount Value="22"/>
+      </Unit145>
+      <Unit146>
+        <Filename Value="../../../../../Pascal/Storage.MatrixResources.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="22"/>
+      </Unit146>
+      <Unit147>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="450"/>
+        <CursorPos Y="466"/>
+        <UsageCount Value="3"/>
+        <Bookmarks Count="1">
+          <Item0 X="79" Y="60" ID="1"/>
+        </Bookmarks>
+      </Unit147>
+      <Unit148>
+        <Filename Value="../../../../../Pascal/RSR.IMAP.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="188"/>
+        <CursorPos X="15" Y="194"/>
+        <UsageCount Value="3"/>
+      </Unit148>
+      <Unit149>
+        <Filename Value="../../../../../Pascal/Storage.UserStorage.pas"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="1351"/>
+        <CursorPos X="13" Y="1371"/>
+        <UsageCount Value="4"/>
+      </Unit149>
+      <Unit150>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPServer.Callbacks.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="8"/>
+        <UsageCount Value="2"/>
+      </Unit150>
+      <Unit151>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Errors.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+      </Unit151>
+      <Unit152>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Exceptions.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="2"/>
+      </Unit152>
+      <Unit153>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="62" Y="14"/>
+        <UsageCount Value="2"/>
+      </Unit153>
+      <Unit154>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Expunge.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="14"/>
+        <UsageCount Value="2"/>
+      </Unit154>
+      <Unit155>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.ProcessMessage.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="31" Y="46"/>
+        <UsageCount Value="2"/>
+      </Unit155>
+      <Unit156>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Destructor.Destroy.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="9"/>
+        <UsageCount Value="4"/>
+      </Unit156>
+      <Unit157>
+        <Filename Value="../../../../../Pascal/Core.Streams.Types.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="7" Y="21"/>
+        <UsageCount Value="2"/>
+      </Unit157>
+      <Unit158>
+        <Filename Value="../../../../../Pascal/Core.Streams.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="58" Y="32"/>
+        <UsageCount Value="3"/>
+      </Unit158>
+      <Unit159>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Expunge.Respond.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="2"/>
+        <UsageCount Value="2"/>
+      </Unit159>
+      <Unit160>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Store.SetFlags.All.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="83" Y="26"/>
+        <UsageCount Value="2"/>
+      </Unit160>
+      <Unit161>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Store.SetFlags.AllSlient.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="68" Y="20"/>
+        <UsageCount Value="2"/>
+      </Unit161>
+      <Unit162>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Store.SetFlags.Plus.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="112" Y="25"/>
+        <UsageCount Value="2"/>
+      </Unit162>
+      <Unit163>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Store.SetFlags.PlusSilent.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="68" Y="21"/>
+        <UsageCount Value="2"/>
+      </Unit163>
+      <Unit164>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Store.SetFlags.Minus.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="83" Y="12"/>
+        <UsageCount Value="2"/>
+      </Unit164>
+      <Unit165>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.UID.Store.SetFlags.MinusSilent.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="68" Y="23"/>
+        <UsageCount Value="2"/>
+      </Unit165>
+      <Unit166>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.OnDataReceived.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="33"/>
+        <CursorPos X="37" Y="50"/>
+        <UsageCount Value="2"/>
+      </Unit166>
+      <Unit167>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="61" Y="32"/>
+        <UsageCount Value="2"/>
+      </Unit167>
+      <Unit168>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.PushLoginAttempt.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="63"/>
+        <CursorPos Y="80"/>
+        <UsageCount Value="2"/>
+      </Unit168>
+      <Unit169>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.AUTHENTICATE.Data.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="103" Y="32"/>
+        <UsageCount Value="2"/>
+      </Unit169>
+      <Unit170>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.FETCH.ALL.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit170>
+      <Unit171>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.FETCH.FULL.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="24" Y="18"/>
+        <UsageCount Value="2"/>
+      </Unit171>
+      <Unit172>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.FETCH.BODY.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit172>
+      <Unit173>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.FETCH.BODY.PEEK.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit173>
+      <Unit174>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.FETCH.BODYSTRUCTURE.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit174>
+      <Unit175>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="20" Y="16"/>
+        <UsageCount Value="2"/>
+      </Unit175>
+      <Unit176>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.All.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="71" Y="26"/>
+        <UsageCount Value="2"/>
+      </Unit176>
+      <Unit177>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.AllSlient.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="68" Y="20"/>
+        <UsageCount Value="2"/>
+      </Unit177>
+      <Unit178>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.Plus.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9"/>
+        <CursorPos X="83" Y="25"/>
+        <UsageCount Value="2"/>
+      </Unit178>
+      <Unit179>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.PlusSilent.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="68" Y="21"/>
+        <UsageCount Value="2"/>
+      </Unit179>
+      <Unit180>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.Minus.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="83" Y="26"/>
+        <UsageCount Value="2"/>
+      </Unit180>
+      <Unit181>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.Store.SetFlags.MinusSilent.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="68" Y="9"/>
+        <UsageCount Value="2"/>
+      </Unit181>
+      <Unit182>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.AUTHENTICATE.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="27" Y="16"/>
+        <UsageCount Value="2"/>
+      </Unit182>
+      <Unit183>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.EXAMINE.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="50" Y="24"/>
+        <UsageCount Value="2"/>
+      </Unit183>
+      <Unit184>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.DELETE.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="10"/>
+        <UsageCount Value="2"/>
+      </Unit184>
+      <Unit185>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.RENAME.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="44" Y="38"/>
+        <UsageCount Value="2"/>
+      </Unit185>
+      <Unit186>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.List.Output.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="10"/>
+        <UsageCount Value="2"/>
+      </Unit186>
+      <Unit187>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.LIST.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="28"/>
+        <CursorPos X="86" Y="45"/>
+        <UsageCount Value="2"/>
+      </Unit187>
+      <Unit188>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.LSUB.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="5"/>
+        <UsageCount Value="2"/>
+      </Unit188>
+      <Unit189>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Append.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="63" Y="29"/>
+        <UsageCount Value="2"/>
+      </Unit189>
+      <Unit190>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.ReloadFolders.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="59"/>
+        <CursorPos X="34" Y="73"/>
+        <UsageCount Value="2"/>
+      </Unit190>
+      <Unit191>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Server.Callbacks.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="9"/>
+        <UsageCount Value="2"/>
+      </Unit191>
+      <Unit192>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Errors.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="2"/>
+      </Unit192>
+      <Unit193>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Exceptions.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="5" Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit193>
+      <Unit194>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.OnDataReceived.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="27" Y="41"/>
+        <UsageCount Value="2"/>
+      </Unit194>
+      <Unit195>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="3"/>
+        <UsageCount Value="2"/>
+      </Unit195>
+      <Unit196>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.PASS.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="31"/>
+        <CursorPos Y="43"/>
+        <UsageCount Value="2"/>
+      </Unit196>
+      <Unit197>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.LAST.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="24" Y="3"/>
+        <UsageCount Value="2"/>
+      </Unit197>
+      <Unit198>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.STAT.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="3"/>
+        <UsageCount Value="2"/>
+      </Unit198>
+      <Unit199>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.LIST.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="18"/>
+        <CursorPos X="27" Y="30"/>
+        <UsageCount Value="2"/>
+      </Unit199>
+      <Unit200>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.TOP.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="33" Y="24"/>
+        <UsageCount Value="2"/>
+      </Unit200>
+      <Unit201>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.UIDL.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="27" Y="36"/>
+        <UsageCount Value="2"/>
+      </Unit201>
+      <Unit202>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.RETR.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="11"/>
+        <UsageCount Value="2"/>
+      </Unit202>
+      <Unit203>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.DELE.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="29" Y="16"/>
+        <UsageCount Value="2"/>
+      </Unit203>
+      <Unit204>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uPOP3Manager.Process.CLEAR.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="7"/>
+        <UsageCount Value="2"/>
+      </Unit204>
+      <Unit205>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.TransportRelay.Type.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="105" Y="13"/>
+        <UsageCount Value="2"/>
+      </Unit205>
+      <Unit206>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.ReceiveMailServer.Private.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="51" Y="8"/>
+        <UsageCount Value="2"/>
+      </Unit206>
+      <Unit207>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uSMTP.TransportRelay.Methods.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="558"/>
+        <CursorPos X="25" Y="576"/>
+        <UsageCount Value="2"/>
+      </Unit207>
+      <Unit208>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uXMPPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="780"/>
+        <CursorPos X="32" Y="792"/>
+        <UsageCount Value="4"/>
+      </Unit208>
+      <Unit209>
+        <Filename Value="../../../../../Pascal/RSR.XMPP.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="2"/>
+      </Unit209>
+      <Unit210>
+        <Filename Value="../../../../../Pascal/Core.Options.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+      </Unit210>
+      <Unit211>
+        <Filename Value="../../../../../Projects/SCS/Daemons/hRTSPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos Y="13"/>
+        <UsageCount Value="2"/>
+      </Unit211>
+      <Unit212>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uRTSPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="636"/>
+        <CursorPos Y="653"/>
+        <UsageCount Value="2"/>
+      </Unit212>
+      <Unit213>
+        <Filename Value="../../../../../Pascal/Storage.ConfigData.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos X="6" Y="83"/>
+        <UsageCount Value="4"/>
+      </Unit213>
+      <Unit214>
+        <Filename Value="../../../../../Pascal/Core.Database.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="22"/>
+        <UsageCount Value="4"/>
+      </Unit214>
+      <Unit215>
+        <Filename Value="../../../../../Projects/SCS/Core/coCMS.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="976"/>
+        <CursorPos X="29" Y="989"/>
+        <UsageCount Value="4"/>
+      </Unit215>
+      <Unit216>
+        <Filename Value="../../../../../Pascal/Storage.CMS.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="12" Y="35"/>
+        <UsageCount Value="3"/>
+      </Unit216>
+      <Unit217>
+        <Filename Value="../../../../../Pascal/Storage.PostInfo.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="170"/>
+        <CursorPos X="26" Y="182"/>
+        <UsageCount Value="2"/>
+      </Unit217>
+      <Unit218>
+        <Filename Value="../../../../../Pascal/Core.Keywords.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="11" Y="5"/>
+        <UsageCount Value="15"/>
+      </Unit218>
+      <Unit219>
+        <Filename Value="../../../../../Pascal/Core.Arrays.VarString.pas"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="2"/>
+      </Unit219>
+      <Unit220>
+        <Filename Value="../../../../../Pascal/Core.Arrays.Types.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <UsageCount Value="2"/>
+      </Unit220>
+      <Unit221>
+        <Filename Value="../../../../../Pascal/Core.Strings.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="2"/>
+      </Unit221>
+      <Unit222>
+        <Filename Value="../../../../../Pascal/Core.Arrays.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos X="41" Y="18"/>
+        <UsageCount Value="2"/>
+      </Unit222>
+      <Unit223>
+        <Filename Value="../../../../../Projects/SCS/Core/coCalendar.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="260"/>
+        <CursorPos X="48" Y="271"/>
+        <UsageCount Value="2"/>
+      </Unit223>
+      <Unit224>
+        <Filename Value="../../../../../Pascal/Storage.Calendaring.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos X="9" Y="37"/>
+        <UsageCount Value="2"/>
+      </Unit224>
+      <Unit225>
+        <Filename Value="../../../../../Projects/SCS/Core/coQuill.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="20" Y="27"/>
+        <UsageCount Value="2"/>
+      </Unit225>
+      <Unit226>
+        <Filename Value="../../../../../Projects/SCS/Core/coVendor.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="624"/>
+        <CursorPos X="13" Y="643"/>
+        <UsageCount Value="2"/>
+      </Unit226>
+      <Unit227>
+        <Filename Value="../../../../../Pascal/Storage.Vendors.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="175"/>
+        <CursorPos Y="201"/>
+        <UsageCount Value="3"/>
+      </Unit227>
+      <Unit228>
+        <Filename Value="../../../../../Pascal/Storage.Assemblies.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="102"/>
+        <CursorPos X="7" Y="105"/>
+        <UsageCount Value="8"/>
+      </Unit228>
+      <Unit229>
+        <Filename Value="../../../../../Pascal/Storage.Projects.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <CursorPos X="13" Y="57"/>
+        <UsageCount Value="3"/>
+      </Unit229>
+      <Unit230>
+        <Filename Value="../../../../../Pascal/Storage.Destroy.Table.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit230>
+      <Unit231>
+        <Filename Value="../../../../../Pascal/Storage.Projects.Read.Fields.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="54"/>
+        <UsageCount Value="2"/>
+      </Unit231>
+      <Unit232>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/uEngine.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="442"/>
+        <CursorPos X="63" Y="455"/>
+        <UsageCount Value="2"/>
+      </Unit232>
+      <Unit233>
+        <Filename Value="../../../../../Pascal/Storage.Tasks.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="5" Y="75"/>
+        <UsageCount Value="9"/>
+      </Unit233>
+      <Unit234>
+        <Filename Value="../../../../../Pascal/Storage.Tasks.Read.Fields.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="57" Y="16"/>
+        <UsageCount Value="3"/>
+      </Unit234>
+      <Unit235>
+        <Filename Value="../../../../../Pascal/Storage.Assemblies.Assembly.Read.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit235>
+      <Unit236>
+        <Filename Value="../../../../../Pascal/Storage.Assemblies.Subscription.Read.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="54"/>
+        <UsageCount Value="3"/>
+      </Unit236>
+      <Unit237>
+        <Filename Value="../../../../../Pascal/Storage.Signatures.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="476"/>
+        <CursorPos X="3" Y="481"/>
+        <UsageCount Value="3"/>
+      </Unit237>
+      <Unit238>
+        <Filename Value="../../../../../Pascal/Storage.Signatures.Fields.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit238>
+      <Unit239>
+        <Filename Value="../../../../../Pascal/Storage.RosterItems.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19"/>
+        <UsageCount Value="3"/>
+      </Unit239>
+      <Unit240>
+        <Filename Value="../../../../../Pascal/Storage.Roster.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="673"/>
+        <CursorPos X="61" Y="711"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit240>
+      <Unit241>
+        <Filename Value="../../../../../Pascal/Storage.Roster.Fill.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="19"/>
+        <UsageCount Value="3"/>
+      </Unit241>
+      <Unit242>
+        <Filename Value="../../../../../Pascal/Storage.Roster.Fields.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="3"/>
+      </Unit242>
+      <Unit243>
+        <Filename Value="../../../../../Pascal/Storage.Roster.Add.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="83" Y="48"/>
+        <UsageCount Value="3"/>
+      </Unit243>
+      <Unit244>
+        <Filename Value="../../../../../Pascal/Storage.Social.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1787"/>
+        <CursorPos X="33" Y="1787"/>
+        <UsageCount Value="5"/>
+      </Unit244>
+      <Unit245>
+        <Filename Value="../../../../../Pascal/Storage.Summary.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="172"/>
+        <CursorPos X="18" Y="184"/>
+        <UsageCount Value="4"/>
+      </Unit245>
+      <Unit246>
+        <Filename Value="../../../../../Pascal/Multimedia.Image.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="335"/>
+        <CursorPos X="37" Y="344"/>
+        <UsageCount Value="4"/>
+      </Unit246>
+      <Unit247>
+        <Filename Value="../../../../../Pascal/Storage.Avatars.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="444"/>
+        <CursorPos X="48" Y="459"/>
+        <UsageCount Value="4"/>
+      </Unit247>
+      <Unit248>
+        <Filename Value="../../../../../Projects/SCS/Core/coSocial.TSocialCore.cmTransformVideo.Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="36" Y="102"/>
+        <UsageCount Value="4"/>
+      </Unit248>
+      <Unit249>
+        <Filename Value="../../../../../Pascal/Multimedia.MPEG.TID3V30.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="6"/>
+        <UsageCount Value="4"/>
+      </Unit249>
+      <Unit250>
+        <Filename Value="../../../../../Projects/SCS/Core/coVDM.TVDMCore.cmTransformVideo.Code.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="13" Y="103"/>
+        <UsageCount Value="4"/>
+      </Unit250>
+      <Unit251>
+        <Filename Value="../../../../../Pascal/Storage.Collages.Fields.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="34"/>
+        <UsageCount Value="4"/>
+      </Unit251>
+      <Unit252>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Private.Events.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="60" Y="2"/>
+        <UsageCount Value="4"/>
+      </Unit252>
+      <Unit253>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.OnDBMSConnected.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="3"/>
+        <UsageCount Value="4"/>
+      </Unit253>
+      <Unit254>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.SetupDNS.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="27" Y="7"/>
+        <UsageCount Value="4"/>
+      </Unit254>
+      <Unit255>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Private.Methods.Decs.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="11" Y="9"/>
+        <UsageCount Value="4"/>
+      </Unit255>
+      <Unit256>
+        <Filename Value="../../../../../Pascal/Storage.Main.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="58" Y="13"/>
+        <UsageCount Value="4"/>
+      </Unit256>
+      <Unit257>
+        <Filename Value="../../../../../Pascal/Storage.Main.Types.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="55"/>
+        <CursorPos X="10" Y="32"/>
+        <UsageCount Value="4"/>
+      </Unit257>
+      <Unit258>
+        <Filename Value="../../../../../Projects/SCS/Core/coList.Injections.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="37" Y="20"/>
+        <UsageCount Value="4"/>
+      </Unit258>
+      <Unit259>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.OnDBMSDisconnected.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="75" Y="6"/>
+        <UsageCount Value="4"/>
+      </Unit259>
+      <Unit260>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.LoadSearchProviders.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="114" Y="13"/>
+        <UsageCount Value="4"/>
+      </Unit260>
+      <Unit261>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.SetupDomain.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="18" Y="8"/>
+        <UsageCount Value="4"/>
+      </Unit261>
+      <Unit262>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.LoadContentTypes.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="57" Y="3"/>
+        <UsageCount Value="4"/>
+      </Unit262>
+      <Unit263>
+        <Filename Value="../../../../../Pascal/Storage.ContentTypes.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="297"/>
+        <CursorPos X="57" Y="315"/>
+        <UsageCount Value="4"/>
+      </Unit263>
+      <Unit264>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.StartServer.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="21"/>
+        <UsageCount Value="4"/>
+      </Unit264>
+      <Unit265>
+        <Filename Value="../../../../../Projects/SCS/Login/frmLogin.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="234"/>
+        <CursorPos X="22" Y="248"/>
+        <UsageCount Value="4"/>
+      </Unit265>
+      <Unit266>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Method.SetupParams.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="13"/>
+        <UsageCount Value="4"/>
+      </Unit266>
+      <Unit267>
+        <Filename Value="../../../../../Projects/SCS/Core/Deprecated/uCoreObjects.StatusCodes.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="2"/>
+        <UsageCount Value="15"/>
+      </Unit267>
+      <Unit268>
+        <Filename Value="../../../../../Pascal/RSR.Core.StatusCodes.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="29" Y="8"/>
+        <UsageCount Value="15"/>
+      </Unit268>
+    </Units>
+    <JumpHistory Count="5" HistoryIndex="4">
+      <Position1>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.HTTP.Code.inc"/>
+        <Caret Line="495" Column="33" TopLine="482"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.HTTP.Code.inc"/>
+        <Caret Line="517" Column="29" TopLine="506"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.HTTP.Code.inc"/>
+        <Caret Line="633" Column="19" TopLine="613"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uHTTPd.Transport.HTTP.Code.inc"/>
+        <Caret Line="590" Column="14" TopLine="573"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../../../../Pascal/Storage.Roster.pas"/>
+        <Caret Line="1074" Column="17" TopLine="1028"/>
+      </Position5>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../../../Projects/SCS/hSRConsts.pas"/>
+        <Line Value="120"/>
+      </Item1>
+    </BreakPoints>
+    <Watches Count="4">
+      <Item1>
+        <Expression Value="FMailP^.Headers[10]^"/>
+      </Item1>
+      <Item2>
+        <Expression Value="RSRP^.Info.Socket"/>
+      </Item2>
+      <Item3>
+        <Expression Value="Socket"/>
+      </Item3>
+      <Item4>
+        <Expression Value="    "/>
+      </Item4>
+    </Watches>
+  </Debugging>
+</CONFIG>

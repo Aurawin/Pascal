@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <AutoCreateForms Value="False"/>
+      <Title Value="SCS Console"/>
+      <UseAppBundle Value="False"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+        <ExecutionLevel Value="2"/>
+        <UIAccess Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2014"/>
+      <MinorVersionNr Value="8"/>
+      <RevisionNr Value="19"/>
+      <BuildNr Value="8434"/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Social Computer Server Console" InternalName="SCS-Console" LegalCopyright="2013-2014" LegalTrademarks="Aurawin LLC" OriginalFilename="AuConsole" ProductName="Social Computing Server (SCS) Console" ProductVersion="2014"/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="default" Default="True"/>
+      <Item2 Name="Production">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="AuConsole"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="../../../../../Libraries;../../../../AppBuild/Windows/64;../../../../RSRBuild/Windows/64;../../../../../Projects/SCS;../../../../../Projects/SCS/Providers;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Stored;../../../../../Projects/SCS/FileManager;../../../../../Projects/SCS/Daemons;$(ProjOutDir)"/>
+            <Libraries Value="../../../../../Projects/SCS/Stored;../../../../../Libraries/IM;../../../../../Projects/SCS/Daemons;../../../../../Libraries/RSR"/>
+            <OtherUnitFiles Value="../../../../../Projects/SCS;../../../../../Projects/SCS/Console;../../../../../Projects/SCS/Viewers;../../../../../Projects/SCS/Providers;../../../../../Projects/SCS/Daemons;../../../../../Projects/SCS/FileManager;../../../../../Projects/SCS/Login;../../../../../Projects/SCS/Editor;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Stored;../../../../../Libraries;../../../../../Libraries/Core;../../../../../Libraries/Unix;../../../../../Libraries/IM;../../../../../Libraries/Encryption;../../../../../Libraries/Database;../../../../../Libraries/Dialogs;../../../../../Libraries/RSR;../../../../../Projects/SCS/RSAKey;../../../../../Projects/SCS/CertReq;../../../../../Libraries/Multimedia"/>
+            <UnitOutputDirectory Value=".Output"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <TargetCPU Value="x86_64"/>
+            <TargetOS Value="win64"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <UseValgrind Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <Verbosity>
+              <ShowWarn Value="False"/>
+              <ShowNotes Value="False"/>
+              <ShowHints Value="False"/>
+              <ShoLineNum Value="True"/>
+            </Verbosity>
+            <CustomOptions Value="-dCs$200000
+-dxSyncRSR"/>
+            <ExecuteBefore>
+              <ShowAllMessages Value="True"/>
+              <CompileReasons Run="False"/>
+            </ExecuteBefore>
+            <ExecuteAfter>
+              <CompileReasons Run="False"/>
+            </ExecuteAfter>
+          </Other>
+          <CompileReasons Run="False"/>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="service=448"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="FCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="170">
+      <Unit0>
+        <Filename Value="AuConsole.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="68" Y="7"/>
+        <UsageCount Value="216"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\..\Projects\SCS\FileManager\frmFileMan.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FileManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="515"/>
+        <CursorPos X="39" Y="529"/>
+        <UsageCount Value="200"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConsoleForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="3966"/>
+        <CursorPos Y="3981"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <CursorPos X="17" Y="6"/>
+        </ExtraEditor1>
+        <UsageCount Value="210"/>
+        <Bookmarks Count="4">
+          <Item0 Y="1264" ID="4"/>
+          <Item1 X="47" Y="1039" ID="1"/>
+          <Item2 Y="1375" ID="2"/>
+          <Item3 X="22" Y="4576" ID="3"/>
+        </Bookmarks>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Editor\frmEdit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="SCSEditorForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmEdit"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="360"/>
+        <CursorPos X="31" Y="365"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Editor\frmProvider.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ProviderForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="40"/>
+        <CursorPos Y="57"/>
+        <UsageCount Value="205"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Login\frmLogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="LoginForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="196"/>
+        <CursorPos X="3" Y="198"/>
+        <UsageCount Value="201"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\Libraries\Database\uDatabase.pas"/>
+        <TopLine Value="105"/>
+        <CursorPos X="55" Y="131"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="1828"/>
+          <CursorPos Y="1852"/>
+        </ExtraEditor1>
+        <UsageCount Value="84"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Editor\frmKeyword.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="KeywordForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="117"/>
+        <CursorPos X="4" Y="117"/>
+        <UsageCount Value="208"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\uRSR.pas"/>
+        <TopLine Value="204"/>
+        <CursorPos X="17" Y="211"/>
+        <UsageCount Value="100"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\..\Libraries\Dialogs\frmYesNo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="YesNoForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="22"/>
+        <CursorPos X="4" Y="60"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="207"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\..\Libraries\Dialogs\frmDBException.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DBExceptionForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="34" Y="50"/>
+        <UsageCount Value="207"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\uCoreObjects.pas"/>
+        <TopLine Value="697"/>
+        <CursorPos X="36" Y="730"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="797"/>
+          <CursorPos Y="818"/>
+        </ExtraEditor1>
+        <UsageCount Value="20"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\..\Libraries\Database\hDatabase.pas"/>
+        <TopLine Value="1030"/>
+        <CursorPos Y="1053"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="1371"/>
+          <CursorPos Y="1393"/>
+        </ExtraEditor1>
+        <UsageCount Value="84"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\uDBModule.pas"/>
+        <UsageCount Value="86"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmUserAccounts.pas"/>
+        <TopLine Value="725"/>
+        <CursorPos X="69" Y="757"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="1387"/>
+          <CursorPos X="80" Y="1404"/>
+        </ExtraEditor1>
+        <UsageCount Value="85"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmFAT.pas"/>
+        <TopLine Value="2815"/>
+        <CursorPos X="84" Y="2833"/>
+        <UsageCount Value="17"/>
+        <Bookmarks Count="1">
+          <Item0 X="10" Y="170" ID="9"/>
+        </Bookmarks>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCoreObjects.pas"/>
+        <TopLine Value="740"/>
+        <CursorPos X="52" Y="759"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="544"/>
+          <CursorPos Y="570"/>
+        </ExtraEditor1>
+        <UsageCount Value="21"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmServices.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmServices"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="75"/>
+        <CursorPos X="103" Y="96"/>
+        <UsageCount Value="201"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uHTTPd.pas"/>
+        <TopLine Value="613"/>
+        <CursorPos X="20" Y="637"/>
+        <UsageCount Value="77"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Viewers\frmImage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ImageViewerForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="52"/>
+        <CursorPos X="3" Y="82"/>
+        <UsageCount Value="260"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uHTTPd.Transport.HTTP.Code.inc"/>
+        <TopLine Value="754"/>
+        <CursorPos X="77" Y="787"/>
+        <UsageCount Value="98"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coSocial.pas"/>
+        <TopLine Value="3464"/>
+        <CursorPos X="27" Y="3491"/>
+        <UsageCount Value="92"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coSpectrum.pas"/>
+        <TopLine Value="2331"/>
+        <CursorPos X="33" Y="2336"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="2968"/>
+          <CursorPos X="60" Y="2986"/>
+        </ExtraEditor1>
+        <UsageCount Value="1"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSearch.pas"/>
+        <TopLine Value="352"/>
+        <CursorPos X="55" Y="384"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="822"/>
+          <CursorPos X="52" Y="840"/>
+        </ExtraEditor1>
+        <UsageCount Value="41"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\uRSRServer.Queue.Pushes.inc"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="72" Y="21"/>
+        <UsageCount Value="22"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmUserStorage.pas"/>
+        <TopLine Value="1397"/>
+        <CursorPos X="80" Y="1415"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <TopLine Value="1701"/>
+          <CursorPos X="74" Y="1732"/>
+        </ExtraEditor1>
+        <UsageCount Value="105"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\hHTTP.pas"/>
+        <TopLine Value="870"/>
+        <CursorPos Y="897"/>
+        <UsageCount Value="99"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSignatures.Signature.Fields.inc"/>
+        <CursorPos X="110" Y="5"/>
+        <UsageCount Value="99"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSocial.Files.Fields.inc"/>
+        <CursorPos Y="2"/>
+        <UsageCount Value="100"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="dbmSocial.File.Fill.inc"/>
+        <WindowIndex Value="1"/>
+        <CursorPos X="59" Y="3"/>
+        <UsageCount Value="100"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\..\..\Libraries\Encryption\uBase64.pas"/>
+        <TopLine Value="350"/>
+        <CursorPos Y="404"/>
+        <UsageCount Value="115"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\..\..\Projects\SCS\RSAKey\frmRSA.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="RSAGen"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="97"/>
+        <CursorPos Y="78"/>
+        <UsageCount Value="201"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\..\..\..\Projects\SCS\CertReq\frmCertReq.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="CertReqForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="130"/>
+        <CursorPos Y="144"/>
+        <UsageCount Value="200"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCerts.pas"/>
+        <TopLine Value="122"/>
+        <CursorPos X="52" Y="142"/>
+        <UsageCount Value="114"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCerts.Read.inc"/>
+        <CursorPos X="51" Y="2"/>
+        <UsageCount Value="110"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCerts.Fields.inc"/>
+        <UsageCount Value="110"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\..\..\..\Libraries\Encryption\hCrypto.pas"/>
+        <TopLine Value="47"/>
+        <CursorPos Y="24"/>
+        <UsageCount Value="99"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSocial.ReadNetwork.Fields.inc"/>
+        <WindowIndex Value="1"/>
+        <UsageCount Value="106"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSearch.Read.Fields.inc"/>
+        <UsageCount Value="108"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coVDM.pas"/>
+        <TopLine Value="1378"/>
+        <CursorPos X="5" Y="1393"/>
+        <UsageCount Value="100"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSocial.Request.Add.Fields.inc"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="92"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\fcl-db\src\base\db.pas"/>
+        <TopLine Value="381"/>
+        <CursorPos X="14" Y="394"/>
+        <UsageCount Value="61"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coMusic.pas"/>
+        <CursorPos X="21" Y="127"/>
+        <UsageCount Value="116"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmVDM.pas"/>
+        <TopLine Value="1381"/>
+        <CursorPos X="84" Y="1393"/>
+        <UsageCount Value="92"/>
+        <Bookmarks Count="3">
+          <Item0 X="28" Y="2510" ID="5"/>
+          <Item1 Y="2956" ID="7"/>
+          <Item2 Y="2661" ID="6"/>
+        </Bookmarks>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coSearch.pas"/>
+        <TopLine Value="193"/>
+        <CursorPos X="33" Y="193"/>
+        <UsageCount Value="40"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSocial.pas"/>
+        <TopLine Value="143"/>
+        <CursorPos X="55" Y="158"/>
+        <UsageCount Value="92"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmContentTypes.pas"/>
+        <TopLine Value="219"/>
+        <CursorPos Y="246"/>
+        <UsageCount Value="20"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmVDM.Manifest.Add.Fields.inc"/>
+        <CursorPos X="90" Y="4"/>
+        <UsageCount Value="3"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.ContentTypes.SelectItem.inc"/>
+        <CursorPos X="18" Y="9"/>
+        <UsageCount Value="17"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmMatrixNodes.pas"/>
+        <TopLine Value="546"/>
+        <CursorPos X="15" Y="554"/>
+        <UsageCount Value="31"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmMatrixNodes.Node.Fill.inc"/>
+        <UsageCount Value="8"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\..\..\..\..\Libraries\Database\uDatabase.Select.inc"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="20"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\uStorage.pas"/>
+        <TopLine Value="58"/>
+        <CursorPos X="3" Y="81"/>
+        <UsageCount Value="65"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\..\..\..\..\Projects\SCS\hSRConsts.pas"/>
+        <TopLine Value="127"/>
+        <CursorPos X="42" Y="132"/>
+        <UsageCount Value="90"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmMatrixServices.pas"/>
+        <TopLine Value="240"/>
+        <CursorPos X="13" Y="256"/>
+        <UsageCount Value="22"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmAuraDisks.pas"/>
+        <TopLine Value="292"/>
+        <CursorPos X="12" Y="1128"/>
+        <UsageCount Value="89"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmDNS.pas"/>
+        <TopLine Value="15"/>
+        <CursorPos X="3" Y="37"/>
+        <UsageCount Value="2"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSecurity.pas"/>
+        <TopLine Value="31"/>
+        <CursorPos X="29" Y="36"/>
+        <UsageCount Value="94"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uKPList.pas"/>
+        <TopLine Value="470"/>
+        <CursorPos X="22" Y="476"/>
+        <UsageCount Value="32"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\fcl-db\src\sqldb\postgres\pqconnection.pp"/>
+        <TopLine Value="431"/>
+        <CursorPos Y="451"/>
+        <UsageCount Value="1"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="2034"/>
+        <CursorPos X="10" Y="2056"/>
+        <UsageCount Value="13"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uQWordArray.pas"/>
+        <TopLine Value="105"/>
+        <CursorPos X="7" Y="125"/>
+        <UsageCount Value="184"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCommerce.pas"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="1234"/>
+        <CursorPos X="22" Y="1241"/>
+        <UsageCount Value="227"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.LoadPurchases.inc"/>
+        <CursorPos X="48" Y="15"/>
+        <UsageCount Value="183"/>
+        <Bookmarks Count="1">
+          <Item0 Y="18" ID="2"/>
+        </Bookmarks>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCommerce.Purchase.Item.Read.Fields.inc"/>
+        <CursorPos X="88"/>
+        <UsageCount Value="2"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\interfaces\gtk2\gtk2widgetset.inc"/>
+        <TopLine Value="2293"/>
+        <CursorPos Y="2314"/>
+        <UsageCount Value="1"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\cmem.pp"/>
+        <TopLine Value="53"/>
+        <CursorPos Y="75"/>
+        <UsageCount Value="1"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\system.inc"/>
+        <TopLine Value="772"/>
+        <CursorPos X="35" Y="796"/>
+        <UsageCount Value="37"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\hRSR.pas"/>
+        <TopLine Value="128"/>
+        <CursorPos X="41" Y="155"/>
+        <UsageCount Value="32"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\astrings.inc"/>
+        <TopLine Value="262"/>
+        <CursorPos Y="285"/>
+        <UsageCount Value="10"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uHTTPd.Transport.HTTP.Type.inc"/>
+        <CursorPos X="3"/>
+        <UsageCount Value="33"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\heap.inc"/>
+        <TopLine Value="1077"/>
+        <CursorPos Y="1100"/>
+        <UsageCount Value="2"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\generic.inc"/>
+        <TopLine Value="818"/>
+        <CursorPos Y="840"/>
+        <UsageCount Value="2"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\dynarr.inc"/>
+        <TopLine Value="30"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="7"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmFAT.CB_GetFAT_Files.inc"/>
+        <CursorPos X="41" Y="6"/>
+        <UsageCount Value="1"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="..\..\..\..\..\Projects\SCS\FileManager\frmFileMan.AddFile.inc"/>
+        <TopLine Value="13"/>
+        <CursorPos X="36" Y="25"/>
+        <UsageCount Value="1"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uSMTP.TransportReceive.Methods.inc"/>
+        <TopLine Value="799"/>
+        <CursorPos X="12" Y="822"/>
+        <UsageCount Value="19"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uSMTP.Transport.Receive.Dec.inc"/>
+        <TopLine Value="4"/>
+        <CursorPos X="22" Y="35"/>
+        <UsageCount Value="19"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uSMTP.TransportRelay.Methods.inc"/>
+        <TopLine Value="377"/>
+        <CursorPos X="44" Y="420"/>
+        <UsageCount Value="1"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uSMTP.ReceiveMailServer.Private.Decs.inc"/>
+        <CursorPos Y="17"/>
+        <UsageCount Value="1"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uSMTP.MailManager.Methods.inc"/>
+        <CursorPos X="8" Y="6"/>
+        <UsageCount Value="2"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uSMTP.MailManager.Protected.Decs.inc"/>
+        <CursorPos X="13" Y="2"/>
+        <UsageCount Value="1"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSecurity.Read.FilterItem.inc"/>
+        <CursorPos Y="6"/>
+        <UsageCount Value="30"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="..\..\..\..\..\Libraries\Database\uDatabase.AssignCommandParameters.inc"/>
+        <CursorPos Y="11"/>
+        <UsageCount Value="6"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uManagerWorkerThreads.pas"/>
+        <TopLine Value="346"/>
+        <CursorPos Y="378"/>
+        <UsageCount Value="13"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\objpash.inc"/>
+        <TopLine Value="165"/>
+        <CursorPos X="23" Y="192"/>
+        <UsageCount Value="7"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.SecDomainFilter.Decs.inc"/>
+        <CursorPos Y="6"/>
+        <UsageCount Value="10"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\control.inc"/>
+        <TopLine Value="2089"/>
+        <CursorPos Y="2112"/>
+        <UsageCount Value="37"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="..\..\..\..\..\Libraries\Database\uDatabase.SQL_Count.inc"/>
+        <TopLine Value="11"/>
+        <CursorPos X="41" Y="42"/>
+        <UsageCount Value="190"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="..\..\..\..\..\Libraries\Database\uDatabase.SQL_DataLength.inc"/>
+        <CursorPos X="3"/>
+        <UsageCount Value="190"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="..\..\..\..\..\Libraries\Database\uDatabase.AssignCommandInParameters.inc"/>
+        <UsageCount Value="6"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\controls.pp"/>
+        <TopLine Value="1480"/>
+        <CursorPos X="15" Y="1504"/>
+        <UsageCount Value="38"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\wincontrol.inc"/>
+        <TopLine Value="5301"/>
+        <CursorPos Y="5324"/>
+        <UsageCount Value="37"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\comctrls.pp"/>
+        <TopLine Value="287"/>
+        <CursorPos X="3" Y="319"/>
+        <UsageCount Value="7"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.lfm"/>
+        <CursorPos X="11" Y="2"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmCollages.pas"/>
+        <TopLine Value="224"/>
+        <CursorPos X="20" Y="246"/>
+        <UsageCount Value="26"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coCollages.pas"/>
+        <TopLine Value="54"/>
+        <CursorPos X="48" Y="54"/>
+        <UsageCount Value="56"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\uCoreObjects.StatusCodes.inc"/>
+        <TopLine Value="4"/>
+        <CursorPos X="36" Y="30"/>
+        <UsageCount Value="23"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmSignatures.pas"/>
+        <TopLine Value="434"/>
+        <CursorPos X="32" Y="470"/>
+        <UsageCount Value="24"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.ContentTypes.UpdateSelected.inc"/>
+        <UsageCount Value="1"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\dbmMatrixServices.Fill.Select.inc"/>
+        <UsageCount Value="1"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Users.List.inc"/>
+        <CursorPos X="25" Y="14"/>
+        <UsageCount Value="1"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\customlistview.inc"/>
+        <TopLine Value="727"/>
+        <CursorPos Y="751"/>
+        <UsageCount Value="37"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.Service.EnableChange.inc"/>
+        <CursorPos X="98" Y="6"/>
+        <UsageCount Value="3"/>
+      </Unit103>
+      <Unit104>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.ScaleChange.inc"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="8"/>
+      </Unit104>
+      <Unit105>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\classes\stringl.inc"/>
+        <TopLine Value="415"/>
+        <CursorPos Y="437"/>
+        <UsageCount Value="2"/>
+      </Unit105>
+      <Unit106>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\listitem.inc"/>
+        <TopLine Value="638"/>
+        <CursorPos Y="654"/>
+        <UsageCount Value="2"/>
+      </Unit106>
+      <Unit107>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.Clustering.ResourceConsumption.inc"/>
+        <UsageCount Value="2"/>
+      </Unit107>
+      <Unit108>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.Service.Node.EnableChange.inc"/>
+        <CursorPos X="33" Y="5"/>
+        <UsageCount Value="2"/>
+      </Unit108>
+      <Unit109>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.Service.Node.ScaleChange.inc"/>
+        <CursorPos X="41" Y="4"/>
+        <UsageCount Value="2"/>
+      </Unit109>
+      <Unit110>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.Service.Node.SelectItem.inc"/>
+        <CursorPos X="59" Y="6"/>
+        <UsageCount Value="2"/>
+      </Unit110>
+      <Unit111>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\trackbar.inc"/>
+        <TopLine Value="330"/>
+        <CursorPos Y="346"/>
+        <UsageCount Value="1"/>
+      </Unit111>
+      <Unit112>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Domain.Service.SelectItem.inc"/>
+        <UsageCount Value="1"/>
+      </Unit112>
+      <Unit113>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\classes\classes.inc"/>
+        <TopLine Value="218"/>
+        <CursorPos Y="234"/>
+        <UsageCount Value="1"/>
+      </Unit113>
+      <Unit114>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uTimer.pas"/>
+        <TopLine Value="256"/>
+        <CursorPos X="35" Y="265"/>
+        <UsageCount Value="26"/>
+      </Unit114>
+      <Unit115>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Clusters.Defaults.SelectItem.inc"/>
+        <UsageCount Value="7"/>
+      </Unit115>
+      <Unit116>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\interfaces\gtk2\gtk2cellrenderer.pas"/>
+        <TopLine Value="403"/>
+        <CursorPos Y="423"/>
+        <UsageCount Value="1"/>
+      </Unit116>
+      <Unit117>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\customcheckbox.inc"/>
+        <TopLine Value="228"/>
+        <CursorPos Y="244"/>
+        <UsageCount Value="1"/>
+      </Unit117>
+      <Unit118>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\objpas.inc"/>
+        <TopLine Value="587"/>
+        <CursorPos Y="609"/>
+        <UsageCount Value="37"/>
+      </Unit118>
+      <Unit119>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\grids.pas"/>
+        <TopLine Value="7361"/>
+        <CursorPos X="5" Y="7365"/>
+        <UsageCount Value="37"/>
+      </Unit119>
+      <Unit120>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\types.pp"/>
+        <TopLine Value="62"/>
+        <CursorPos X="3" Y="85"/>
+        <UsageCount Value="38"/>
+      </Unit120>
+      <Unit121>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uBooleanLock.pas"/>
+        <TopLine Value="13"/>
+        <CursorPos Y="41"/>
+        <UsageCount Value="37"/>
+      </Unit121>
+      <Unit122>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\except.inc"/>
+        <TopLine Value="211"/>
+        <CursorPos Y="235"/>
+        <UsageCount Value="37"/>
+      </Unit122>
+      <Unit123>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\sysutils\filutilh.inc"/>
+        <TopLine Value="60"/>
+        <CursorPos X="10" Y="82"/>
+        <UsageCount Value="13"/>
+      </Unit123>
+      <Unit124>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\unix\sysutils.pp"/>
+        <TopLine Value="456"/>
+        <CursorPos X="20" Y="461"/>
+        <UsageCount Value="13"/>
+      </Unit124>
+      <Unit125>
+        <Filename Value="..\..\..\..\..\Libraries\uAppBuild.pas"/>
+        <CursorPos X="11" Y="24"/>
+        <UsageCount Value="10"/>
+      </Unit125>
+      <Unit126>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\sysutils\osutilsh.inc"/>
+        <TopLine Value="17"/>
+        <CursorPos X="10" Y="39"/>
+        <UsageCount Value="10"/>
+      </Unit126>
+      <Unit127>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\systemh.inc"/>
+        <TopLine Value="1157"/>
+        <CursorPos X="10" Y="1171"/>
+        <UsageCount Value="9"/>
+      </Unit127>
+      <Unit128>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\hRSR.SocketEvents.Type.Windows.inc"/>
+        <TopLine Value="18"/>
+        <CursorPos X="15" Y="43"/>
+        <UsageCount Value="8"/>
+      </Unit128>
+      <Unit129>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\hRSR.SocketEvents.Windows.inc"/>
+        <CursorPos X="3" Y="3"/>
+        <UsageCount Value="8"/>
+      </Unit129>
+      <Unit130>
+        <Filename Value="..\..\..\..\..\Libraries\RSR\uRSR.Queue.Pushes.inc"/>
+        <CursorPos X="15" Y="32"/>
+        <UsageCount Value="8"/>
+      </Unit130>
+      <Unit131>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Providers\uProviders.pas"/>
+        <TopLine Value="370"/>
+        <CursorPos X="10" Y="393"/>
+        <UsageCount Value="8"/>
+      </Unit131>
+      <Unit132>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uHTTPd.WebSocket.Code.inc"/>
+        <TopLine Value="189"/>
+        <CursorPos X="10" Y="213"/>
+        <UsageCount Value="8"/>
+      </Unit132>
+      <Unit133>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uHTTPd.Transport.AuraCore.Net.Code.inc"/>
+        <TopLine Value="99"/>
+        <CursorPos X="8" Y="140"/>
+        <UsageCount Value="8"/>
+      </Unit133>
+      <Unit134>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uHTTPd.Transport.Media.Code.inc"/>
+        <TopLine Value="444"/>
+        <CursorPos X="76" Y="473"/>
+        <UsageCount Value="8"/>
+      </Unit134>
+      <Unit135>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemons\uXMPPd.pas"/>
+        <TopLine Value="1132"/>
+        <CursorPos X="9" Y="1173"/>
+        <UsageCount Value="8"/>
+      </Unit135>
+      <Unit136>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coRSS.pas"/>
+        <TopLine Value="173"/>
+        <CursorPos X="9" Y="196"/>
+        <UsageCount Value="8"/>
+      </Unit136>
+      <Unit137>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\menuitem.inc"/>
+        <TopLine Value="399"/>
+        <CursorPos Y="414"/>
+        <UsageCount Value="10"/>
+      </Unit137>
+      <Unit138>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\packages\fcl-xml\src\xmlread.pp"/>
+        <TopLine Value="57"/>
+        <CursorPos X="3" Y="60"/>
+        <UsageCount Value="9"/>
+      </Unit138>
+      <Unit139>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\win\winsock2.pp"/>
+        <TopLine Value="22"/>
+        <CursorPos X="3" Y="37"/>
+        <UsageCount Value="9"/>
+      </Unit139>
+      <Unit140>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\win\wininc\base.inc"/>
+        <TopLine Value="71"/>
+        <CursorPos X="6" Y="86"/>
+        <UsageCount Value="9"/>
+      </Unit140>
+      <Unit141>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\inc\systemh.inc"/>
+        <TopLine Value="230"/>
+        <CursorPos X="3" Y="245"/>
+        <UsageCount Value="9"/>
+      </Unit141>
+      <Unit142>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <TopLine Value="19"/>
+        <CursorPos X="4" Y="34"/>
+        <UsageCount Value="9"/>
+      </Unit142>
+      <Unit143>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\win\sysosh.inc"/>
+        <TopLine Value="4"/>
+        <CursorPos X="3" Y="19"/>
+        <UsageCount Value="9"/>
+      </Unit143>
+      <Unit144>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <TopLine Value="69"/>
+        <CursorPos X="10" Y="84"/>
+        <UsageCount Value="9"/>
+      </Unit144>
+      <Unit145>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\win\sysutils.pp"/>
+        <TopLine Value="245"/>
+        <CursorPos Y="247"/>
+        <UsageCount Value="9"/>
+      </Unit145>
+      <Unit146>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uImage.pas"/>
+        <CursorPos X="3"/>
+        <UsageCount Value="9"/>
+      </Unit146>
+      <Unit147>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\magick_image.inc"/>
+        <CursorPos X="22" Y="228"/>
+        <UsageCount Value="9"/>
+      </Unit147>
+      <Unit148>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\imagemagick.pas"/>
+        <TopLine Value="31"/>
+        <CursorPos X="17" Y="50"/>
+        <UsageCount Value="28"/>
+      </Unit148>
+      <Unit149>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\magick_type.inc"/>
+        <TopLine Value="40"/>
+        <UsageCount Value="9"/>
+      </Unit149>
+      <Unit150>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\type.inc"/>
+        <TopLine Value="34"/>
+        <UsageCount Value="9"/>
+      </Unit150>
+      <Unit151>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\fx.inc"/>
+        <UsageCount Value="8"/>
+      </Unit151>
+      <Unit152>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\statistic.inc"/>
+        <UsageCount Value="8"/>
+      </Unit152>
+      <Unit153>
+        <Filename Value="..\..\..\..\..\Projects\SCS\uForms.pas"/>
+        <TopLine Value="57"/>
+        <CursorPos Y="72"/>
+        <UsageCount Value="26"/>
+      </Unit153>
+      <Unit154>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\menus.pp"/>
+        <TopLine Value="247"/>
+        <CursorPos X="14" Y="261"/>
+        <UsageCount Value="26"/>
+      </Unit154>
+      <Unit155>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uLogging.pas"/>
+        <TopLine Value="33"/>
+        <CursorPos X="19" Y="43"/>
+        <UsageCount Value="26"/>
+      </Unit155>
+      <Unit156>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\include\customform.inc"/>
+        <TopLine Value="176"/>
+        <CursorPos Y="200"/>
+        <UsageCount Value="8"/>
+      </Unit156>
+      <Unit157>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.Clusters.LayoutManager.Set.NodeEditor.inc"/>
+        <CursorPos Y="7"/>
+        <UsageCount Value="8"/>
+      </Unit157>
+      <Unit158>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uFileUtils.pas"/>
+        <TopLine Value="335"/>
+        <CursorPos Y="341"/>
+        <UsageCount Value="21"/>
+      </Unit158>
+      <Unit159>
+        <Filename Value="..\..\..\..\..\Libraries\Core\hDateUtils.pas"/>
+        <TopLine Value="498"/>
+        <CursorPos X="23" Y="513"/>
+        <UsageCount Value="18"/>
+      </Unit159>
+      <Unit160>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\dateutil.inc"/>
+        <TopLine Value="276"/>
+        <CursorPos X="10" Y="291"/>
+        <UsageCount Value="18"/>
+      </Unit160>
+      <Unit161>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uSocketUtils.pas"/>
+        <TopLine Value="132"/>
+        <CursorPos Y="138"/>
+        <UsageCount Value="17"/>
+      </Unit161>
+      <Unit162>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uStringArray.pas"/>
+        <TopLine Value="15"/>
+        <CursorPos X="37" Y="28"/>
+        <UsageCount Value="17"/>
+      </Unit162>
+      <Unit163>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\sysutils\sysstrh.inc"/>
+        <TopLine Value="104"/>
+        <CursorPos X="23" Y="121"/>
+        <UsageCount Value="10"/>
+      </Unit163>
+      <Unit164>
+        <Filename Value="..\..\..\..\..\Install\Aurawin\AuCloud\Windows\64\assemble.bat"/>
+        <TopLine Value="15"/>
+        <CursorPos X="29" Y="42"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="Bat"/>
+      </Unit164>
+      <Unit165>
+        <Filename Value="..\..\..\..\..\Install\Aurawin\AuConsole\Windows\64\assemble.bat"/>
+        <TopLine Value="9"/>
+        <CursorPos X="17" Y="22"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="Bat"/>
+      </Unit165>
+      <Unit166>
+        <Filename Value="..\..\..\..\..\Install\Aurawin\AuConsole\Windows\64\manifest.xml"/>
+        <CursorPos X="9" Y="10"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit166>
+      <Unit167>
+        <Filename Value="..\..\..\..\AppBuild\Windows\64\AppBuild.inc"/>
+        <UsageCount Value="10"/>
+      </Unit167>
+      <Unit168>
+        <Filename Value="..\..\..\..\..\..\Lazarus\packager\registration\fcllaz.pas"/>
+        <UsageCount Value="10"/>
+      </Unit168>
+      <Unit169>
+        <Filename Value="..\..\..\..\AppBuild\Linux\64\AppBuild.inc"/>
+        <UsageCount Value="10"/>
+      </Unit169>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="AuConsole"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="../../../../../Libraries;../../../../AppBuild/Windows/64;../../../../RSRBuild/Windows/64;../../../../../Projects/SCS;../../../../../Projects/SCS/Providers;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Stored;../../../../../Projects/SCS/FileManager;../../../../../Projects/SCS/Daemons;$(ProjOutDir)"/>
+      <Libraries Value="../../../../../Projects/SCS/Stored;../../../../../Libraries/IM;../../../../../Projects/SCS/Daemons;../../../../../Libraries/RSR"/>
+      <OtherUnitFiles Value="../../../../../Projects/SCS;../../../../../Projects/SCS/Console;../../../../../Projects/SCS/Viewers;../../../../../Projects/SCS/Providers;../../../../../Projects/SCS/Daemons;../../../../../Projects/SCS/FileManager;../../../../../Projects/SCS/Login;../../../../../Projects/SCS/Editor;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Stored;../../../../../Libraries;../../../../../Libraries/Core;../../../../../Libraries/Graphics/ImageMagick;../../../../../Libraries/Unix;../../../../../Libraries/IM;../../../../../Libraries/Encryption;../../../../../Libraries/Database;../../../../../Libraries/Dialogs;../../../../../Libraries/RSR;../../../../../Projects/SCS/RSAKey;../../../../../Projects/SCS/CertReq;../../../../../Libraries/Multimedia"/>
+      <UnitOutputDirectory Value=".Output"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <TargetCPU Value="x86_64"/>
+      <TargetOS Value="win64"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseValgrind Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+        <ShoLineNum Value="True"/>
+      </Verbosity>
+      <CustomOptions Value="-dxuseEventQueues
+-dxSyncRSR"/>
+      <ExecuteBefore>
+        <ShowAllMessages Value="True"/>
+        <CompileReasons Run="False"/>
+      </ExecuteBefore>
+      <ExecuteAfter>
+        <CompileReasons Run="False"/>
+      </ExecuteAfter>
+    </Other>
+    <CompileReasons Run="False"/>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="14">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\imagemagick.pas"/>
+        <Line Value="46"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\..\FPC\packages\imagemagick\src\imagemagick.pas"/>
+        <Line Value="49"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\uForms.pas"/>
+        <Line Value="72"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\CertReq\frmCertReq.pas"/>
+        <Line Value="116"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\CertReq\frmCertReq.pas"/>
+        <Line Value="125"/>
+      </Item5>
+      <Item6>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\Console\frmConsole.pas"/>
+        <Line Value="2686"/>
+      </Item6>
+      <Item7>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Libraries\Core\uSocketUtils.pas"/>
+        <Line Value="138"/>
+      </Item7>
+      <Item8>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\hSRConsts.pas"/>
+        <Line Value="126"/>
+      </Item8>
+      <Item9>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\hSRConsts.pas"/>
+        <Line Value="139"/>
+      </Item9>
+      <Item10>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\hSRConsts.pas"/>
+        <Line Value="152"/>
+      </Item10>
+      <Item11>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\hSRConsts.pas"/>
+        <Line Value="143"/>
+      </Item11>
+      <Item12>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\Editor\frmEdit.pas"/>
+        <Line Value="374"/>
+      </Item12>
+      <Item13>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="AuConsole.lpr"/>
+        <Line Value="11"/>
+      </Item13>
+      <Item14>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\SCS\Login\frmLogin.pas"/>
+        <Line Value="198"/>
+      </Item14>
+    </BreakPoints>
+    <Watches Count="5">
+      <Item1>
+        <Expression Value="Items[iLcv]^"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Items[0]^"/>
+      </Item2>
+      <Item3>
+        <Expression Value="Term"/>
+      </Item3>
+      <Item4>
+        <Expression Value="Application.Terminated"/>
+      </Item4>
+      <Item5>
+        <Expression Value="FList.Count"/>
+      </Item5>
+    </Watches>
+    <Exceptions Count="6">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+      <Item4>
+        <Name Value="EInOutError"/>
+      </Item4>
+      <Item5>
+        <Name Value="EDatabaseError"/>
+        <Enabled Value="False"/>
+      </Item5>
+      <Item6>
+        <Name Value="EInterfaceWarning"/>
+      </Item6>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

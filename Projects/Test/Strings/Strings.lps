@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="Strings.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Strings"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="24"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="1" Column="16" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="18" Column="30" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="19" Column="1" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="20" Column="37" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="19" Column="1" TopLine="1"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="21" Column="30" TopLine="1"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Strings.lpr"/>
+        <Caret Line="19" Column="19" TopLine="1"/>
+      </Position7>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="Strings.lpr"/>
+        <Line Value="23"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

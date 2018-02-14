@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/ppcx64" Date="1228199149"/>
+  <Params Value=" -MObjFPC -Sgi -CX -O1 -g -gl -Xg -XX -vewnhi -l -Fu/home/atbrunner/Source/Lazarus/Libraries/Core/ -Fu/home/atbrunner/Developer/Source/Lazarus/Libraries/MatrixMemory/ -Fu/home/atbrunner/Developer/Source/Lazarus/Libraries/Core/ -Fu/home/atbrunner/Developer/Source/Lazarus/Test/ -Fu. -oproject1.so project1.lpr"/>
+</CONFIG>

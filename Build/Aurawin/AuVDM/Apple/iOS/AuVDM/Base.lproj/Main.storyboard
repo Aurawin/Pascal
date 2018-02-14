@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AuVDM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mediaPlaybackRequiresUserAction="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPc-w6-DMG" userLabel="Browser">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
+                                </variation>
+                                <variation key="heightClass=regular" ambiguous="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="PYq-NA-a9C"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wPc-w6-DMG" secondAttribute="trailing" id="1iD-Ui-YKn"/>
+                            <constraint firstAttribute="trailing" secondItem="wPc-w6-DMG" secondAttribute="trailing" id="6K3-18-wcG"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="CN8-Cz-bCH"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="DVn-tT-kUA"/>
+                            <constraint firstAttribute="height" secondItem="wPc-w6-DMG" secondAttribute="height" id="MuF-3U-us5"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="WPt-kO-iSb"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="X6P-Rd-fCk"/>
+                            <constraint firstAttribute="width" secondItem="wPc-w6-DMG" secondAttribute="width" id="afW-ml-I9V"/>
+                            <constraint firstAttribute="trailing" secondItem="wPc-w6-DMG" secondAttribute="trailing" id="bKi-e5-AUQ"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cDu-Lx-75H"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="cZw-mE-E98"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="epH-ME-CR4"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pCh-PR-MoY"/>
+                            <constraint firstItem="wPc-w6-DMG" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="sXk-dO-jJi"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1iD-Ui-YKn"/>
+                                <exclude reference="6K3-18-wcG"/>
+                                <exclude reference="CN8-Cz-bCH"/>
+                                <exclude reference="MuF-3U-us5"/>
+                                <exclude reference="X6P-Rd-fCk"/>
+                                <exclude reference="afW-ml-I9V"/>
+                                <exclude reference="bKi-e5-AUQ"/>
+                                <exclude reference="cDu-Lx-75H"/>
+                                <exclude reference="cZw-mE-E98"/>
+                                <exclude reference="epH-ME-CR4"/>
+                                <exclude reference="pCh-PR-MoY"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="6K3-18-wcG"/>
+                                <include reference="X6P-Rd-fCk"/>
+                                <include reference="epH-ME-CR4"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="1iD-Ui-YKn"/>
+                                <include reference="CN8-Cz-bCH"/>
+                                <include reference="pCh-PR-MoY"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="bKi-e5-AUQ"/>
+                                <include reference="cDu-Lx-75H"/>
+                                <include reference="cZw-mE-E98"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="MuF-3U-us5"/>
+                                <include reference="afW-ml-I9V"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="Browser" destination="wPc-w6-DMG" id="6fA-my-ane"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="402"/>
+        </scene>
+    </scenes>
+</document>

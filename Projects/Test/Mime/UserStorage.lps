@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="76">
+      <Unit0>
+        <Filename Value="UserStorage.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UserStorage"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="57"/>
+        <CursorPos X="1" Y="78"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="dbmUserStorage"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6319"/>
+        <CursorPos X="1" Y="6337"/>
+        <UsageCount Value="78"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../Libraries/RSR/hRSR.pas"/>
+        <UnitName Value="hRSR"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="446"/>
+        <CursorPos X="34" Y="463"/>
+        <UsageCount Value="26"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../Libraries/RSR/uRSR.pas"/>
+        <UnitName Value="uRSR"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3254"/>
+        <CursorPos X="55" Y="3282"/>
+        <UsageCount Value="26"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../SCS/Stored/dbmUserAccounts.pas"/>
+        <UnitName Value="dbmUserAccounts"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1481"/>
+        <CursorPos X="111" Y="1509"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../SCS/Stored/dbmFAT.pas"/>
+        <UnitName Value="dbmFAT"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1720"/>
+        <CursorPos X="55" Y="1737"/>
+        <UsageCount Value="27"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../Libraries/Core/uKPList.pas"/>
+        <UnitName Value="uKPList"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="580"/>
+        <CursorPos X="1" Y="598"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../FPC/rtl/unix/tthread.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="162"/>
+        <CursorPos X="1" Y="180"/>
+        <UsageCount Value="26"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="620"/>
+        <CursorPos X="1" Y="641"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <UnitName Value="uStringArray"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="38" Y="33"/>
+        <UsageCount Value="21"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <UnitName Value="uVarString"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="20"/>
+        <CursorPos X="13" Y="38"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="148"/>
+        <CursorPos X="1" Y="175"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../Libraries/Core/hDateUtils.pas"/>
+        <UnitName Value="hDateUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="416"/>
+        <CursorPos X="22" Y="433"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../Libraries/Core/uFileUtils.pas"/>
+        <UnitName Value="uFileUtils"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="41" Y="11"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../Libraries/Core/uInt64Array.pas"/>
+        <UnitName Value="uInt64Array"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="278"/>
+        <CursorPos X="105" Y="306"/>
+        <UsageCount Value="8"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../Libraries/Core/uQWordArray.pas"/>
+        <UnitName Value="uQWordArray"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="293"/>
+        <CursorPos X="3" Y="297"/>
+        <UsageCount Value="8"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../Libraries/Core/uStreams.pas"/>
+        <UnitName Value="uStreams"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="56"/>
+        <CursorPos X="28" Y="73"/>
+        <UsageCount Value="11"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../../Libraries/Core/uStreams.Readline.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="3" Y="4"/>
+        <UsageCount Value="8"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../Libraries/Core/uSocketUtils.pas"/>
+        <UnitName Value="uSocketUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="133"/>
+        <CursorPos X="50" Y="161"/>
+        <UsageCount Value="8"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../Libraries/Database/hDatabase.pas"/>
+        <UnitName Value="hDatabase"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1883"/>
+        <CursorPos X="55" Y="1911"/>
+        <UsageCount Value="8"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../Libraries/Core/uXML.pas"/>
+        <UnitName Value="uXML"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="909"/>
+        <CursorPos X="18" Y="937"/>
+        <UsageCount Value="8"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../Libraries/Database/uDatabase.pas"/>
+        <UnitName Value="uDatabase"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2468"/>
+        <CursorPos X="19" Y="2496"/>
+        <UsageCount Value="8"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../Libraries/Database/uDatabase.SQL_Sum.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="9"/>
+        <UsageCount Value="8"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../../Libraries/Database/uDatabase.SQL_Count.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="7"/>
+        <UsageCount Value="8"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../../Libraries/Database/uDatabase.SQL_DataLength.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="8"/>
+        <UsageCount Value="8"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../../../Libraries/Database/uDatabase.SQL_SumDataLength.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="8"/>
+        <UsageCount Value="8"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../../../Libraries/Database/uDatabase.Select.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="37" Y="12"/>
+        <UsageCount Value="8"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../../Libraries/uKeywords.pas"/>
+        <UnitName Value="uKeywords"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1094"/>
+        <CursorPos X="46" Y="1122"/>
+        <UsageCount Value="8"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../../../Libraries/RSR/hHTTP.pas"/>
+        <UnitName Value="hHTTP"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="850"/>
+        <CursorPos X="38" Y="878"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../../../Libraries/Core/uTimer.pas"/>
+        <UnitName Value="uTimer"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="76" Y="4"/>
+        <UsageCount Value="8"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../../Libraries/Core/hTimer.pas"/>
+        <UnitName Value="hTimer"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="91"/>
+        <CursorPos X="24" Y="109"/>
+        <UsageCount Value="8"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../../SCS/Stored/uDBModule.pas"/>
+        <UnitName Value="uDBModule"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="569"/>
+        <CursorPos X="19" Y="587"/>
+        <UsageCount Value="16"/>
+        <Loaded Value="True"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../../../Libraries/Core/uEncoding.pas"/>
+        <UnitName Value="uEncoding"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="469"/>
+        <CursorPos X="59" Y="489"/>
+        <UsageCount Value="8"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../../../Libraries/Core/uEncoding.Process_Encode_UTF8.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="69" Y="5"/>
+        <UsageCount Value="8"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../../../Libraries/Core/uEncoding.Process_Encode_UTF8_From_LATIN1.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="66" Y="33"/>
+        <UsageCount Value="8"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../../../Libraries/Core/uEncoding.Process_Encode_Latin1.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="69" Y="5"/>
+        <UsageCount Value="8"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../../../Libraries/Core/uEncoding.Process_Encode_LATIN1_From_UTF8.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="30"/>
+        <CursorPos X="18" Y="58"/>
+        <UsageCount Value="8"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../../../Libraries/RSR/uMsgUtils.pas"/>
+        <UnitName Value="uMsgUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="915"/>
+        <CursorPos X="29" Y="932"/>
+        <UsageCount Value="8"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="../../SCS/Stored/dbmCalendaring.pas"/>
+        <UnitName Value="dbmCalendaring"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="12"/>
+        <CursorPos X="65" Y="15"/>
+        <UsageCount Value="8"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="../../SCS/Stored/dbmRSS.pas"/>
+        <UnitName Value="dbmRSS"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="48" Y="23"/>
+        <UsageCount Value="8"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="../../SCS/Stored/dbmMatrixClusters.pas"/>
+        <UnitName Value="dbmMatrixClusters"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="142"/>
+        <CursorPos X="18" Y="159"/>
+        <UsageCount Value="8"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="../../SCS/Stored/dbmMatrixResources.pas"/>
+        <UnitName Value="dbmMatrixResources"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="76" Y="24"/>
+        <UsageCount Value="8"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="../../SCS/Stored/dbmMatrixNodes.pas"/>
+        <UnitName Value="dbmMatrixNodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="167"/>
+        <CursorPos X="60" Y="184"/>
+        <UsageCount Value="8"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="../../SCS/Stored/dbmMatrixNodes.StatDisk.Unix.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="21" Y="6"/>
+        <UsageCount Value="8"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="../../SCS/Stored/dbmMatrixNodes.SetupDisks.Unix.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="20" Y="7"/>
+        <UsageCount Value="8"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="../../SCS/Stored/dbmMatrixNodes.StatIDS.Unix.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="21" Y="5"/>
+        <UsageCount Value="8"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="../../SCS/Stored/dbmMatrixNodes.IsMounted.Unix.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="21" Y="7"/>
+        <UsageCount Value="8"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="../../SCS/Stored/dbmRosterItems.pas"/>
+        <UnitName Value="dbmRosterItems"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="283"/>
+        <CursorPos X="26" Y="300"/>
+        <UsageCount Value="8"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="../../SCS/Stored/dbmKeywords.pas"/>
+        <UnitName Value="dbmKeywords"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="65" Y="21"/>
+        <UsageCount Value="8"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="../../SCS/Stored/dbmSearch.pas"/>
+        <UnitName Value="dbmSearch"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="22" Y="23"/>
+        <UsageCount Value="8"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="../../SCS/Core/uCoreObjects.pas"/>
+        <UnitName Value="uCoreObjects"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="664"/>
+        <CursorPos X="66" Y="681"/>
+        <UsageCount Value="8"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="../../SCS/Stored/dbmCoreObjects.pas"/>
+        <UnitName Value="dbmCoreObjects"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="12"/>
+        <UsageCount Value="8"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="../../SCS/Stored/dbmAuraDisks.pas"/>
+        <UnitName Value="dbmAuraDisks"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="89" Y="29"/>
+        <UsageCount Value="8"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="../../../Libraries/Core/uByteArray.pas"/>
+        <UnitName Value="uByteArray"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="36" Y="19"/>
+        <UsageCount Value="8"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="../../SCS/Stored/dbmDomains.pas"/>
+        <UnitName Value="dbmDomains"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="132"/>
+        <CursorPos X="36" Y="149"/>
+        <UsageCount Value="8"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="8"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V20.Decs.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="2"/>
+        <UsageCount Value="8"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.pas"/>
+        <UnitName Value="uMPEG"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="65" Y="16"/>
+        <UsageCount Value="8"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="630"/>
+        <CursorPos X="19" Y="658"/>
+        <UsageCount Value="8"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V40TagPayload.Tags.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="50"/>
+        <CursorPos X="19" Y="78"/>
+        <UsageCount Value="8"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="../../SCS/Stored/dbmSecurity.pas"/>
+        <UnitName Value="dbmSecurity"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="86" Y="18"/>
+        <UsageCount Value="8"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="../../SCS/Stored/dbmVendors.pas"/>
+        <UnitName Value="dbmVendors"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="160"/>
+        <CursorPos X="34" Y="177"/>
+        <UsageCount Value="8"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="../../SCS/Stored/dbmAvatars.pas"/>
+        <UnitName Value="dbmAvatars"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="76" Y="22"/>
+        <UsageCount Value="8"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="../../SCS/Stored/dbmSocial.pas"/>
+        <UnitName Value="dbmSocial"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="26"/>
+        <UsageCount Value="9"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="../../SCS/Daemons/uSMTP.TransportReceive.Methods.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="469"/>
+        <CursorPos X="12" Y="480"/>
+        <UsageCount Value="9"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="../../SCS/Daemons/uSMTP.Transport.Receive.Dec.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="5" Y="3"/>
+        <UsageCount Value="9"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="../../../../FPC/rtl/linux/x86_64/syscall.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="92"/>
+        <CursorPos X="1" Y="116"/>
+        <UsageCount Value="9"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="../../../../FPC/rtl/linux/ossysc.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="1" Y="84"/>
+        <UsageCount Value="9"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="../../../../FPC/rtl/unix/bunxovl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="165"/>
+        <CursorPos X="1" Y="182"/>
+        <UsageCount Value="9"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="../../../../FPC/rtl/unix/sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="478"/>
+        <CursorPos X="1" Y="496"/>
+        <UsageCount Value="9"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="../../../../FPC/rtl/objpas/classes/streams.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="490"/>
+        <CursorPos X="1" Y="508"/>
+        <UsageCount Value="11"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="../../../../FPC/rtl/inc/systemh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="900"/>
+        <CursorPos X="3" Y="419"/>
+        <UsageCount Value="10"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="../../../../FPC/rtl/inc/heap.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="336"/>
+        <CursorPos X="1" Y="355"/>
+        <UsageCount Value="10"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="../../../../FPC/rtl/inc/rtti.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="133"/>
+        <CursorPos X="1" Y="155"/>
+        <UsageCount Value="10"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="../../../../FPC/rtl/objpas/sysutils/sysstr.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="714"/>
+        <CursorPos X="1" Y="734"/>
+        <UsageCount Value="10"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="../../SCS/Stored/dbmContentTypes.pas"/>
+        <UnitName Value="dbmContentTypes"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="14"/>
+        <CursorPos X="12" Y="49"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit75>
+    </Units>
+    <CustomDefines Count="1">
+      <Define0 Value="useEventQueues"/>
+    </CustomDefines>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6295" Column="1" TopLine="6277"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6296" Column="1" TopLine="6277"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6299" Column="1" TopLine="6277"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6300" Column="1" TopLine="6277"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6301" Column="1" TopLine="6277"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6300" Column="1" TopLine="6277"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6301" Column="1" TopLine="6277"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6300" Column="1" TopLine="6277"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6302" Column="1" TopLine="6277"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6303" Column="1" TopLine="6277"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6304" Column="1" TopLine="6277"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6305" Column="1" TopLine="6277"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6306" Column="1" TopLine="6277"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6305" Column="1" TopLine="6277"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6307" Column="1" TopLine="6278"/>
+      </Position15>
+      <Position16>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6308" Column="39" TopLine="6279"/>
+      </Position16>
+      <Position17>
+        <Filename Value="UserStorage.lpr"/>
+        <Caret Line="74" Column="1" TopLine="57"/>
+      </Position17>
+      <Position18>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6322" Column="33" TopLine="6297"/>
+      </Position18>
+      <Position19>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6060" Column="25" TopLine="6055"/>
+      </Position19>
+      <Position20>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="97" Column="25" TopLine="81"/>
+      </Position20>
+      <Position21>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6180" Column="1" TopLine="6171"/>
+      </Position21>
+      <Position22>
+        <Filename Value="UserStorage.lpr"/>
+        <Caret Line="76" Column="32" TopLine="57"/>
+      </Position22>
+      <Position23>
+        <Filename Value="UserStorage.lpr"/>
+        <Caret Line="74" Column="30" TopLine="57"/>
+      </Position23>
+      <Position24>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6373" Column="8" TopLine="6346"/>
+      </Position24>
+      <Position25>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6369" Column="9" TopLine="6341"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6361" Column="16" TopLine="6345"/>
+      </Position26>
+      <Position27>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6363" Column="78" TopLine="6346"/>
+      </Position27>
+      <Position28>
+        <Filename Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Caret Line="6403" Column="81" TopLine="6374"/>
+      </Position28>
+      <Position29>
+        <Filename Value="UserStorage.lpr"/>
+        <Caret Line="74" Column="1" TopLine="57"/>
+      </Position29>
+      <Position30>
+        <Filename Value="UserStorage.lpr"/>
+        <Caret Line="78" Column="1" TopLine="57"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Line Value="6383"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../SCS/Stored/dbmUserStorage.pas"/>
+        <Line Value="6414"/>
+      </Item2>
+    </BreakPoints>
+    <Watches Count="7">
+      <Item1>
+        <Expression Value="Mail.Content"/>
+      </Item1>
+      <Item2>
+        <Expression Value="iLcv"/>
+      </Item2>
+      <Item3>
+        <Expression Value="Mime.idxContentEnd"/>
+      </Item3>
+      <Item4>
+        <Expression Value="Mail.Content[31]"/>
+      </Item4>
+      <Item5>
+        <Expression Value="Mail.Content[32]"/>
+      </Item5>
+      <Item6>
+        <Expression Value="Mime.idxContentStart"/>
+      </Item6>
+      <Item7>
+        <Expression Value="Mail.Content[16]"/>
+      </Item7>
+    </Watches>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

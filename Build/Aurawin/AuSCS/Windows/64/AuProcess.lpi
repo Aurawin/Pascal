@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AuProcess"/>
+      <UseAppBundle Value="False"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2015"/>
+      <MinorVersionNr Value="5"/>
+      <RevisionNr Value="2"/>
+      <BuildNr Value="1098"/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="AuProcess" InternalName="AuProcess" LegalCopyright="2013-2015" LegalTrademarks="RSR, Aurawin" OriginalFilename="AuProcess" ProductName="Aurawin Social Computing Server" ProductVersion="2015"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="1">
+        <Item1 ID="927086648996" Modes="Default" Value="-dEnableUTF8RTL"/>
+      </SharedMatrixOptions>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="service=35"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LazUtils"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="AuProcess.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="AuProcess"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../../../../../Projects/SCS/Core;../../../../RSRBuild/Windows/64;../../../../AppBuild/Windows/64;../../../../../Projects/Aurawin/AuProcess"/>
+      <Libraries Value="../../../../../Pascal;../../../../../Projects/SCS;../../../../../Projects/SCS/Daemons;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Providers"/>
+      <OtherUnitFiles Value="../../../../../Pascal;../../../../../Projects/SCS;../../../../../Projects/SCS/Daemons;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Providers;../../../../../../FPC/packages/fcl-db/src/sqldb/oracle"/>
+      <UnitOutputDirectory Value=".Output"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <StackSize Value="4424832"/>
+      <TargetCPU Value="x86_64"/>
+      <TargetOS Value="win64"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <UseValgrind Value="True"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+        <ShoLineNum Value="True"/>
+      </Verbosity>
+      <CustomOptions Value="-dxSyncRSR
+-dxRSR_DEBUG
+-dFPC_USE_LIBC
+-dxDROP_ALL_MAIL_RELAY
+-dxRSR_NO_LOCK
+-FcUTF8"/>
+      <ExecuteBefore>
+        <Command Value="$(ProjPath)/prebuild.bat"/>
+        <ShowAllMessages Value="True"/>
+        <CompileReasons Run="False"/>
+      </ExecuteBefore>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3" IgnoreAll="True">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

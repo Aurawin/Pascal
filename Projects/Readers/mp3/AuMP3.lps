@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="43">
+      <Unit0>
+        <Filename Value="AuMP3.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="165"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMain"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="48"/>
+        <CursorPos Y="59"/>
+        <UsageCount Value="165"/>
+        <Bookmarks Count="1">
+          <Item0 X="28" Y="117" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uMPEG"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="979"/>
+        <CursorPos Y="993"/>
+        <UsageCount Value="165"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../Libraries/Core/uByteArray.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uByteArray"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="40"/>
+        <CursorPos X="21" Y="52"/>
+        <UsageCount Value="165"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V20.Decs.inc"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="7"/>
+        <CursorPos X="15" Y="33"/>
+        <UsageCount Value="143"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V23.Decs.inc"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="19"/>
+        <CursorPos X="101" Y="36"/>
+        <UsageCount Value="143"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V40.Decs.inc"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="50"/>
+        <CursorPos X="15" Y="58"/>
+        <UsageCount Value="142"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.Decs.inc"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="266"/>
+        <CursorPos X="22" Y="295"/>
+        <UsageCount Value="142"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V20.Code.inc"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="142"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.Raw.inc"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="194"/>
+        <CursorPos Y="226"/>
+        <UsageCount Value="142"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V23.Code.inc"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="142"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.Code.inc"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="142"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V40.Code.inc"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="104"/>
+        <CursorPos X="3" Y="118"/>
+        <UsageCount Value="142"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V40TagPayload.Tags.inc"/>
+        <TopLine Value="369"/>
+        <CursorPos X="56" Y="371"/>
+        <UsageCount Value="69"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../FPC/rtl/linux/ossysc.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos Y="64"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../FPC/rtl/linux/x86_64/sighnd.inc"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="38"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../../../../FPC/rtl/inc/system.inc"/>
+        <TopLine Value="996"/>
+        <CursorPos X="55" Y="1002"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="598"/>
+        <CursorPos X="30" Y="607"/>
+        <UsageCount Value="23"/>
+        <Bookmarks Count="3">
+          <Item0 X="2" Y="971" ID="2"/>
+          <Item1 X="9" Y="52" ID="3"/>
+          <Item2 X="32" Y="1108" ID="4"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="134"/>
+        <CursorPos Y="150"/>
+        <UsageCount Value="17"/>
+        <Loaded Value="True"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../../FPC/rtl/objpas/classes/streams.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="33"/>
+        <CursorPos Y="44"/>
+        <UsageCount Value="16"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../Libraries/Core/uStreams.pas"/>
+        <UnitName Value="uStreams"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="341"/>
+        <CursorPos X="19" Y="345"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../../FPC/rtl/inc/except.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="212"/>
+        <CursorPos Y="223"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../../../../FPC/rtl/x86_64/x86_64.inc"/>
+        <TopLine Value="676"/>
+        <CursorPos Y="703"/>
+        <UsageCount Value="2"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../../../../FPC/rtl/inc/heap.inc"/>
+        <TopLine Value="304"/>
+        <CursorPos Y="317"/>
+        <UsageCount Value="9"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="/home/atbrunner/Music/Casting Crowns/The Altar and the Door/05 The World Is Alive.mp3"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="../../../../FPC/rtl/linux/x86_64/syscall.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="93"/>
+        <CursorPos Y="105"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="../../../../FPC/rtl/unix/sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="505"/>
+        <CursorPos Y="516"/>
+        <UsageCount Value="11"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="../../SCS/Core/coLogin.pas"/>
+        <UsageCount Value="58"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="../../SCS/Core/coVDM.pas"/>
+        <TopLine Value="802"/>
+        <CursorPos X="3" Y="810"/>
+        <UsageCount Value="58"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="../../SCS/Core/uCoreObjects.pas"/>
+        <TopLine Value="30"/>
+        <CursorPos X="32" Y="118"/>
+        <UsageCount Value="58"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="../../SCS/Daemons/uHTTPd.pas"/>
+        <TopLine Value="525"/>
+        <CursorPos X="26" Y="531"/>
+        <UsageCount Value="58"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="../../../../FPC/rtl/x86_64/setjump.inc"/>
+        <TopLine Value="21"/>
+        <CursorPos Y="48"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V30.Code.inc"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="91"/>
+        <CursorPos Y="101"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1571"/>
+        <CursorPos X="10" Y="1575"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="../../../../FPC/rtl/inc/systemh.inc"/>
+        <TopLine Value="918"/>
+        <CursorPos X="19" Y="937"/>
+        <UsageCount Value="8"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="../../../../FPC/rtl/inc/ustringh.inc"/>
+        <TopLine Value="80"/>
+        <CursorPos X="94" Y="108"/>
+        <UsageCount Value="11"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="209"/>
+        <CursorPos Y="224"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="../../../../FPC/rtl/unix/bunxovl.inc"/>
+        <TopLine Value="162"/>
+        <CursorPos Y="177"/>
+        <UsageCount Value="8"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V30.Decs.inc"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="15"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="../../../../FPC/rtl/inc/compproc.inc"/>
+        <TopLine Value="35"/>
+        <CursorPos X="11" Y="35"/>
+        <UsageCount Value="8"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <TopLine Value="13"/>
+        <CursorPos X="3" Y="30"/>
+        <UsageCount Value="13"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="../../../Libraries/Core/uKPList.pas"/>
+        <TopLine Value="48"/>
+        <CursorPos X="66" Y="74"/>
+        <UsageCount Value="13"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="/home/atbrunner/Music/iTunes/Album Artwork/Cache/D6F9868AB3CCE94B/01/06/05/D6F9868AB3CCE94B-163EFA0E83251561.itc2"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit42>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="220" TopLine="209"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="221" TopLine="209"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="231" TopLine="222"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="141" TopLine="130"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="142" TopLine="130"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="150" TopLine="134"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="141" TopLine="134"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="142" TopLine="134"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="150" TopLine="134"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="141" TopLine="134"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="144" TopLine="134"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="145" TopLine="134"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="146" TopLine="134"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="148" TopLine="134"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="150" TopLine="134"/>
+      </Position15>
+      <Position16>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="141" TopLine="134"/>
+      </Position16>
+      <Position17>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="142" TopLine="134"/>
+      </Position17>
+      <Position18>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <Caret Line="150" TopLine="134"/>
+      </Position18>
+      <Position19>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="220" TopLine="209"/>
+      </Position19>
+      <Position20>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="223" TopLine="209"/>
+      </Position20>
+      <Position21>
+        <Filename Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Caret Line="187" Column="85" TopLine="479"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="62" Column="76" TopLine="56"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="59" Column="10" TopLine="55"/>
+      </Position23>
+      <Position24>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="60" TopLine="55"/>
+      </Position24>
+      <Position25>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="61" TopLine="55"/>
+      </Position25>
+      <Position26>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="67" TopLine="55"/>
+      </Position26>
+      <Position27>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="135" TopLine="125"/>
+      </Position27>
+      <Position28>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="136" TopLine="125"/>
+      </Position28>
+      <Position29>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="137" TopLine="125"/>
+      </Position29>
+      <Position30>
+        <Filename Value="frmMain.pas"/>
+        <Caret Line="136" Column="11" TopLine="125"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="24">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="1964"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="10"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="1043"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V40TagPayload.Tags.inc"/>
+        <Line Value="85"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="88"/>
+      </Item5>
+      <Item6>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.pas"/>
+        <Line Value="701"/>
+      </Item6>
+      <Item7>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="83"/>
+      </Item7>
+      <Item8>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V40TagPayload.Tags.inc"/>
+        <Line Value="31"/>
+      </Item8>
+      <Item9>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V40TagPayload.Tags.inc"/>
+        <Line Value="35"/>
+      </Item9>
+      <Item10>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="231"/>
+      </Item10>
+      <Item11>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="307"/>
+      </Item11>
+      <Item12>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="533"/>
+      </Item12>
+      <Item13>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="635"/>
+      </Item13>
+      <Item14>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="969"/>
+      </Item14>
+      <Item15>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="1140"/>
+      </Item15>
+      <Item16>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V40TagPayload.Tags.inc"/>
+        <Line Value="390"/>
+      </Item16>
+      <Item17>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="651"/>
+      </Item17>
+      <Item18>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="1110"/>
+      </Item18>
+      <Item19>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V20TagPayload.Tags.inc"/>
+        <Line Value="299"/>
+      </Item19>
+      <Item20>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30.Code.inc"/>
+        <Line Value="119"/>
+      </Item20>
+      <Item21>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30.Code.inc"/>
+        <Line Value="80"/>
+      </Item21>
+      <Item22>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="1633"/>
+      </Item22>
+      <Item23>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="1626"/>
+      </Item23>
+      <Item24>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../Libraries/Multimedia/uMPEG.TID3V30TagPayload.Tags.inc"/>
+        <Line Value="1580"/>
+      </Item24>
+    </BreakPoints>
+    <Watches Count="7">
+      <Item1>
+        <Expression Value="sKind"/>
+      </Item1>
+      <Item2>
+        <Expression Value="sValue"/>
+      </Item2>
+      <Item3>
+        <Expression Value="sValue[1]"/>
+      </Item3>
+      <Item4>
+        <Expression Value="sValue[2]"/>
+      </Item4>
+      <Item5>
+        <Expression Value="sValue[3]"/>
+      </Item5>
+      <Item6>
+        <Expression Value="sValue[4]"/>
+      </Item6>
+      <Item7>
+        <Expression Value="sValue[5]"/>
+      </Item7>
+    </Watches>
+  </Debugging>
+</CONFIG>

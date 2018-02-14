@@ -1,0 +1,713 @@
+object CertReqForm: TCertReqForm
+  Left = 384
+  Height = 480
+  Top = 231
+  Width = 452
+  Caption = 'Aurawin Certificate Request'
+  ClientHeight = 480
+  ClientWidth = 452
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.9.0.0'
+  object pnlLogo: TPanel
+    Left = 0
+    Height = 68
+    Top = 0
+    Width = 452
+    Align = alTop
+    BevelOuter = bvNone
+    Caption = 'Aurawin Certificate Request'
+    ClientHeight = 68
+    ClientWidth = 452
+    TabOrder = 1
+    object Panel1: TPanel
+      Left = 6
+      Height = 60
+      Top = 5
+      Width = 60
+      BevelInner = bvRaised
+      BevelOuter = bvLowered
+      ClientHeight = 60
+      ClientWidth = 60
+      TabOrder = 0
+      object Image1: TImage
+        Left = 2
+        Height = 56
+        Top = 2
+        Width = 56
+        Align = alClient
+        Center = True
+        Picture.Data = {
+          1754506F727461626C654E6574776F726B47726170686963210D000089504E47
+          0D0A1A0A0000000D49484452000000300000003008060000005702F987000000
+          2B744558744372656174696F6E2054696D65004D69203134204D616920323030
+          332031333A35343A3132202B30313030013458EC0000000774494D4507D3050F
+          160922D4F47E68000000097048597300000AF000000AF00142AC349800000004
+          67414D410000B18F0BFC610500000C794944415478DAD5596B8C1D65197E66E6
+          CC9CDB9EB3BB67B7BBDBEE6EB72DBD08B55D0A16B99880580C36265A0CE22555
+          638C31242A1A0D06814443C20FC5F8437FA026268484D8180C11B484402BD762
+          428082A5F70BDDEE7677BB7BCE9EDBDCE7F3F9E69B6D9176CBD9B2A5F14B2673
+          3933DFF73EEFFBBCB7EF00FFE743BB58134F2CC38A72882F79026BA31066081C
+          D581177AC7F0DC62C0BBE40084FC762D3E8B005F47880D91402AD2B0873F6D73
+          80B514FE6EABCBB232191DC20FE13442946B9168BA18CF0B3C648DE3779701CE
+          250120863134E3E0CF229FBA29BBAE4B33BBB34018C21D6BA2B6B72242EAB76F
+          4387A6451160FBD437F5EF86F1D9A987383C0D51B5B1BF37C497574C63F7470A
+          405C89E17A03DBADEB7BFBAC6B4886A6AF0E27007C0A4C6DC3F6D4753350C2CF
+          82701490803F8DD68091195409E2F32BA7F1C24702406CC0A05DC72E73F3D092
+          D4DA6EA04E411D0AE752A24001A81EADA33262236CF8D0F9386D02790B28D048
+          129CB06929BE1AF2B7299B8E51C6F46511360E9471F84200A45A161E301A1E1E
+          B136762F49ADEC04AAA42F65472467D130FE761D87FE3509FA01B25D160C4B83
+          2604F4668472254486D79D790DED04A369EAB336822B65511A6DE00FBCDD7451
+          01603DB66A39F34673B887C2BB44244E43DBFDF808CA471BE8DAD00EABDD4464
+          0774DC28A64DC0B3E31864518048D28B8F2D83A7488128E58043366E3E58C230
+          A9F4E64501405153F500F76487176931AFE5D2527E53C7EEBF8EA03EED62F0D6
+          3E080A2CC8719BC781511F2185971A1FCC8AD85833348F130AAC6A238584A291
+          D4433A05ADE2E2D37C65DE00F496DEBA0237461963A5514A2B07258F11088CBF
+          3E8DE9E34D0CDED40383C2A68210BE17E1B5A31E2C5D204BF5D4E81F87CB112C
+          4A6AF06034C5813A7D82748AA944103ACFA1C6552E60B40620C2E6546F568BA3
+          898C245E103BE4BE1DA730746D27745E1BCC56D29C63D33E16F1558342199A40
+          8E2B347C26099A8CCC898F0ADD67DCD3502C18B115DA68A58686EFBC59C48F2F
+          0E0081E1542EA534EFAAD0583D56874E29DB4A26354FED93139315461E6A390C
+          6556A3C0F2E0C76902A9B9228EAC3130AE7A783A42A627CD1CA842219D593B09
+          3CB83B8FAB171C00E5E8D425E7DF939064A82C2D3663EA480BECD8D3C4D1091F
+          33E488C76752F014C10882119CE02443E6415287EE1283B01D157D337923F607
+          391872ADB28E07161C00459E0C1B81123EB64004AFEE23C732C1249DF68FB9E8
+          A47B1453020543A09BD7D2125AA4B4DF41DE30AAA28DE7691FAA0EE17D23D060
+          E68C38B1D1A590E1EF75815B5EB6B06641018808CFD62764DC57DC97C92BE633
+          05D4B9BAEBD04929954655EA3C0CA9523EAF9236925AC410072D2D3922792363
+          A869306F68B4126FC35851F205C34BE1E6050590B2F0B05D090E374E2676A723
+          E7A9E590679D745AC9B05821755244AA33AC44D23329789692BB49C49520A4E0
+          593D49FFBCCED36CB62362C1E3B01A26494E60F9820230F6A0DAA663972075E0
+          AA48D4CEF0E2D44268B4488F19614389C6A1B401234E890EB3C412F1E4AB98A8
+          4C4DF15E52A8D752F15FE7757A490ED5535E4C1F09204AAC23B4F8B2A5D17A26
+          8E9016726557AA33449A12654C01AFEAD3F9742C26FF07581E69A4CE281DF640
+          950212C1095EF76714F3A43564040E984A965FD581262DEAD2A861929903550B
+          8A4C8057171C00B5742CB4B9422A0919D4685FBB864A95754E218AEB9E37CAC0
+          715B4D4AFF8E85B2F97A99952753039D5CD1245334B0F4DA2EBCF5E811081DA7
+          9D58A61952ED55D6884F2E38005601CFD79AE2475D591197F972A429548E9470
+          D976E914648815E7604609345B2AC45A15CA023E356F660D5CFDB5657877E704
+          1A954866E038B0B11A1759068BA28D6F5CA3CAC49646CBE5B42C59DE1EC0DEFE
+          2296E5CC84AB504E2705CD50154D59FABB4A783F115E1E71E4A5485DABF2587E
+          CB121CDF398E136F5411261661440669F3C0676CDCAF966A7DB46C01A9A86981
+          9F8C56B16DA09DFEA9A9424C244024A06251676431D060F894894AE6BD341D61
+          514F06A5D5451677C0DE6DC75039E9214A25964AE84337786BBEC2CFCB02B363
+          7F1F1EACE9B8BBBF004DD7124B2420A43069C6C95C9129B56042235D022ED1A4
+          234CD139CA5270435928B64E98346E3E9CBC8DA5B732615E7400622D3E71A081
+          5D933518DD79FA401A71FC0B93CA324A8493896956C351122203718656B3876C
+          EA3A3378674D05C383F3E0FEEC30E625FC3A145851FCB3FBF2C19E9E158B3136
+          56C7F8349B16BC278E4767AE658292C2CBB31F9DF10DF98E3CD718B1BA7B72B8
+          7220B5289F0FDA1F9CC6F68B6A01B11EBF6DE6723FCCAD5CAEA4E90FD13CE2E1
+          C4A10AA64FD551AFF9E45532AB5015434A8FCB7D459B30C9077E5C4E61786D09
+          1FFB78377C3649E3BB8F443D81F862FA28FE7E5100888DF8A4E7E00573CD0A53
+          9331534AB78AF6DF9F51951A9F85F4DA3D2FEE6F580D5C796406273B3AB0C6D5
+          709F96C2179CC88CC115D8E1F75D96C1B2A505F2478F3916D2244DF6D8130726
+          4EF49958D77618E556E56AB5A5D43D0FBFD116954C2D263955D84B554E49D5CA
+          9D099DAD42047BAA8E0E60FBD2191C8C3FACE035318CAD54D371AC5EDA1E3702
+          D20C9243FDE4CF1B74202D8A799CB252C87666FA6B15E717BCFD41AB005A6B68
+          AEC2164F33AE33DBF22AA0CBB27A3103FE840410C4203C3EAF95EBD2A64FFD8F
+          89DF448D1AF88B3BC600E3B832EBA93DA4264174386A3B86F1D5123E8A5D7930
+          B77DD71BC4EA0503F00C1DDD71709FD5D1A6C5A9541E7957095E0FE2123BA4F0
+          3A355BAF3A613BF0DC59938478CCAD35449CB51281314A4B0E792A59700ED992
+          0A56B31DA5747A24C4BD0B0660D3303E67EBDA7ACB24DBBC64C11E9E27230582
+          7472D91F84CC5C4688F1DF9F205DDE37EA6FE3E5C80DA7426981D9D83A29733B
+          BF6FF7125001B25180425B0A55813B261763C58200A0E3DE99CED24B7D3FD97D
+          E3828B785D0E15FFE59E2829E513042BE7FFDC83B34B61BAAB978BB0C3AB36F9
+          6B6201198E4E11C440B2B3E7AB7EC227C052BB61F1A7EF7F6800E2720C4E05D8
+          94935126A60F17CFFB4A7333A1122690FC674DEF7832DECFB93DC89AE9D966C3
+          4B00F08838CF04052FF1DAF4135FA22FF07947369EFE9BE52EB47F28000D175B
+          529666C61A0B928AAC335069765AF13F60811F526B7E9CA9CEA6CFEC60EC7FBE
+          6A331BC4B44B404CC5BD18EBF240557C9C2FC7FB80562D64D039AAE38E0F0580
+          DDDE6DB954520B076A01B1288877DF84A3F82F01E8F24C007C726AAEB9DA0E61
+          5F188A93A11DA8502A1D5A02A03F8801B555231BA688615AFEDC413EB2D5FEF6
+          050368AC4427E973ADCC594EB27B2E9514B1EB8A1A52062A938BD952F33177E5
+          3D66E6A4103F6B0BF1524D762D098DE45EA9280B08E9246DC93ABEDCD1509235
+          356C3C50C2FA0B025077F029764B6929B41D24008ABC66ECAF9793DE9E8BD5BC
+          335BFF229C1B40B2D8CEAAADF689E437EC83E056A80CA20B0655BB29E7959953
+          EE1FB799D0C7237CE57C73CE998939D10D32454AE1D5FF493C38E9A9A7E2A61B
+          DDECC4AC406E1BF2AC2B106C919BE75B8CD4D85176C8C23C5BE7642BC520E4F1
+          1DBC26F92C5FED5C6B493767718D913ABECADB7B359CBBD19F1300B57395B424
+          834B5CC3C8092B5C24C39964053DCE24DA69260053A79B76FB7C000E9EC0BE42
+          2FDEA5768752BA2AF0C4492A81F3EAF27B3E735D450B59B1C8CA83EF0D3D93C5
+          F59CF9C5795188E65C17A82D20D465D5C02315C5D41213357806AFC7EC845AC9
+          3F482C6BEAE703702365CE093C5D6E266D268FF2A48AA8A76A684C54E1388ECA
+          97816A74909735A08EDBCE43CBB3C7BF8BE82A474C57A1E2F88C742C49171B53
+          74C4AD6D8C4E952602539CDE2A95F5BD606F7B5E007230F8FCADE242780900B9
+          DDCE702D29FAF3628081B48BAD7E138F4F5551AD3519F054CAB97DFB1CBDCB39
+          29D41458252BD0C84BB6FBE877C4F08F7E1DDF5B3D8911F9E89D4EFC6CDCC6AF
+          4C0B9AA3761CC38C83EA0701C84D61E7541726E83BBDF23EB69E8763B5193C7C
+          93FADBF55179ECA3F24773D844E56C21BACD5326AE63BF76168DCE09C031D04F
+          4E6A92DE86C00CFBF29F5E5FC69FB4F734DD9797F1D04B05ACAD47F8569A66A6
+          8BD5595D373E08005B21E7D5088F556CDC659A71812A18F27F79F3FBFE335E23
+          E76AE2095E3EF10AFD9981AFD83285987817CB5D71F2FCB93E071B6E28E38FDA
+          39760C666AB893D1E42519F2D202235B5AEC690B011E26BF435755E6FB96CCE0
+          91F3BD7F1D8DB4798E24794E00F49F5C21C25DAF5571CB152E8ECC353127758A
+          75DC4E10C7F8D13BAD082FC71535EC25E027D984093640F70F216EAB176E1C9B
+          CF9E29C72E0B1B5EC9B6563DCE8ED70B58FF741EBB7EDD6A53F5118C796FD190
+          DB7D975AE84B3EFE0BF0CF134824E29B620000000049454E44AE426082
+        }
+        Transparent = True
+      end
+    end
+  end
+  object pnlButtons: TGroupBox
+    Left = 10
+    Height = 48
+    Top = 422
+    Width = 432
+    Align = alBottom
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    BorderSpacing.CellAlignHorizontal = ccaCenter
+    BorderSpacing.CellAlignVertical = ccaCenter
+    ChildSizing.LeftRightSpacing = 5
+    ChildSizing.HorizontalSpacing = 5
+    ChildSizing.EnlargeHorizontal = crsScaleChilds
+    ChildSizing.EnlargeVertical = crsScaleChilds
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 2
+    ClientHeight = 44
+    ClientWidth = 428
+    TabOrder = 0
+    TabStop = True
+    object btnCancel: TBitBtn
+      Left = 246
+      Height = 34
+      Top = 5
+      Width = 77
+      Align = alRight
+      AutoSize = True
+      BorderSpacing.Top = 5
+      BorderSpacing.Bottom = 5
+      Caption = 'Cancel'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000000000040000
+        0012000000210000002500000025000000260000002600000026000000260000
+        0026000000260000002500000025000000210000001200000004000000120000
+        004F0000007E0000008B0000008C0000008C0000008C0000008C0000008C0000
+        008C0000008C0000008C0000008B0000007E0000004E00000012000B9E800716
+        B6EE000CAEF2000BABF20009A6F20007A2F200059FF200039BF2000398F20000
+        96F2000196F2000194F2000092EE000042A80000007F000000211125C7F02441
+        E0FF001ED7FF0019D3FF0526DBFF0014CBFF0016C8FF0015C3FF000BBCFF0921
+        C7FF0006B1FF000AAEFF0004A2FF000093F00000008C00000025182FD0F5264A
+        EEFF0020E6FF0533F2FFB0C1EFFF1641F1FF0019D8FF0014D2FF1C40E5FFCFE1
+        FFFF2144E1FF0007B8FF0009ABFF000197F50000008D000000251D36D4F5294F
+        F7FF0028F8FFC0C7E4FFF1EDE0FFD9DFECFF0F3BF1FF0C34EBFFE2EBFCFFFFFF
+        FBFFEFF8FFFF2043E0FF0004ADFF000197F50000008E000000262039DAF52852
+        FFFFA0ACE2FFEEEADDFFE4E4E3FFF1EFE9FFD4DCF3FFCFD9F8FFFFFFFAFFFFFF
+        FFFFFFFFFFFFDEEDFFFF0F27C8FF000097F50000008E000000262341DDF53764
+        FFFF0334F7FFD7D7E0FFECEBE5FFEDECEBFFF4F4F1FFFBFAF7FFFEFEFDFFFFFF
+        FFFFF8FDFFFF2E54ECFF0008B7FF00049DF50000008E000000262945E1F54473
+        FFFF003DFFFF0537F8FFD2D6E8FFEEEEEBFFF1F1F1FFF9F9F9FFFFFFFEFFEAEF
+        FFFF1D46EFFF0012D1FF0012BFFF0007A0F50000008E000000262B4CE6F54D81
+        FFFF054BFFFF002CF6FFB0BAE8FFF0EFEBFFF1F1F1FFF7F7F7FFFFFFFEFFD4DF
+        FFFF012DEDFF0019D8FF0015C5FF0009A6F50000008E000000262F51E9F5568E
+        FFFF0031EBFFB6B8DCFFEEEDE4FFEBEBEAFFF3F3F0FFF9F9F6FFFEFEFDFFFFFF
+        FFFFE0EAFFFF0733EDFF0013C7FF000BAAF50000008E000000263558EEF54F77
+        ECFF9A98CBFFEDEBDEFFE5E5E3FFF1F0E9FFD3D7EEFFDFE3F4FFFFFFF9FFFFFF
+        FEFFFFFFFFFFD0DEFFFF0223D8FF000CAFF50000008D00000025385CF1F567A4
+        FFFF0F35D2FFD8D4D8FFEEEDE3FFD9D8E4FF0133F0FF0638F6FFEEEEF5FFFFFF
+        F9FFFAFBFFFF1C48F7FF0016CFFF0010B6F50000008C000000253A5FF4F56DAB
+        FFFF116EFFFF1136D3FFBDB9D4FF0633E3FF044AFFFF003CFFFF0534F5FFD6DC
+        F5FF0C3BF9FF001DE6FF001BD3FF0011B9F50000007D000000212E58F7EFBAE0
+        FFFF5CA0FFFF569AFFFF3A60E4FF4584FFFF3F76FFFF3669FFFF295AFFFF1944
+        F9FF1E45F6FF1D40EDFF1D38DBFF091DBFEF0000004B000000120025F56F2A55
+        F7E5375BF3EA3458F1EA3157EDEA2D4EEBEA294BE7EA2644E6EA2140E1EA1E3C
+        DEEA1A36DBEA1631D5EA1028CDE50010A9760000001200000004
+      }
+      Margin = 0
+      ModalResult = 2
+      Spacing = 5
+      TabOrder = 1
+    end
+    object btnGenerate: TBitBtn
+      Left = 328
+      Height = 34
+      Top = 5
+      Width = 95
+      Align = alRight
+      AutoSize = True
+      BorderSpacing.Top = 5
+      BorderSpacing.Bottom = 5
+      Caption = '&Generate'
+      Default = True
+      Enabled = False
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000000000000000
+        0000000000000000000100000006000000120000001D00000023000000230000
+        001E000000130000000700000001000000000000000000000000000000000000
+        000000000003000000100000002E000000560000007500000085000000860000
+        0076000000580000002F00000011000000030000000000000000000000000000
+        0002000000150012004F003D009C025800CE086700EC096600ED025400D00030
+        00AA0005009C0000008200000049000000170000000200000000000000010000
+        000F0044006C017300EA088800FF0F8D00FF138800FF1F7E00FF327200FF266D
+        00FF076200ED001D00A30000008E000000490000001100000001000000050059
+        005D028304F904A008FF009D00FF00A30DFF009A00FF009700FF009400FF1E7E
+        00FF396B00FF0F6900FB001C00A3000000820000002F00000006003D001D0681
+        07E80BA817FF01A10DFF38BF54FFDCF3E9FF7ADD9BFF009D03FF009900FF0098
+        00FF128500FF3A6C00FF056400ED0005009C0000005800000012006C007B24A8
+        2FFF08A91BFF2BB43EFFF6F0F5FFFCF6FAFFFFFFFFFF7DDE9CFF009E07FF009B
+        02FF009900FF217D00FF266E00FF003100AA000000770000001E027F00C239BF
+        4FFF20AA2AFFECE6EAFFF5EEF4FFFFF7FFFFFFFBFFFFFFFFFFFF7DDD9CFF009F
+        09FF009B02FF029400FF367100FF005700D100000086000000240F9014E53BBE
+        50FFAAC9A7FFFAEAF9FFD1E1D1FF1EAF33FFDAEFDDFFFFFFFFFFFFFFFFFF7BDD
+        9BFF009E07FF009A00FF297C00FF086900EF0000008600000024119315E45DD2
+        7CFF17A325FF8EBF88FF11AB24FF1BB940FF0BAD27FFDBEFDFFFFFFFFFFFFFFF
+        FFFF7BDB99FF009E02FF1B8600FF086B00EF000000760000001E008700BF77DC
+        95FF2CC55AFF1FBB45FF29C456FF26C04FFF22BB45FF0BAC26FFDAEEDDFFFFFC
+        FFFFFFFDFFFF78DB96FF138C00FF015E00CF00000056000000120082007253C6
+        6CFF61D889FF2ECA62FF2FC961FF2CC559FF27C04DFF20B942FF09AA22FFDAED
+        DDFFFFF9FFFFCAECD7FF0E8E08FF0040009C0000002E000000060094000D0E98
+        14E483E5A7FF4CD379FF2ECB63FF2FC960FF29C354FF22BB46FF1CB53AFF0BA8
+        1FFF7ACC85FF11AD24FF017300EA0012004F000000100000000100000000009D
+        004222A52BF881E3A6FF5ED888FF31CA63FF27C353FF21BC47FF1DB63BFF16B0
+        2EFF0FA920FF028805F9004A006C000000160000000200000000000000000000
+        0000009D00420F9914E456CA73FF77E09CFF59D37EFF43C866FF36C154FF1EAA
+        2FFF058405E9005B005E0000000F000000030000000000000000000000000000
+        0000000000000094000D00840072028A02BF139719E40F9316E5028301C20070
+        007B003B001E0000000600000001000000000000000000000000
+      }
+      Margin = 0
+      OnClick = btnGenerateClick
+      Spacing = 5
+      TabOrder = 0
+    end
+  end
+  object pcPages: TPageControl
+    Left = 0
+    Height = 344
+    Top = 68
+    Width = 452
+    ActivePage = tsInfo
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 2
+    object tsInfo: TTabSheet
+      Caption = 'Information'
+      ClientHeight = 313
+      ClientWidth = 448
+      object Panel2: TPanel
+        Left = 10
+        Height = 34
+        Top = 136
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 4
+        object Label2: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Country'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtCountry: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 2
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel3: TPanel
+        Left = 10
+        Height = 34
+        Top = 102
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 3
+        object Label3: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'State'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtState: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel4: TPanel
+        Left = 10
+        Height = 34
+        Top = 0
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 0
+        object Label4: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Organization'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtOrgName: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel5: TPanel
+        Left = 10
+        Height = 34
+        Top = 34
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 1
+        object Label5: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Unit or Office'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtOrgUnit: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel6: TPanel
+        Left = 10
+        Height = 34
+        Top = 170
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        Caption = 'Panel2'
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 5
+        object Label6: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Domain'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtDomain: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel7: TPanel
+        Left = 10
+        Height = 34
+        Top = 204
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        Caption = 'Panel2'
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 6
+        object Label7: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Email'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtEmail: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel8: TPanel
+        Left = 10
+        Height = 34
+        Top = 238
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        Caption = 'Panel2'
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 7
+        object Label8: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Password'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtPassword: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          EchoMode = emPassword
+          MaxLength = 200
+          OnChange = txtCountryChange
+          PasswordChar = '*'
+          TabOrder = 0
+        end
+      end
+      object Panel9: TPanel
+        Left = 10
+        Height = 34
+        Top = 272
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        Caption = 'Panel2'
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 8
+        object Label9: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Name [Optional]'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtName: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+      object Panel10: TPanel
+        Left = 10
+        Height = 34
+        Top = 68
+        Width = 428
+        Align = alTop
+        BorderSpacing.Left = 10
+        BorderSpacing.Right = 10
+        BevelOuter = bvNone
+        ClientHeight = 34
+        ClientWidth = 428
+        FullRepaint = False
+        TabOrder = 2
+        object Label10: TLabel
+          Left = 4
+          Height = 34
+          Top = 0
+          Width = 120
+          Align = alLeft
+          Alignment = taRightJustify
+          AutoSize = False
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 10
+          Caption = 'Town'
+          Layout = tlCenter
+          ParentColor = False
+        end
+        object txtTown: TEdit
+          Left = 134
+          Height = 30
+          Top = 2
+          Width = 290
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Top = 2
+          BorderSpacing.Right = 4
+          BorderSpacing.Bottom = 2
+          MaxLength = 200
+          OnChange = txtCountryChange
+          TabOrder = 0
+        end
+      end
+    end
+    object tsRequest: TTabSheet
+      Caption = 'Request'
+      ClientHeight = 313
+      ClientWidth = 448
+      object txtRequest: TMemo
+        Left = 0
+        Height = 305
+        Top = 0
+        Width = 446
+        Align = alClient
+        ScrollBars = ssAutoBoth
+        TabOrder = 0
+        WantTabs = True
+        WordWrap = False
+      end
+    end
+  end
+  object procCertReq: TProcess
+    Active = False
+    Options = [poUsePipes, poStderrToOutPut, poNoConsole, poDefaultErrorMode]
+    Priority = ppNormal
+    StartupOptions = []
+    ShowWindow = swoNone
+    WindowColumns = 0
+    WindowHeight = 0
+    WindowLeft = 0
+    WindowRows = 0
+    WindowTop = 0
+    WindowWidth = 0
+    FillAttribute = 0
+    Left = 32
+    Top = 232
+  end
+end

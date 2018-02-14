@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1232330848"/>
+  <Params Value=" -MObjFPC -Sgi -CX -O1 -g -gl -WG -vewnhi -l -Fu/home/atbrunner/Pascal/Source/Libraries/Core/ -Fu/home/atbrunner/Pascal/Source/Libraries/MatrixMemory/ -Fu/home/atbrunner/Pascal/Lazarus/lcl/units/x86_64-linux/ -Fu/home/atbrunner/Pascal/Lazarus/lcl/units/x86_64-linux/gtk2/ -Fu/home/atbrunner/Pascal/Lazarus/packager/units/x86_64-linux/ -Fu/home/atbrunner/Pascal/Source/Test/ -Fu. -o/home/atbrunner/Pascal/Source/Test/TestApplication -dLCL -dLCLgtk2 TestApplication.lpr"/>
+</CONFIG>

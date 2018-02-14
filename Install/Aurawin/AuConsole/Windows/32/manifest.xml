@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<manifest>
+  <product>AuConsole</product>
+  <company>Aurawin LLC</company>
+  <icon>AuConsole.ico</icon>
+  <icon-index>0</icon-index>
+  <image>AuConsole.jpg</image>
+  <program>AuConsole.exe</program>
+  <links>
+    <link>
+      <name>AuConsole</name>
+      <folder>$StartMenuPrograms\Aurawin\AuConsole\</folder>
+      <file>AuConsole.exe</file>
+      <icon>AuConsole.ico</icon>
+      <icon-index>0</icon-index>
+      <des>Aurawin Social Computing Server configuration software</des>
+    </link>
+    <link>
+      <name>Readme</name>
+      <folder>$StartMenuPrograms\Aurawin\AuConsole\</folder>
+      <file>Readme.txt</file>
+      <des>Aurawin Social Computing Server configuration Readme file</des>
+    </link>
+    <link>
+      <name>License</name>
+      <folder>$StartMenuPrograms\Aurawin\AuConsole\</folder>
+      <file>License.txt</file>
+      <des>Aurawin Social Computing Server configuration License file</des>
+    </link>
+  </links>
+  <files>
+    <file>
+      <name>AuConsole.ico</name>
+      <target>$ProgramFiles\Aurawin\AuConsole\</target>
+    </file>
+    <file>
+      <name>AuConsole.jpg</name>
+      <target>$ProgramFiles\Aurawin\AuConsole\</target>
+    </file>
+    <file>
+      <name>AuConsole.exe</name>
+      <target>$ProgramFiles\Aurawin\AuConsole\</target>
+    </file>
+    <file>
+      <name>Readme.txt</name>
+      <target>$ProgramFiles\Aurawin\AuConsole\</target>
+    </file>
+    <file>
+      <name>License.txt</name>
+      <target>$ProgramFiles\Aurawin\AuConsole\</target>
+    </file>
+    <file>
+      <name>remove.bat</name>
+      <target>$ProgramFiles\Aurawin\AuConsole\</target>
+    </file>
+  </files>
+</manifest>

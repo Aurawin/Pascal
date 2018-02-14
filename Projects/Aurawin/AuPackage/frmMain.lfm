@@ -1,0 +1,348 @@
+object PackageForm: TPackageForm
+  Left = 400
+  Height = 374
+  Top = 213
+  Width = 446
+  Caption = 'Aurawin Package Installation'
+  ClientHeight = 374
+  ClientWidth = 446
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.1'
+  object pnlButtons: TPanel
+    Left = 4
+    Height = 40
+    Top = 330
+    Width = 438
+    Align = alBottom
+    BorderSpacing.Around = 4
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ChildSizing.LeftRightSpacing = 3
+    ChildSizing.TopBottomSpacing = 3
+    ClientHeight = 40
+    ClientWidth = 438
+    FullRepaint = False
+    TabOrder = 0
+    object btnNext: TButton
+      Left = 283
+      Height = 30
+      Top = 5
+      Width = 75
+      Align = alRight
+      Caption = 'Next'
+      OnClick = btnNextClick
+      TabOrder = 0
+    end
+    object btnCancel: TButton
+      Left = 358
+      Height = 30
+      Top = 5
+      Width = 75
+      Align = alRight
+      Caption = 'Exit'
+      OnClick = btnCancelClick
+      TabOrder = 1
+    end
+  end
+  object pcPackage: TPageControl
+    Left = 4
+    Height = 234
+    Top = 92
+    Width = 438
+    ActivePage = tsCopyFiles
+    Align = alClient
+    BorderSpacing.Around = 4
+    ShowTabs = False
+    TabIndex = 1
+    TabOrder = 1
+    object tsWelcome: TTabSheet
+      Caption = 'tsWelcome'
+      ClientHeight = 231
+      ClientWidth = 406
+      object txtWelcome: TMemo
+        Left = 0
+        Height = 229
+        Top = 1
+        Width = 405
+        Align = alClient
+        BorderSpacing.Top = 1
+        BorderSpacing.Right = 1
+        BorderSpacing.Bottom = 1
+        ReadOnly = True
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object tsCopyFiles: TTabSheet
+      Caption = 'tsCopyFiles'
+      ClientHeight = 226
+      ClientWidth = 430
+      object pbIndex: TProgressBar
+        Left = 72
+        Height = 20
+        Top = 149
+        Width = 298
+        Anchors = [akTop, akLeft, akRight]
+        Smooth = True
+        Step = 1
+        TabOrder = 0
+      end
+      object pbTotal: TProgressBar
+        Left = 72
+        Height = 20
+        Top = 181
+        Width = 298
+        Anchors = [akTop, akLeft, akRight]
+        Smooth = True
+        Step = 1
+        TabOrder = 1
+      end
+      object pnlSource: TPanel
+        Left = 0
+        Height = 50
+        Top = 14
+        Width = 430
+        Align = alTop
+        BorderSpacing.Top = 14
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 430
+        TabOrder = 2
+        object lblSource: TLabel
+          Left = 4
+          Height = 24
+          Top = 26
+          Width = 422
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 4
+          Layout = tlCenter
+          ParentColor = False
+          WordWrap = True
+        end
+        object pnlCopySource: TPanel
+          Left = 0
+          Height = 26
+          Top = 0
+          Width = 430
+          Align = alTop
+          Alignment = taLeftJustify
+          BevelInner = bvRaised
+          BevelOuter = bvLowered
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+      object pnlSource1: TPanel
+        Left = 0
+        Height = 50
+        Top = 68
+        Width = 430
+        Align = alTop
+        BorderSpacing.Top = 4
+        BevelOuter = bvNone
+        ClientHeight = 50
+        ClientWidth = 430
+        TabOrder = 3
+        object lblDest: TLabel
+          Left = 4
+          Height = 24
+          Top = 26
+          Width = 422
+          Align = alClient
+          BorderSpacing.Left = 4
+          BorderSpacing.Right = 4
+          Layout = tlCenter
+          ParentColor = False
+          WordWrap = True
+        end
+        object pnlCopyDest: TPanel
+          Left = 0
+          Height = 26
+          Top = 0
+          Width = 430
+          Align = alTop
+          Alignment = taLeftJustify
+          BevelInner = bvRaised
+          BevelOuter = bvLowered
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 0
+        end
+      end
+    end
+    object tsFiles: TTabSheet
+      Caption = 'tsFiles'
+      ClientHeight = 231
+      ClientWidth = 406
+      object lvFiles: TListView
+        Left = 0
+        Height = 231
+        Top = 0
+        Width = 406
+        Align = alClient
+        Columns = <        
+          item
+            AutoSize = True
+            Caption = 'File'
+            Width = 402
+          end        
+          item
+            AutoSize = True
+            Caption = 'Target'
+            Width = 46
+          end        
+          item
+            AutoSize = True
+            Caption = 'Size'
+            Width = 32
+          end>
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+        ViewStyle = vsReport
+      end
+    end
+    object tsFinished: TTabSheet
+      ClientHeight = 231
+      ClientWidth = 406
+      object lblDone: TLabel
+        Left = 0
+        Height = 231
+        Top = 0
+        Width = 406
+        Align = alClient
+        Alignment = taCenter
+        Font.Height = 27
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object tsPleaseClose: TTabSheet
+      Caption = 'tsPleaseClose'
+      ClientHeight = 231
+      ClientWidth = 406
+      object lblPlease: TLabel
+        Left = 0
+        Height = 231
+        Top = 0
+        Width = 406
+        Align = alClient
+        Alignment = taCenter
+        Font.Height = 27
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblCloseFile: TLabel
+        Left = 16
+        Height = 25
+        Top = 141
+        Width = 368
+        Anchors = [akTop, akLeft, akRight]
+        AutoSize = False
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object tsCanceled: TTabSheet
+      Caption = 'tsCanceled'
+      ClientHeight = 231
+      ClientWidth = 406
+      object lblCanceled: TLabel
+        Left = 0
+        Height = 231
+        Top = 0
+        Width = 406
+        Align = alClient
+        Alignment = taCenter
+        Font.Height = 27
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+  object pnlHeader: TPanel
+    Left = 4
+    Height = 84
+    Top = 4
+    Width = 438
+    Align = alTop
+    BorderSpacing.Around = 4
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 84
+    ClientWidth = 438
+    Color = clWhite
+    FullRepaint = False
+    ParentColor = False
+    TabOrder = 2
+    object pnlRight: TPanel
+      Left = 83
+      Height = 76
+      Top = 6
+      Width = 349
+      Align = alClient
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 4
+      BevelOuter = bvNone
+      ClientHeight = 76
+      ClientWidth = 349
+      FullRepaint = False
+      TabOrder = 0
+      object lblTitle: TLabel
+        Left = 0
+        Height = 47
+        Top = 0
+        Width = 349
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Font.Height = 37
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblDescription: TLabel
+        Left = 5
+        Height = 1
+        Top = 47
+        Width = 339
+        Align = alTop
+        BorderSpacing.Left = 5
+        BorderSpacing.Right = 5
+        ParentColor = False
+      end
+    end
+    object pnlImage: TPanel
+      Left = 2
+      Height = 80
+      Top = 2
+      Width = 81
+      Align = alLeft
+      BevelOuter = bvNone
+      ClientHeight = 80
+      ClientWidth = 81
+      FullRepaint = False
+      TabOrder = 1
+      object imgLicense: TImage
+        Left = 0
+        Height = 80
+        Top = 0
+        Width = 80
+        AntialiasingMode = amOn
+        Align = alLeft
+        Center = True
+        Proportional = True
+      end
+    end
+  end
+end

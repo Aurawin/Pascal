@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="AuCloud.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="10"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/auLang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="3" Y="6"/>
+        <UsageCount Value="200"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/auSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="10" Y="2"/>
+        <UsageCount Value="200"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Aurawin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1541"/>
+        <CursorPos X="35" Y="1569"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="1">
+          <Item0 X="9" Y="989" ID="2"/>
+        </Bookmarks>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmResources.lfm"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="200"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmResources.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmResource"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="97"/>
+        <CursorPos X="58" Y="113"/>
+        <UsageCount Value="200"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/uEngine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="279"/>
+        <CursorPos X="17" Y="302"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="2">
+          <Item0 Y="493" ID="4"/>
+          <Item1 X="28" Y="221" ID="5"/>
+        </Bookmarks>
+      </Unit7>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>

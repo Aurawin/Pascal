@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="Aurawin SCS Service"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2015"/>
+      <MinorVersionNr Value="5"/>
+      <RevisionNr Value="21"/>
+      <BuildNr Value="469"/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Social Computing Server Service Application" InternalName="SCS" LegalCopyright="2012-2015" LegalTrademarks="RSR, SCS" OriginalFilename="AuSCS" ProductName="Aurawin SCS" ProductVersion="2015"/>
+    </VersionInfo>
+    <MacroValues Count="1">
+      <Macro1 Name="LCLWidgetType" Value="nogui"/>
+    </MacroValues>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+      <SharedMatrixOptions Count="2">
+        <Item1 ID="060132939195" Modes="default" Type="IDEMacro" MacroName="LCLWidgetType" Value="nogui"/>
+        <Item2 ID="946701208110" Modes="default" Value="-dEnableUTF8RTL"/>
+      </SharedMatrixOptions>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <CommandLineParams Value="-r"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="-r"/>
+            <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="LazDaemon"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="FCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="AuService.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos Y="42"/>
+        <UsageCount Value="203"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
+        <ComponentName Value="AurawinSCS"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="159"/>
+        <CursorPos X="36" Y="183"/>
+        <UsageCount Value="203"/>
+        <Bookmarks Count="3">
+          <Item0 Y="721" ID="4"/>
+          <Item1 Y="31" ID="1"/>
+          <Item2 X="22" Y="793" ID="2"/>
+        </Bookmarks>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
+        <ComponentName Value="dmAurawin"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <UsageCount Value="203"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\SCS\Service\uDaemon.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\SCS\Service\uService.pas"/>
+        <IsPartOfProject Value="True"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit4>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="AuService"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="..\..\..\..\AppBuild\Linux\64;..\..\..\..\RSRBuild\Linux\64;..\..\..\..\..\Projects\SCS;..\..\..\..\..\Projects\SCS\Providers;..\..\..\..\..\Projects\SCS\Core;..\..\..\..\..\Projects\SCS\FileManager;..\..\..\..\..\Projects\SCS\Daemons;..\..\..\..\..\Pascal;$(ProjOutDir)"/>
+      <Libraries Value="..\..\..\..\..\Projects\SCS\Daemons;..\..\..\..\..\Pascal"/>
+      <OtherUnitFiles Value="..\..\..\..\..\Projects\SCS;..\..\..\..\..\Projects\SCS\Console;..\..\..\..\..\Projects\SCS\Providers;..\..\..\..\..\Projects\SCS\Daemons;..\..\..\..\..\Projects\SCS\FileManager;..\..\..\..\..\Projects\SCS\Core;..\..\..\..\..\Pascal;..\..\..\..\..\Projects\Aurawin\SCS\Service"/>
+      <UnitOutputDirectory Value=".Output"/>
+    </SearchPaths>
+    <Parsing>
+      <Style Value="1"/>
+      <SyntaxOptions>
+        <AllowLabel Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseValgrind Value="True"/>
+        <GenGProfCode Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <LinkSmart Value="True"/>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-Cs$150000
+-duseEventQueues
+-d_RSR_DEBUG
+-FcUTF8"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

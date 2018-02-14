@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=Aurawin Console
+GenericName=Aurawin Console Application
+Comment=Main application to manage Aurawin server.
+Exec=AuConsole
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=AuConsole.png
+Categories=Network;
+StartupNotify=true
+
+
+

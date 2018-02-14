@@ -1,0 +1,13 @@
+GUI.Lock;
+Try
+  gbCRNode.Visible:=false;
+  txtClusterNodeName.Clear;
+  cbClusterNodeDisk.Checked:=false;
+  txtCRNDisk.Clear;
+  txtCstrIP0.Clear;
+  txtCstrIP1.Clear;
+  txtCstrIP2.Clear;
+  txtCstrIP3.Clear;
+finally
+  GUI.Unlock;
+end;

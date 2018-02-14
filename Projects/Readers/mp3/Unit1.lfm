@@ -1,0 +1,23 @@
+object Form1: TForm1
+  Left = 209
+  Height = 548
+  Top = 143
+  Width = 527
+  Caption = 'Form1'
+  ClientHeight = 548
+  ClientWidth = 527
+  OnCreate = FormCreate
+  LCLVersion = '0.9.31'
+  Visible = True
+  object txtDebug: TMemo
+    Left = 0
+    Height = 548
+    Top = 0
+    Width = 527
+    Align = alClient
+    Lines.Strings = (
+      'txtDebug'
+    )
+    TabOrder = 0
+  end
+end

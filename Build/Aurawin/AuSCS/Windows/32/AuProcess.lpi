@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AuProcess"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2013"/>
+      <MinorVersionNr Value="2"/>
+      <RevisionNr Value="26"/>
+      <BuildNr Value="1079"/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="AuProcess" InternalName="AuProcess" LegalCopyright="2013" LegalTrademarks="RSR, Aurawin" OriginalFilename="AuProcess" ProductName="Aurawin Social Computing Server" ProductVersion="2012"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="service=35"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LazUtils"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="AuProcess.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AuProcess"/>
+      </Unit0>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="AuProcess"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../../../../../Projects/SCS/Core;../../../../RSRBuild/Linux/64;../../../../AppBuild/Linux/64"/>
+      <Libraries Value="../../../../../Libraries;../../../../../Libraries/Encryption;../../../../../Libraries/Core;../../../../../Libraries/Database;../../../../../Libraries/RSR;../../../../../Projects/SCS;../../../../../Projects/SCS/Daemons;../../../../../Projects/SCS/Stored;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Providers"/>
+      <OtherUnitFiles Value="../../../../../Libraries;../../../../../Libraries/IM;../../../../../Libraries/Encryption;../../../../../Libraries/Core;../../../../../Libraries/Database;../../../../../Libraries/RSR;../../../../../Projects/SCS;../../../../../Projects/SCS/Daemons;../../../../../Projects/SCS/Stored;../../../../../Projects/SCS/Core;../../../../../Projects/SCS/Providers;../../../../../Libraries/Multimedia"/>
+      <UnitOutputDirectory Value=".Output"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <StackSize Value="4424832"/>
+      <TargetCPU Value="x86_64"/>
+      <TargetOS Value="linux"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseValgrind Value="True"/>
+        <GenGProfCode Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+        <ShoLineNum Value="True"/>
+      </Verbosity>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CustomOptions Value="-dxSyncRSR
+-dxRSR_DEBUG
+-dFPC_USE_LIBC
+-dxDROP_ALL_MAIL_RELAY
+-duseEventQueues
+-dxRSR_NO_LOCK"/>
+      <CompilerPath Value="$(CompPath)"/>
+      <ExecuteBefore>
+        <Command Value="/bin/bash $(ProjPath)/prebuild.sh"/>
+      </ExecuteBefore>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3" IgnoreAll="True">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,149 @@
+object LicenseForm: TLicenseForm
+  Left = 368
+  Height = 483
+  Top = 109
+  Width = 600
+  Caption = 'License Agreement'
+  ClientHeight = 483
+  ClientWidth = 600
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.3'
+  object pnlHeader: TPanel
+    Left = 4
+    Height = 84
+    Top = 4
+    Width = 592
+    Align = alTop
+    BorderSpacing.Around = 4
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 84
+    ClientWidth = 592
+    Color = clWhite
+    FullRepaint = False
+    ParentColor = False
+    TabOrder = 0
+    object pnlRight: TPanel
+      Left = 83
+      Height = 76
+      Top = 6
+      Width = 503
+      Align = alClient
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 4
+      BevelOuter = bvNone
+      ClientHeight = 76
+      ClientWidth = 503
+      FullRepaint = False
+      TabOrder = 0
+      object lblTitle: TLabel
+        Left = 0
+        Height = 47
+        Top = 0
+        Width = 503
+        Align = alTop
+        Alignment = taCenter
+        AutoSize = False
+        Font.Height = 37
+        Font.Style = [fsBold]
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+      object lblDescription: TLabel
+        Left = 5
+        Height = 1
+        Top = 47
+        Width = 493
+        Align = alTop
+        BorderSpacing.Left = 5
+        BorderSpacing.Right = 5
+        ParentColor = False
+      end
+    end
+    object pnlImage: TPanel
+      Left = 2
+      Height = 80
+      Top = 2
+      Width = 81
+      Align = alLeft
+      BevelOuter = bvNone
+      ClientHeight = 80
+      ClientWidth = 81
+      FullRepaint = False
+      TabOrder = 1
+      object imgLicense: TImage
+        Left = 0
+        Height = 80
+        Top = 0
+        Width = 80
+        AntialiasingMode = amOn
+        Align = alLeft
+        Center = True
+        Proportional = True
+      end
+    end
+  end
+  object pnlText: TPanel
+    Left = 4
+    Height = 343
+    Top = 92
+    Width = 592
+    Align = alClient
+    BorderSpacing.Around = 4
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    Caption = 'pnlText'
+    ClientHeight = 343
+    ClientWidth = 592
+    FullRepaint = False
+    TabOrder = 1
+    object txtLicense: TMemo
+      Left = 2
+      Height = 339
+      Top = 2
+      Width = 588
+      Align = alClient
+      BorderStyle = bsNone
+      ScrollBars = ssAutoVertical
+      TabOrder = 0
+    end
+  end
+  object pnlButtons: TPanel
+    Left = 4
+    Height = 40
+    Top = 439
+    Width = 592
+    Align = alBottom
+    BorderSpacing.Around = 4
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ChildSizing.LeftRightSpacing = 3
+    ChildSizing.TopBottomSpacing = 3
+    ClientHeight = 40
+    ClientWidth = 592
+    FullRepaint = False
+    TabOrder = 2
+    object btnAccept: TButton
+      Left = 437
+      Height = 30
+      Top = 5
+      Width = 75
+      Align = alRight
+      Caption = 'I Agree'
+      ModalResult = 1
+      TabOrder = 0
+    end
+    object btnCancel: TButton
+      Left = 512
+      Height = 30
+      Top = 5
+      Width = 75
+      Align = alRight
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 1
+    end
+  end
+end

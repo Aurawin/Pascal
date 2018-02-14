@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AuCloud"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+        <UIAccess Value="True"/>
+        <TextName Value="com.aurawin.aucloud"/>
+        <TextDesc Value="Aurawin Cloud Synchronization Utility"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2017"/>
+      <MinorVersionNr Value="12"/>
+      <RevisionNr Value="5"/>
+      <BuildNr Value="1222"/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Cloud Synchronization Software" InternalName="AuCloud" LegalCopyright="2012-2017" LegalTrademarks="Aurawin, RSR" OriginalFilename="AuCloud.exe" ProductName="Aurawin Desktop Synchronization" ProductVersion="2017"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="service=308"/>
+        <LaunchingApplication PathPlusParams="\usr\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="AuCloud.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\auLang.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\auSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\frmMain.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Aurawin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\frmResources.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\frmResources.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmResource"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuCloud\uEngine.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit7>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="AuCloud"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../../../../RSRBuild/Windows/32;../../../../AppBuild/Windows/32;../../../../../Projects/SCS/Core"/>
+      <OtherUnitFiles Value="../../../../../Projects/Aurawin/AuCloud;../../../../../Projects/SCS/Stored;../../../../../Projects/SCS/Core;../../../../../Pascal"/>
+      <UnitOutputDirectory Value=".Output/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Checks>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <HeapSize Value="2097152"/>
+      <StackSize Value="2097152"/>
+      <TargetCPU Value="i386"/>
+      <TargetOS Value="win32"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <StripSymbols Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+      </Verbosity>
+      <CustomOptions Value="-dxSyncRSR
+-dRSR_NO_LOCK
+-dxDebug
+-dxCore_Debug
+-dxBuffer_Debug"/>
+      <ExecuteBefore>
+        <Command Value="$(ProjPath)/prebuild.bat"/>
+        <CompileReasons Run="False"/>
+      </ExecuteBefore>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

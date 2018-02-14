@@ -1,0 +1,290 @@
+object DBExceptionForm: TDBExceptionForm
+  Left = 337
+  Height = 336
+  Top = 221
+  Width = 488
+  ActiveControl = pnlTop
+  BorderIcons = [biSystemMenu]
+  Caption = 'Aurawin Database Exception'
+  ClientHeight = 336
+  ClientWidth = 488
+  Color = clForm
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '0.9.31'
+  object pnlButtons: TPanel
+    Left = 10
+    Height = 50
+    Top = 276
+    Width = 468
+    Align = alBottom
+    BorderSpacing.Left = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 50
+    ClientWidth = 468
+    TabOrder = 2
+    TabStop = True
+    object btnLogin: TBitBtn
+      Left = 316
+      Height = 36
+      Top = 7
+      Width = 145
+      Align = alRight
+      Anchors = [akTop, akRight]
+      AutoSize = True
+      BorderSpacing.Top = 5
+      BorderSpacing.Right = 5
+      BorderSpacing.Bottom = 5
+      Caption = '&Acknowledged'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000000000000000
+        0000000000000000000100000006000000120000001D00000023000000230000
+        001E000000130000000700000001000000000000000000000000000000000000
+        000000000003000000100000002E000000560000007500000085000000860000
+        0076000000580000002F00000011000000030000000000000000000000000000
+        0002000000150012004F003D009C025800CE086700EC096600ED025400D00030
+        00AA0005009C0000008200000049000000170000000200000000000000010000
+        000F0044006C017300EA088800FF0F8D00FF138800FF1F7E00FF327200FF266D
+        00FF076200ED001D00A30000008E000000490000001100000001000000050059
+        005D028304F904A008FF009D00FF00A30DFF009A00FF009700FF009400FF1E7E
+        00FF396B00FF0F6900FB001C00A3000000820000002F00000006003D001D0681
+        07E80BA817FF01A10DFF38BF54FFDCF3E9FF7ADD9BFF009D03FF009900FF0098
+        00FF128500FF3A6C00FF056400ED0005009C0000005800000012006C007B24A8
+        2FFF08A91BFF2BB43EFFF6F0F5FFFCF6FAFFFFFFFFFF7DDE9CFF009E07FF009B
+        02FF009900FF217D00FF266E00FF003100AA000000770000001E027F00C239BF
+        4FFF20AA2AFFECE6EAFFF5EEF4FFFFF7FFFFFFFBFFFFFFFFFFFF7DDD9CFF009F
+        09FF009B02FF029400FF367100FF005700D100000086000000240F9014E53BBE
+        50FFAAC9A7FFFAEAF9FFD1E1D1FF1EAF33FFDAEFDDFFFFFFFFFFFFFFFFFF7BDD
+        9BFF009E07FF009A00FF297C00FF086900EF0000008600000024119315E45DD2
+        7CFF17A325FF8EBF88FF11AB24FF1BB940FF0BAD27FFDBEFDFFFFFFFFFFFFFFF
+        FFFF7BDB99FF009E02FF1B8600FF086B00EF000000760000001E008700BF77DC
+        95FF2CC55AFF1FBB45FF29C456FF26C04FFF22BB45FF0BAC26FFDAEEDDFFFFFC
+        FFFFFFFDFFFF78DB96FF138C00FF015E00CF00000056000000120082007253C6
+        6CFF61D889FF2ECA62FF2FC961FF2CC559FF27C04DFF20B942FF09AA22FFDAED
+        DDFFFFF9FFFFCAECD7FF0E8E08FF0040009C0000002E000000060094000D0E98
+        14E483E5A7FF4CD379FF2ECB63FF2FC960FF29C354FF22BB46FF1CB53AFF0BA8
+        1FFF7ACC85FF11AD24FF017300EA0012004F000000100000000100000000009D
+        004222A52BF881E3A6FF5ED888FF31CA63FF27C353FF21BC47FF1DB63BFF16B0
+        2EFF0FA920FF028805F9004A006C000000160000000200000000000000000000
+        0000009D00420F9914E456CA73FF77E09CFF59D37EFF43C866FF36C154FF1EAA
+        2FFF058405E9005B005E0000000F000000030000000000000000000000000000
+        0000000000000094000D00840072028A02BF139719E40F9316E5028301C20070
+        007B003B001E0000000600000001000000000000000000000000
+      }
+      Margin = 7
+      ModalResult = 1
+      Spacing = 5
+      TabOrder = 0
+    end
+  end
+  object pnlBody: TPanel
+    Left = 10
+    Height = 154
+    Top = 112
+    Width = 468
+    Align = alClient
+    BorderSpacing.Left = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 154
+    ClientWidth = 468
+    TabOrder = 1
+    TabStop = True
+    object txtMessage: TMemo
+      Left = 4
+      Height = 146
+      Top = 4
+      Width = 460
+      Align = alClient
+      BorderSpacing.Left = 2
+      BorderSpacing.Top = 2
+      BorderSpacing.Right = 2
+      BorderSpacing.Bottom = 2
+      BorderSpacing.CellAlignHorizontal = ccaCenter
+      BorderStyle = bsNone
+      Color = clForm
+      ParentFont = False
+      ReadOnly = True
+      ScrollBars = ssAutoBoth
+      TabOrder = 0
+      WantTabs = True
+      WordWrap = False
+    end
+  end
+  object pnlTop: TPanel
+    Left = 10
+    Height = 92
+    Top = 10
+    Width = 468
+    Align = alTop
+    AutoSize = True
+    BorderSpacing.Left = 10
+    BorderSpacing.Top = 10
+    BorderSpacing.Right = 10
+    BorderSpacing.Bottom = 10
+    BevelInner = bvRaised
+    BevelOuter = bvLowered
+    ClientHeight = 92
+    ClientWidth = 468
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    TabStop = True
+    object Panel1: TPanel
+      Left = 2
+      Height = 22
+      Top = 2
+      Width = 464
+      Align = alTop
+      AutoSize = True
+      BevelInner = bvRaised
+      BevelOuter = bvLowered
+      ClientHeight = 22
+      ClientWidth = 464
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 4
+        Height = 18
+        Top = 2
+        Width = 71
+        Align = alLeft
+        Alignment = taRightJustify
+        AutoSize = False
+        BorderSpacing.Left = 2
+        Caption = 'Module'
+        Layout = tlCenter
+        ParentColor = False
+      end
+      object lbModule: TLabel
+        Left = 85
+        Height = 18
+        Top = 2
+        Width = 377
+        Align = alClient
+        BorderSpacing.Left = 10
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel2: TPanel
+      Left = 2
+      Height = 22
+      Top = 24
+      Width = 464
+      Align = alTop
+      AutoSize = True
+      BevelInner = bvRaised
+      BevelOuter = bvLowered
+      ClientHeight = 22
+      ClientWidth = 464
+      TabOrder = 1
+      object Label2: TLabel
+        Left = 4
+        Height = 18
+        Top = 2
+        Width = 71
+        Align = alLeft
+        Alignment = taRightJustify
+        AutoSize = False
+        BorderSpacing.Left = 2
+        Caption = 'Location'
+        Layout = tlCenter
+        ParentColor = False
+      end
+      object lbLocation: TLabel
+        Left = 85
+        Height = 18
+        Top = 2
+        Width = 377
+        Align = alClient
+        BorderSpacing.Left = 10
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel3: TPanel
+      Left = 2
+      Height = 22
+      Top = 46
+      Width = 464
+      Align = alTop
+      AutoSize = True
+      BevelInner = bvRaised
+      BevelOuter = bvLowered
+      ClientHeight = 22
+      ClientWidth = 464
+      TabOrder = 2
+      object Label3: TLabel
+        Left = 4
+        Height = 18
+        Top = 2
+        Width = 71
+        Align = alLeft
+        Alignment = taRightJustify
+        AutoSize = False
+        BorderSpacing.Left = 2
+        Caption = 'Table'
+        Layout = tlCenter
+        ParentColor = False
+      end
+      object lbTable: TLabel
+        Left = 85
+        Height = 18
+        Top = 2
+        Width = 377
+        Align = alClient
+        BorderSpacing.Left = 10
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+    object Panel4: TPanel
+      Left = 2
+      Height = 22
+      Top = 68
+      Width = 464
+      Align = alTop
+      AutoSize = True
+      BevelInner = bvRaised
+      BevelOuter = bvLowered
+      ClientHeight = 22
+      ClientWidth = 464
+      TabOrder = 3
+      object Label4: TLabel
+        Left = 4
+        Height = 18
+        Top = 2
+        Width = 71
+        Align = alLeft
+        Alignment = taRightJustify
+        AutoSize = False
+        BorderSpacing.Left = 2
+        Caption = 'Task'
+        Layout = tlCenter
+        ParentColor = False
+      end
+      object lbTask: TLabel
+        Left = 85
+        Height = 18
+        Top = 2
+        Width = 377
+        Align = alClient
+        BorderSpacing.Left = 10
+        Layout = tlCenter
+        ParentColor = False
+        ParentFont = False
+      end
+    end
+  end
+end

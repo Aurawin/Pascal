@@ -1,0 +1,17 @@
+[Unit]
+Description="Aurawin Social Computing Server"
+# Requires=postgresql.service
+# After=postgresql.service
+Wants = network-online.target
+After = network-online.target
+
+[Service]
+Type=simple
+
+ExecStart=/usr/local/AuSCS/AuService -r --daemon
+ExecStop=/usr/bin/killall -9 -e AuService
+RemainAfterExit=yes
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

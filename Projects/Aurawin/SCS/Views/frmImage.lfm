@@ -1,0 +1,130 @@
+object ImageViewerForm: TImageViewerForm
+  Left = 283
+  Height = 328
+  Top = 222
+  Width = 591
+  HorzScrollBar.Page = 591
+  HorzScrollBar.Range = 416
+  VertScrollBar.Page = 328
+  VertScrollBar.Range = 256
+  Caption = 'Image Viewer'
+  ClientHeight = 328
+  ClientWidth = 591
+  OnClose = FormClose
+  LCLVersion = '0.9.31'
+  object sbImage: TScrollBox
+    Left = 0
+    Height = 296
+    Top = 0
+    Width = 591
+    HorzScrollBar.Page = 589
+    VertScrollBar.Page = 294
+    Align = alClient
+    ClientHeight = 294
+    ClientWidth = 589
+    TabOrder = 1
+    object imgData: TImage
+      Left = 0
+      Height = 294
+      Top = 0
+      Width = 589
+      Align = alClient
+      Center = True
+      Transparent = True
+    end
+  end
+  object StatusBar: TPanel
+    Left = 2
+    Height = 23
+    Top = 301
+    Width = 587
+    Align = alBottom
+    BorderSpacing.Left = 2
+    BorderSpacing.Top = 5
+    BorderSpacing.Right = 2
+    BorderSpacing.Bottom = 4
+    BevelOuter = bvNone
+    ClientHeight = 23
+    ClientWidth = 587
+    TabOrder = 0
+    object sbpnlWidth: TPanel
+      Left = 2
+      Height = 23
+      Top = 0
+      Width = 40
+      Align = alLeft
+      BorderSpacing.Left = 2
+      BorderSpacing.Right = 2
+      BorderSpacing.InnerBorder = 4
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      TabOrder = 0
+    end
+    object sbpnlHeight: TPanel
+      Left = 44
+      Height = 23
+      Top = 0
+      Width = 40
+      Align = alLeft
+      BorderSpacing.Left = 2
+      BorderSpacing.Right = 2
+      BorderSpacing.InnerBorder = 4
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      TabOrder = 1
+    end
+    object sbpnlStatus: TPanel
+      Left = 146
+      Height = 23
+      Top = 0
+      Width = 331
+      Align = alClient
+      Alignment = taLeftJustify
+      BorderSpacing.Left = 2
+      BorderSpacing.Right = 2
+      BevelOuter = bvNone
+      BorderStyle = bsSingle
+      TabOrder = 2
+    end
+    object ProgressBar: TProgressBar
+      Left = 481
+      Height = 23
+      Top = 0
+      Width = 104
+      Align = alRight
+      BorderSpacing.Left = 4
+      BorderSpacing.Right = 2
+      Smooth = True
+      Step = 1
+      TabOrder = 3
+      Visible = False
+    end
+    object cbZoom: TComboBox
+      Left = 86
+      Height = 23
+      Top = 0
+      Width = 58
+      Align = alLeft
+      ItemHeight = 0
+      ItemIndex = 3
+      Items.Strings = (
+        '25%'
+        '50%'
+        '75%'
+        '100%'
+        '125%'
+        '150%'
+        '175%'
+        '200%'
+        '250%'
+        '300%'
+        '500%'
+        '1000%'
+      )
+      OnSelect = cbZoomSelect
+      Style = csDropDownList
+      TabOrder = 4
+      Text = '100%'
+    end
+  end
+end

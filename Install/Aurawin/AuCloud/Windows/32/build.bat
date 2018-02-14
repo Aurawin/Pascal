@@ -1,0 +1,1 @@
+C:\Developer\Lazarus\lazbuild -B C:\Developer\Source\Builds\Aurawin\AuCloud\Windows\32\AuCloud.lpr

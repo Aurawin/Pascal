@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="44">
+      <Unit0>
+        <Filename Value="AuPackage.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="18" Y="18"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuPackage\frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="PackageForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMain"/>
+        <TopLine Value="3"/>
+        <CursorPos X="29" Y="211"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuPackage\frmLicense.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="LicenseForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmLicense"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="15" Y="9"/>
+        <UsageCount Value="57"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <UnitName Value="uAppSettings"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="189"/>
+        <CursorPos X="27" Y="214"/>
+        <UsageCount Value="56"/>
+        <Bookmarks Count="1">
+          <Item0 X="26" Y="388" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.CreateLink.Decs.Windows.inc"/>
+        <UsageCount Value="33"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win\wininc\ascdef.inc"/>
+        <TopLine Value="92"/>
+        <CursorPos X="29" Y="107"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\fcl-registry\src\registry.pp"/>
+        <TopLine Value="79"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\coApp.pas"/>
+        <TopLine Value="25"/>
+        <CursorPos X="15" Y="34"/>
+        <UsageCount Value="13"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Core\uCoreObjects.pas"/>
+        <TopLine Value="187"/>
+        <CursorPos Y="195"/>
+        <UsageCount Value="13"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\lresources.pp"/>
+        <TopLine Value="13"/>
+        <CursorPos X="16" Y="30"/>
+        <UsageCount Value="12"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\zlib\src\zlib.pp"/>
+        <TopLine Value="226"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\paszlib\src\zipper.pp"/>
+        <TopLine Value="470"/>
+        <CursorPos X="49" Y="393"/>
+        <UsageCount Value="13"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\..\..\..\Lazarus\lcl\lclstrconsts.pas"/>
+        <TopLine Value="151"/>
+        <UsageCount Value="12"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\..\..\Install\Aurawin\AuCloud\Windows\64\manifest.xml"/>
+        <CursorPos X="19" Y="3"/>
+        <UsageCount Value="32"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="PKG_DATA.lrs"/>
+        <CursorPos X="80" Y="10"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\classes\classesh.inc"/>
+        <TopLine Value="835"/>
+        <CursorPos X="14" Y="848"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\objpas\classes\streams.inc"/>
+        <TopLine Value="215"/>
+        <CursorPos X="8" Y="236"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\paszlib\src\ziputils.pas"/>
+        <TopLine Value="280"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\paszlib\src\zip.pas"/>
+        <TopLine Value="322"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\unzip\src\unzip51g.pp"/>
+        <TopLine Value="253"/>
+        <CursorPos X="14" Y="256"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win64\windows.pp"/>
+        <CursorPos X="12" Y="70"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win\wininc\messages.inc"/>
+        <TopLine Value="1847"/>
+        <UsageCount Value="9"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\..\..\Libraries\Encryption\uZip.pas"/>
+        <UnitName Value="uZip"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="565"/>
+        <CursorPos X="19" Y="572"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\fcl-xml\src\dom.pp"/>
+        <UnitName Value="DOM"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="1011"/>
+        <CursorPos X="3" Y="1015"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\fcl-xml\src\xmlread.pp"/>
+        <TopLine Value="420"/>
+        <CursorPos Y="420"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="R:\Developer\Source\Delphi\Installer\uCompiler.pas"/>
+        <TopLine Value="62"/>
+        <UsageCount Value="9"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="R:\Developer\Source\Delphi\e-Package\hpackage.pas"/>
+        <TopLine Value="441"/>
+        <CursorPos X="26" Y="445"/>
+        <UsageCount Value="9"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="C:\Users\Andrew\Desktop\Google Chrome.lnk"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\winunits-base\src\shfolder.pp"/>
+        <TopLine Value="75"/>
+        <CursorPos X="25" Y="89"/>
+        <UsageCount Value="13"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\winunits-base\src\shlobj.pp"/>
+        <TopLine Value="747"/>
+        <CursorPos X="132" Y="771"/>
+        <UsageCount Value="13"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\winunits-base\src\shellapi.pp"/>
+        <TopLine Value="1792"/>
+        <CursorPos X="10" Y="1807"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\..\..\Libraries\WinShell.pas"/>
+        <TopLine Value="314"/>
+        <CursorPos X="47" Y="335"/>
+        <UsageCount Value="12"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\mathh.inc"/>
+        <EditorIndex Value="13"/>
+        <TopLine Value="85"/>
+        <CursorPos X="81" Y="104"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\inc\systemh.inc"/>
+        <TopLine Value="607"/>
+        <CursorPos X="39" Y="621"/>
+        <UsageCount Value="10"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\..\..\..\..\FPC\installer\winshell.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="91" Y="10"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\..\..\Install\Aurawin\AuSCS\Windows\64\manifest.xml"/>
+        <TopLine Value="15"/>
+        <CursorPos X="2" Y="5"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\..\..\..\..\Install\Aurawin\AuConsole\Windows\64\manifest.xml"/>
+        <CursorPos X="46" Y="50"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="XML"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win\wininc\base.inc"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="261"/>
+        <CursorPos X="6" Y="276"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\..\..\..\..\Libraries\Core\uXML.pas"/>
+        <UnitName Value="uXML"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="24" Y="14"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\..\..\..\Projects\SCS\Stored\uDBModule.pas"/>
+        <UnitName Value="uDBModule"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="4"/>
+        <CursorPos X="31" Y="19"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\..\..\..\..\FPC\packages\hash\src\md5.pp"/>
+        <UnitName Value="md5"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win32\windows.pp"/>
+        <UnitName Value="windows"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\..\..\..\..\..\FPC\rtl\win\wininc\defines.inc"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="403"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\..\..\Libraries\Windows\WinShell.pas"/>
+        <UnitName Value="WinShell"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="307"/>
+        <CursorPos X="18" Y="322"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit43>
+    </Units>
+    <JumpHistory Count="8" HistoryIndex="7">
+      <Position1>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Caret Line="356" Column="20" TopLine="342"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Caret Line="358" Column="30" TopLine="344"/>
+      </Position2>
+      <Position3>
+        <Filename Value="AuPackage.lpr"/>
+        <Caret Line="9" Column="25"/>
+      </Position3>
+      <Position4>
+        <Filename Value="AuPackage.lpr"/>
+        <Caret Line="18" Column="15"/>
+      </Position4>
+      <Position5>
+        <Filename Value="AuPackage.lpr"/>
+        <Caret Line="10" Column="30"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\..\Libraries\Encryption\uZip.pas"/>
+        <Caret Line="580" Column="3" TopLine="565"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\..\Libraries\Windows\WinShell.pas"/>
+      </Position7>
+      <Position8>
+        <Filename Value="AuPackage.lpr"/>
+        <Caret Line="18" Column="18"/>
+      </Position8>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="8">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Line Value="351"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Line Value="213"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Line Value="222"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="AuPackage.lpr"/>
+        <Line Value="20"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Line Value="227"/>
+      </Item5>
+      <Item6>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Line Value="286"/>
+      </Item6>
+      <Item7>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="AuPackage.lpr"/>
+        <Line Value="16"/>
+      </Item7>
+      <Item8>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\..\..\..\..\Projects\Aurawin\AuPackage\uAppSettings.pas"/>
+        <Line Value="309"/>
+      </Item8>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

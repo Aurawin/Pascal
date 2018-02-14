@@ -1,0 +1,19 @@
+﻿AuConsole Social Computing Server (SCS) Console Application
+
+
+BY CLICKING ON THE "I AGREE" BUTTON, YOU ARE CONSENTING TO BE BOUND BY THIS AGREEMENT. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, CLICK THE "EXIT” BUTTON AND THIS PROGRAM WILL NOT CONTINUE.
+
+EXCLUSIVE LICENSE AGREEMENT
+
+This software and accompanying written materials (including instructions for use) are issued to you at no cost and may be distributed by anyone. Copyright laws and international copyright treaties, as well as other intellectual property laws and treaties protect this software product. The software product is licensed, not sold. 
+
+
+LIMITED WARRANTY AND DISCLAIMER OF WARRANTY 
+
+This software and accompanying written materials (including instructions for use) are provided “As Is” without warranty of any kind. Furthermore, Aurawin LLC does not warrant, guarantee, or make any representations regarding the use, or the results of use, of the software or written material in terms of correctness accuracy, reliability, or otherwise. If the software or written materials are defective you may return the software for a complete refund. If the software causes damage, harm, injury, or fatalities, you and not Aurawin LLC or it’s dealers, distributors, agents, or employees, assume the entire cost of all necessary servicing, repair, or correction.
+
+The above is the only warranty of any kind, either expressed or implied, including but not limited to the implied warranties of marketability and fitness for a particular purpose. No oral, written information, or advise given by Aurawin LLC, its dealers, distributors, agents, or employees shall create a warranty or in any way increase the scope of this warranty. You may not rely on such information or advice. You may have other rights that vary from state to state. Neither Aurawin LLC nor anyone else who has been involved in the creation, production or delivery of this product shall be liable for any direct, indirect, consequential, or incidental damages (including damages for loss of business profits, business interruption, loss of business information, and the like) arising out of the use or inability to use such a product even if Aurawin LLC has been advised of the possibility of such damages.
+
+ACKNOWLEDGMENT
+
+By using this Aurawin LLC software you acknowledge that you have read this limited warranty, understand it, and agree to abide by its terms and conditions. You also agree that the limited warranty is the complete and exclusive statement of agreement between the parties and supersede all proposals or prior agreements, oral or written, and any other communications between the parties relating to the subject matter of the limited warranty.

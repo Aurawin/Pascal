@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="tdTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="tdTest"/>
+        <UsageCount Value="24"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="114"/>
+        <CursorPos X="1" Y="125"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\MemTest\uThreads.pas"/>
+        <UnitName Value="uThreads"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="300"/>
+        <CursorPos X="58" Y="328"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="1" Y="23"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\inc\except.inc"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="172"/>
+        <CursorPos X="1" Y="191"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1053"/>
+        <CursorPos X="1" Y="1065"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="56" Column="24" TopLine="49"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <Caret Line="23" Column="1" TopLine="18"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="56" Column="24" TopLine="45"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <Caret Line="23" Column="1" TopLine="2"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="83" Column="8" TopLine="81"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="69" Column="14" TopLine="68"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <Caret Line="23" Column="1" TopLine="16"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="88" Column="39" TopLine="70"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="87" Column="36" TopLine="71"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="22" Column="52" TopLine="9"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="111" Column="3" TopLine="88"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="106" Column="27" TopLine="92"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="104" Column="28" TopLine="81"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="95" Column="32" TopLine="75"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="93" Column="1" TopLine="81"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="124" Column="5" TopLine="101"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="125" Column="1" TopLine="110"/>
+      </Position17>
+      <Position18>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <Caret Line="23" Column="1" TopLine="16"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="125" Column="1" TopLine="65"/>
+      </Position19>
+      <Position20>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <Caret Line="23" Column="1" TopLine="16"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="59" Column="25" TopLine="50"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="76" Column="1" TopLine="64"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="59" Column="39" TopLine="58"/>
+      </Position23>
+      <Position24>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <Caret Line="23" Column="1" TopLine="16"/>
+      </Position24>
+      <Position25>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\inc\except.inc"/>
+        <Caret Line="191" Column="1" TopLine="172"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="108" Column="1" TopLine="101"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="125" Column="1" TopLine="62"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="76" Column="1" TopLine="62"/>
+      </Position28>
+      <Position29>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\sysutils.pp"/>
+        <Caret Line="1065" Column="1" TopLine="1053"/>
+      </Position29>
+      <Position30>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="76" Column="1" TopLine="62"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="tdTest"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CustomOptions Value="-Cs$100000"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Source Value="uMain.pas"/>
+        <Line Value="125"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

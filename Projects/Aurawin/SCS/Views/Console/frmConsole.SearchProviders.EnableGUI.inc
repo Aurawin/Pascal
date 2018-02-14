@@ -1,0 +1,11 @@
+txtProviderName.Enabled:=true;
+txtProviderDomain.Enabled:=true;
+txtProviderPort.Enabled:=true;
+tbSearchScale.Enabled:=true;
+txtProviderMaxResults.Enabled:=true;
+txtProviderQueryString.Enabled:=true;
+lvProviderService.Enabled:=true;
+btnProviderLandingPageLoad.Enabled:=true;
+btnProviderLandingPageSaveAs.Enabled:=true;
+btnProviderLandingPageEdit.Enabled:=true;
+btnProviderLandingPageClear.Enabled:=true;

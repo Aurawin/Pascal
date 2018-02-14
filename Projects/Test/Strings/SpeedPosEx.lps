@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SpeedPosEx"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="40"/>
+        <CursorPos X="1" Y="53"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../Libraries/Core/uStringArray.pas"/>
+        <UnitName Value="uStringArray"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="256"/>
+        <CursorPos X="1" Y="269"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="448"/>
+        <CursorPos X="1" Y="462"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../FPC/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="714"/>
+        <CursorPos X="11" Y="728"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../FPC/rtl/objpas/strutils.pp"/>
+        <UnitName Value="strutils"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="663"/>
+        <CursorPos X="14" Y="671"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="207"/>
+        <CursorPos X="1" Y="231"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../Libraries/Core/uVarString.pas"/>
+        <UnitName Value="uVarString"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="198"/>
+        <CursorPos X="17" Y="217"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../FPC/rtl/x86_64/x86_64.inc"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="620"/>
+        <CursorPos X="10" Y="634"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="54" Column="1" TopLine="35"/>
+      </Position1>
+      <Position2>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="55" Column="1" TopLine="35"/>
+      </Position2>
+      <Position3>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="35"/>
+      </Position3>
+      <Position4>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="54" Column="1" TopLine="35"/>
+      </Position4>
+      <Position5>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="55" Column="1" TopLine="35"/>
+      </Position5>
+      <Position6>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="35"/>
+      </Position6>
+      <Position7>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="54" Column="1" TopLine="35"/>
+      </Position7>
+      <Position8>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="55" Column="1" TopLine="35"/>
+      </Position8>
+      <Position9>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="35"/>
+      </Position9>
+      <Position10>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="54" Column="1" TopLine="35"/>
+      </Position10>
+      <Position11>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="55" Column="1" TopLine="35"/>
+      </Position11>
+      <Position12>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="35"/>
+      </Position12>
+      <Position13>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="54" Column="1" TopLine="35"/>
+      </Position13>
+      <Position14>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="55" Column="1" TopLine="35"/>
+      </Position14>
+      <Position15>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="35"/>
+      </Position15>
+      <Position16>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="52" Column="13" TopLine="38"/>
+      </Position16>
+      <Position17>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="53" Column="1" TopLine="38"/>
+      </Position17>
+      <Position18>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="54" Column="1" TopLine="38"/>
+      </Position18>
+      <Position19>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="55" Column="1" TopLine="38"/>
+      </Position19>
+      <Position20>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="56" Column="1" TopLine="38"/>
+      </Position20>
+      <Position21>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="38"/>
+      </Position21>
+      <Position22>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="59" Column="1" TopLine="38"/>
+      </Position22>
+      <Position23>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="56" Column="1" TopLine="38"/>
+      </Position23>
+      <Position24>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="38"/>
+      </Position24>
+      <Position25>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="59" Column="1" TopLine="38"/>
+      </Position25>
+      <Position26>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="56" Column="1" TopLine="38"/>
+      </Position26>
+      <Position27>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="57" Column="1" TopLine="51"/>
+      </Position27>
+      <Position28>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="108" Column="1" TopLine="94"/>
+      </Position28>
+      <Position29>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="81" Column="33" TopLine="70"/>
+      </Position29>
+      <Position30>
+        <Filename Value="SpeedPosEx.lpr"/>
+        <Caret Line="80" Column="29" TopLine="68"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="StringArray.lpr"/>
+        <Line Value="117"/>
+      </Item1>
+    </BreakPoints>
+    <Watches Count="3">
+      <Item1>
+        <Expression Value="iLcv"/>
+      </Item1>
+      <Item2>
+        <Expression Value="Source[iLcv]"/>
+      </Item2>
+      <Item3>
+        <Expression Value="iLength"/>
+      </Item3>
+    </Watches>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

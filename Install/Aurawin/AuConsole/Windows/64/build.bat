@@ -1,0 +1,1 @@
+C:\Developer\Lazarus\lazbuild -B C:\Developer\Source\Builds\Aurawin\AuConsole\Windows\64\AuConsole.lpr

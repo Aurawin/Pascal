@@ -1,0 +1,12 @@
+  Const MOUNT_EXE        = 'mount';
+  Const DISK_STAT        = 'df';
+  Const ID_STAT          = 'id';
+  Const GREP             = 'grep';
+  Const MOUNTS           = '/proc/mounts';
+  Const FMT_GREP_MOUNTED = '-s %s %s %s';
+  Const FMT_STAT_ID_GROUP = '-g %s';
+  Const FMT_STAT_ID_USER = '-u %s';
+  Const AuDisk           = 'AuDisk';
+  Const FMT_MOUNT_TARGET = '/AuDisks/$cid/$rid/$nid/';
+  Const FMT_MOUNT_PARAMS = '-t nfs $ip:$disk '+FMT_MOUNT_TARGET;
+  Const FMT_STAT_PARAMS  = FMT_MOUNT_TARGET;

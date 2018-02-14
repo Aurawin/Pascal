@@ -1,0 +1,16 @@
+dftBoolean                   : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PBool(CommandP^.Value)^,Parameters);
+dftByte                      : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PByte(CommandP^.Value)^,Parameters);
+dftWord                      : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PWord(CommandP^.Value)^,Parameters);
+dftInteger                   : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PInteger(CommandP^.Value)^,Parameters);
+dftInt64                     : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PLargeInt(CommandP^.Value)^,Parameters);
+dftQword                     : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PLargeWord(CommandP^.Value)^,Parameters);
+dftInt64Array                : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PLargeIntArray(CommandP^.Value)^,Parameters);
+dftQWordArray                : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PLargeWordArray(CommandP^.Value)^,Parameters);
+dftDateTime                  : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PDateTime(CommandP^.Value)^,Parameters);
+dftFloat                     : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PFloat(CommandP^.Value)^,Parameters);
+dftDouble                    : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PDouble(CommandP^.Value)^,Parameters);
+dftMD5Digest                 : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PMD5Digest(CommandP^.Value)^,Parameters);
+dftSmallString               : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PSmallString(CommandP^.Value)^,Parameters);
+dftString                    : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PVarString(CommandP^.Value)^,Parameters);
+dftMemo                      : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PVarString(CommandP^.Value)^,Parameters);
+dftByteBuffer                : Core.Database.AddCommandParameter(CommandP^.DataType,Core.Database.Types.PBuffer(CommandP^.Value)^,Parameters);

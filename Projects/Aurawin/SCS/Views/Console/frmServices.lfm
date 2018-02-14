@@ -1,0 +1,128 @@
+object frmServices: TfrmServices
+  Left = 539
+  Height = 285
+  Top = 174
+  Width = 437
+  Caption = 'Aurawin Services'
+  ClientHeight = 285
+  ClientWidth = 437
+  Color = clForm
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  LCLVersion = '1.1'
+  object sbStatus: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 264
+    Width = 437
+    Panels = <>
+  end
+  object gbServices: TGroupBox
+    Left = 8
+    Height = 165
+    Top = 68
+    Width = 421
+    Align = alTop
+    AutoSize = True
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 2
+    BorderSpacing.Right = 8
+    BorderSpacing.Bottom = 8
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Services'
+    ChildSizing.TopBottomSpacing = 5
+    ChildSizing.VerticalSpacing = 2
+    ChildSizing.EnlargeHorizontal = crsHomogenousSpaceResize
+    ChildSizing.EnlargeVertical = crsHomogenousSpaceResize
+    ChildSizing.ShrinkHorizontal = crsHomogenousSpaceResize
+    ChildSizing.ShrinkVertical = crsHomogenousSpaceResize
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ClientHeight = 146
+    ClientWidth = 417
+    TabOrder = 1
+    object cbHTTP: TCheckBox
+      Left = 157
+      Height = 24
+      Top = 4
+      Width = 114
+      BorderSpacing.Left = 10
+      Caption = 'HTTP Active'
+      Enabled = False
+      TabOrder = 0
+    end
+    object cbHTTPS: TCheckBox
+      Left = 157
+      Height = 24
+      Top = 32
+      Width = 114
+      BorderSpacing.Left = 10
+      Caption = 'HTTPS Active'
+      Enabled = False
+      TabOrder = 1
+    end
+    object cbSMTP: TCheckBox
+      Left = 157
+      Height = 24
+      Top = 60
+      Width = 114
+      BorderSpacing.Left = 10
+      Caption = 'SMTP Active'
+      Enabled = False
+      TabOrder = 2
+    end
+    object cbPOP3: TCheckBox
+      Left = 157
+      Height = 24
+      Top = 88
+      Width = 114
+      BorderSpacing.Left = 10
+      Caption = 'POP3 Active'
+      Enabled = False
+      TabOrder = 3
+    end
+    object cbRTSP: TCheckBox
+      Left = 157
+      Height = 24
+      Top = 114
+      Width = 114
+      BorderSpacing.Left = 10
+      Caption = 'RTSP Active'
+      Enabled = False
+      TabOrder = 4
+    end
+  end
+  object gbDomains: TGroupBox
+    Left = 8
+    Height = 62
+    Top = 4
+    Width = 421
+    Align = alTop
+    AutoSize = True
+    BorderSpacing.Left = 8
+    BorderSpacing.Top = 4
+    BorderSpacing.Right = 8
+    Caption = 'Domains'
+    ClientHeight = 43
+    ClientWidth = 417
+    TabOrder = 2
+    object cbDomains: TComboBox
+      Left = 8
+      Height = 31
+      Top = 4
+      Width = 401
+      Align = alClient
+      BorderSpacing.Left = 8
+      BorderSpacing.Top = 4
+      BorderSpacing.Right = 8
+      BorderSpacing.Bottom = 8
+      ItemHeight = 0
+      OnChange = cbDomainsChange
+      OnClick = cbDomainsChange
+      Style = csDropDownList
+      TabOrder = 0
+    end
+  end
+end

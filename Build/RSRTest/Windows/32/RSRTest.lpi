@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <UseDefaultCompilerOptions Value="True"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+      <Language Value=""/>
+      <CharSet Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="10">
+      <Unit0>
+        <Filename Value="RSRTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="RSRTest"/>
+        <UsageCount Value="21"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="Unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="25" Y="63"/>
+        <TopLine Value="52"/>
+        <UsageCount Value="21"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\Libraries\RSR\uRSRServer.pas"/>
+        <UnitName Value="uRSRServer"/>
+        <CursorPos X="1" Y="985"/>
+        <TopLine Value="977"/>
+        <UsageCount Value="11"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Libraries\RSR\hRSR.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="hRSR"/>
+        <CursorPos X="1" Y="217"/>
+        <TopLine Value="214"/>
+        <UsageCount Value="21"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\Libraries\RSR\uDNS.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uDNS"/>
+        <CursorPos X="17" Y="6"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="21"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\Libraries\uSocketUtils.pas"/>
+        <UnitName Value="uSocketUtils"/>
+        <CursorPos X="6" Y="188"/>
+        <TopLine Value="171"/>
+        <UsageCount Value="21"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\Libraries\Core\uFiFoQueue.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uFiFoQueue"/>
+        <UsageCount Value="21"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\Libraries\Core\uSocketUtils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uSocketUtils"/>
+        <UsageCount Value="20"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\..\Projects\RSRTest\Unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <CursorPos X="8" Y="95"/>
+        <TopLine Value="76"/>
+        <UsageCount Value="20"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\..\Libraries\RSR\hRSR.pas"/>
+        <UnitName Value="hRSR"/>
+        <CursorPos X="41" Y="58"/>
+        <TopLine Value="47"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit9>
+    </Units>
+    <JumpHistory Count="2" HistoryIndex="1">
+      <Position1>
+        <Filename Value="..\..\..\..\Libraries\RSR\hRSR.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="..\..\..\..\Libraries\RSR\hRSR.pas"/>
+        <Caret Line="58" Column="41" TopLine="47"/>
+      </Position2>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="RSRTest"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\;..\..\..\..\Libraries\RSR\;..\..\..\..\Builds\AppBuild\Windows\32\;..\..\..\..\Builds\RSRBuild\Windows\32\"/>
+      <OtherUnitFiles Value="C:\Developer\Source\Libraries\RSR\;C:\Developer\Source\Libraries\;C:\Developer\Source\Libraries\Core\;C:\Developer\Source\Projects\RSRTest\"/>
+      <UnitOutputDirectory Value="Output"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="True"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Source Value="Unit1.pas"/>
+        <Line Value="77"/>
+      </Item1>
+      <Item2>
+        <Source Value="Unit1.pas"/>
+        <Line Value="46"/>
+      </Item2>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

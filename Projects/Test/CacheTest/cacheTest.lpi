@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="cacheTest"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="cacheTest.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cacheTest"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="6"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="79"/>
+        <CursorPos X="44" Y="97"/>
+        <UsageCount Value="25"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\MemTest\uThreads.pas"/>
+        <UnitName Value="uThreads"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="300"/>
+        <CursorPos X="58" Y="328"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\tthread.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="1" Y="23"/>
+        <UsageCount Value="11"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\inc\except.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="172"/>
+        <CursorPos X="1" Y="191"/>
+        <UsageCount Value="11"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\..\FPC\src\FPC\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1053"/>
+        <CursorPos X="1" Y="1065"/>
+        <UsageCount Value="11"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="136" Column="1" TopLine="130"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="137" Column="1" TopLine="130"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="153" Column="20" TopLine="80"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="136" Column="1" TopLine="119"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="137" Column="1" TopLine="119"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="138" Column="1" TopLine="119"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="139" Column="1" TopLine="119"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="63" Column="1" TopLine="100"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="134" Column="1" TopLine="117"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="86" Column="18" TopLine="78"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="134" Column="1" TopLine="117"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="85" Column="51" TopLine="68"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="134" Column="1" TopLine="117"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="85" Column="1" TopLine="68"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="86" Column="1" TopLine="78"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="88" Column="1" TopLine="78"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="53" Column="48" TopLine="129"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="134" Column="1" TopLine="128"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="135" Column="1" TopLine="128"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="136" Column="1" TopLine="128"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="145" Column="21" TopLine="78"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="87" Column="1" TopLine="78"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="53" Column="50" TopLine="39"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="130" Column="26" TopLine="67"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="88" Column="1" TopLine="67"/>
+      </Position25>
+      <Position26>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="89" Column="1" TopLine="87"/>
+      </Position26>
+      <Position27>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="92" Column="20" TopLine="78"/>
+      </Position27>
+      <Position28>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="96" Column="45" TopLine="45"/>
+      </Position28>
+      <Position29>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="137" Column="20" TopLine="79"/>
+      </Position29>
+      <Position30>
+        <Filename Value="uMain.pas"/>
+        <Caret Line="89" Column="1" TopLine="79"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="cacheTest"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CustomOptions Value="-Cs$100000"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="4">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <Source Value="..\TThread\uMain.pas"/>
+        <Line Value="125"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <Source Value="uMain.pas"/>
+        <Line Value="103"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <Source Value="uMain.pas"/>
+        <Line Value="105"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <Source Value="uMain.pas"/>
+        <Line Value="88"/>
+      </Item4>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,205 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="7">
+      <Unit0>
+        <Filename Value="pBar.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="pBar"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uPBar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPBar"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="19" Y="35"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../FPC/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="852"/>
+        <CursorPos X="14" Y="871"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../Lazarus/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1633"/>
+        <CursorPos X="38" Y="1654"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../FPC/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="250"/>
+        <CursorPos X="3" Y="271"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../Lazarus/lcl/interfaces/gtk2/gtk2wscomctrls.pp"/>
+        <UnitName Value="Gtk2WSComCtrls"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="199"/>
+        <CursorPos X="23" Y="219"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../Lazarus/lcl/widgetset/wscomctrls.pp"/>
+        <UnitName Value="WSComCtrls"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="168"/>
+        <CursorPos X="3" Y="189"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="8" TopLine="17"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="50" Column="21" TopLine="17"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="51" Column="1" TopLine="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="46" Column="30" TopLine="17"/>
+      </Position4>
+      <Position5>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position5>
+      <Position6>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="51" Column="1" TopLine="17"/>
+      </Position6>
+      <Position7>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position7>
+      <Position8>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="51" Column="1" TopLine="17"/>
+      </Position8>
+      <Position9>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position9>
+      <Position10>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="51" Column="1" TopLine="17"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="51" Column="1" TopLine="17"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="51" Column="1" TopLine="17"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="52" Column="1" TopLine="17"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="47" Column="1" TopLine="17"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="1" TopLine="17"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="49" Column="1" TopLine="17"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="50" Column="1" TopLine="17"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="47" Column="15" TopLine="17"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="55" Column="40" TopLine="18"/>
+      </Position22>
+      <Position23>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="47" Column="18" TopLine="18"/>
+      </Position23>
+      <Position24>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="48" Column="26" TopLine="18"/>
+      </Position24>
+      <Position25>
+        <Filename Value="uPBar.pas"/>
+        <Caret Line="44" Column="15" TopLine="20"/>
+      </Position25>
+      <Position26>
+        <Filename Value="../../../../Lazarus/lcl/interfaces/gtk2/gtk2wscomctrls.pp"/>
+        <Caret Line="228" Column="98" TopLine="193"/>
+      </Position26>
+      <Position27>
+        <Filename Value="../../../../Lazarus/lcl/interfaces/gtk2/gtk2wscomctrls.pp"/>
+        <Caret Line="558" Column="3" TopLine="541"/>
+      </Position27>
+      <Position28>
+        <Filename Value="../../../../Lazarus/lcl/interfaces/gtk2/gtk2wscomctrls.pp"/>
+        <Caret Line="541" Column="35" TopLine="541"/>
+      </Position28>
+      <Position29>
+        <Filename Value="../../../../Lazarus/lcl/interfaces/gtk2/gtk2wscomctrls.pp"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position29>
+      <Position30>
+        <Filename Value="../../../../Lazarus/lcl/interfaces/gtk2/gtk2wscomctrls.pp"/>
+        <Caret Line="219" Column="23" TopLine="184"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>

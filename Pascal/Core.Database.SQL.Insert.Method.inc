@@ -1,0 +1,20 @@
+Result:=False;
+Task.LastUsed:=Core.Timer.dtNow;
+iRetries:=1;
+TableP:=nil;
+sValues:='';
+sTable:='';
+sFields:='';
+sCriteria:='';
+Empty(Parameters);
+Try
+  PushSetupStatement();
+  if PushInsert() then
+    PushPrimaryReset();
+Finally
+  Done(Parameters);
+  System.Finalize(sCriteria);
+  System.Finalize(sCommand);
+  System.Finalize(sTable);
+  System.Finalize(sFields);
+End;

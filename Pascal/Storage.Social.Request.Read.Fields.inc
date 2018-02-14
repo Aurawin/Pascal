@@ -1,0 +1,10 @@
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.ID, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.NetworkID, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.QueryID, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.ResponseID, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.Opened, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.Closed, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.Expires, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.Flags, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.Query, poNone, oNone, Commands);
+Core.Database.AddCommand(iCount, DB.TableP, useForFields, DB.IDs.Response, poNone, oNone, Commands);

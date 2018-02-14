@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AuCloud"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2013"/>
+      <MinorVersionNr Value="11"/>
+      <RevisionNr Value="25"/>
+      <BuildNr Value="422"/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Cloud Localization" InternalName="AuCloud" LegalCopyright="2013" LegalTrademarks="Aurawin, RSR" OriginalFilename="AuCloud" ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="AuCloud.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AuCloud"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/auLang.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="auLang"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/auSettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="auSettings"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Aurawin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmMain"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmResources.lfm"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmResources.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmResource"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmResources"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/hSRConsts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="hSRConsts"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/uEngine.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uEngine"/>
+      </Unit8>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="AuCloud"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../../../../RSRBuild/Linux/64;../../../../AppBuild/Linux/64;../../../../../Projects/SCS/Core"/>
+      <OtherUnitFiles Value="../../../../../Projects/Aurawin/AuCloud;../../../../../Projects/SCS/Stored;../../../../../Projects/SCS/Core;../../../../../Libraries;../../../../../Libraries/Database;../../../../../Libraries/RSR;../../../../../Libraries/Core;../../../../../Libraries/Encryption;../../../../../Libraries/Multimedia"/>
+      <UnitOutputDirectory Value=".Output/$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Checks>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+      </Checks>
+      <StackSize Value="2097152"/>
+      <TargetCPU Value="x86_64"/>
+      <TargetOS Value="darwin"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseValgrind Value="True"/>
+        <UseExternalDbgSyms Value="True"/>
+      </Debugging>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+      </Verbosity>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CustomOptions Value="-d_SyncRSR
+-duseEventQueues
+-d_Debug"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

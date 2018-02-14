@@ -1,0 +1,12 @@
+  FeedP^.ID:=Fields.FieldByName(Feed.DB.Keys.ID).AsLargeInt;
+  FeedP^.DomainID:=Fields.FieldByName(Feed.DB.Keys.DomainID).AsLargeInt;
+  FeedP^.RootID:=Fields.FieldByName(Feed.DB.Keys.RootID).AsLargeInt;
+  FeedP^.DefaultExpires:=Fields.FieldByName(Feed.DB.Keys.DefaultExpires).AsDateTime;
+  FeedP^.PubDate:=Fields.FieldByName(Feed.DB.Keys.PubDate).AsDateTime;
+  FeedP^.LastBuildDate:=Fields.FieldByName(Feed.DB.Keys.LastBuildDate).AsDateTime;
+  FeedP^.Webmaster:=Fields.FieldByName(Feed.DB.Keys.Webmaster).AsString;
+  FeedP^.Editor:=Fields.FieldByName(Feed.DB.Keys.Editor).AsString;
+  FeedP^.Title:=Fields.FieldByName(Feed.DB.Keys.Title).AsString;
+  FeedP^.Link:=Fields.FieldByName(Feed.DB.Keys.Link).AsString;
+  FeedP^.Description:=Fields.FieldByName(Feed.DB.Keys.Description).AsString;
+  FeedP^.Docs:=Fields.FieldByName(Feed.DB.Keys.Docs).AsString;

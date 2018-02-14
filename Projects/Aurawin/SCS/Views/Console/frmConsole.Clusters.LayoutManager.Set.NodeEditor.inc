@@ -1,0 +1,12 @@
+txtClusterNodeName.Text:=FClusterNodeP^.Alias;
+txtCRNDisk.Text:=FClusterNodeP^.Disk.Device;
+cbClusterNodeDisk.Checked:=FClusterNodeP^.Disk.Enabled;
+Core.Arrays.VarString.fromString(@FClusterNode_IP,Core.Utils.Sockets.InAddrToStr(FClusterNodeP^.IP),'.');
+SetLength(FClusterNode_IP,4);
+txtCstrIP0.Text:=FClusterNode_IP[0];
+txtCstrIP1.Text:=FClusterNode_IP[1];
+txtCstrIP2.Text:=FClusterNode_IP[2];
+txtCstrIP3.Text:=FClusterNode_IP[3];
+txtCRNResource.Clear;
+gbCRNResource.Visible:=false;
+gbCRNode.Visible:=true;

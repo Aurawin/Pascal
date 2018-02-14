@@ -1,0 +1,15 @@
+object AurawinSCS: TAurawinSCS
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  OldCreateOrder = False
+  OnStart = DataModuleStart
+  OnStop = DataModuleStop
+  OnPause = DataModulePause
+  OnContinue = DataModuleContinue
+  OnShutDown = DataModuleShutDown
+  OnControlCode = DataModuleControlCode
+  Height = 321
+  HorizontalOffset = 70
+  VerticalOffset = 173
+  Width = 499
+end

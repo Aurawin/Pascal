@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <product>AuCloud</product>
+  <company>Aurawin LLC</company>
+  <icon>AuCloud.ico</icon>
+  <icon-index>0</icon-index>
+  <image>AuCloud.jpg</image>
+  <program>AuCloud.exe</program>
+  <links>
+    <link>
+      <name>AuCloud</name>
+      <folder>$StartMenuPrograms\Aurawin\AuCloud\</folder>
+      <file>AuCloud.exe</file>
+      <icon>AuCloud.ico</icon>
+      <icon-index>0</icon-index>
+      <des>Aurawin Cloud synchronization software</des>
+    </link>
+    <link>
+      <name>Readme</name>
+      <folder>$StartMenuPrograms\Aurawin\AuCloud\</folder>
+      <file>Readme.txt</file>
+      <des>Aurawin Cloud synchronization Readme file</des>
+    </link>
+    <link>
+      <name>License</name>
+      <folder>$StartMenuPrograms\Aurawin\AuCloud\</folder>
+      <file>License.txt</file>
+      <des>Aurawin Cloud synchronization License file</des>
+    </link>
+  </links>
+  <files>
+    <file>
+      <name>AuCloud.ico</name>
+      <target>$ProgramFiles\Aurawin\AuCloud\</target>
+    </file>
+    <file>
+      <name>AuCloud.jpg</name>
+      <target>$ProgramFiles\Aurawin\AuCloud\</target>
+    </file>
+    <file>
+      <name>AuCloud.exe</name>
+      <target>$ProgramFiles\Aurawin\AuCloud\</target>
+    </file>
+    <file>
+      <name>Readme.txt</name>
+      <target>$ProgramFiles\Aurawin\AuCloud\</target>
+    </file>
+    <file>
+      <name>License.txt</name>
+      <target>$ProgramFiles\Aurawin\AuCloud\</target>
+    </file>
+    <file>
+      <name>remove.bat</name>
+      <target>$ProgramFiles\Aurawin\AuCloud\</target>
+    </file>
+  </files>
+</manifest>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="xWebDAV.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="xWebDAV"/>
+        <TopLine Value="28"/>
+        <CursorPos X="2" Y="34"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/xmltextreader.pp"/>
+        <UnitName Value="xmltextreader"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="953"/>
+        <CursorPos Y="975"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../FPC/rtl/inc/heap.inc"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="841"/>
+        <CursorPos Y="861"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/xmlutils.pp"/>
+        <UnitName Value="xmlutils"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="866"/>
+        <CursorPos X="12" Y="936"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/dom.pp"/>
+        <UnitName Value="DOM"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="1780"/>
+        <CursorPos X="6" Y="1795"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../FPC/rtl/inc/astrings.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="120"/>
+        <CursorPos Y="142"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../FPC/rtl/inc/generic.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="805"/>
+        <CursorPos Y="830"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="309"/>
+        <CursorPos Y="337"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../Libraries/Core/uWebDAV.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uWebDAV"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="54" TopLine="21"/>
+      </Position1>
+      <Position2>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="55" TopLine="22"/>
+      </Position2>
+      <Position3>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="56" TopLine="23"/>
+      </Position3>
+      <Position4>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="55" TopLine="23"/>
+      </Position4>
+      <Position5>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="29" TopLine="21"/>
+      </Position5>
+      <Position6>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="30" TopLine="21"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../../../FPC/rtl/inc/generic.inc"/>
+        <Caret Line="826" TopLine="805"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../../../FPC/rtl/inc/generic.inc"/>
+        <Caret Line="827" TopLine="805"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../../../FPC/rtl/inc/generic.inc"/>
+        <Caret Line="828" TopLine="805"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../../../FPC/rtl/inc/generic.inc"/>
+        <Caret Line="830" TopLine="805"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/dom.pp"/>
+        <Caret Line="3053" TopLine="3033"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/dom.pp"/>
+        <Caret Line="3055" TopLine="3033"/>
+      </Position12>
+      <Position13>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/dom.pp"/>
+        <Caret Line="3056" TopLine="3033"/>
+      </Position13>
+      <Position14>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="330" TopLine="309"/>
+      </Position14>
+      <Position15>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="331" TopLine="309"/>
+      </Position15>
+      <Position16>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="332" TopLine="309"/>
+      </Position16>
+      <Position17>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="334" TopLine="309"/>
+      </Position17>
+      <Position18>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="335" TopLine="309"/>
+      </Position18>
+      <Position19>
+        <Filename Value="../../../../FPC/rtl/inc/ustrings.inc"/>
+        <Caret Line="337" TopLine="309"/>
+      </Position19>
+      <Position20>
+        <Filename Value="../../../../FPC/packages/fcl-xml/src/dom.pp"/>
+        <Caret Line="1800" TopLine="1780"/>
+      </Position20>
+      <Position21>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="59" Column="51" TopLine="21"/>
+      </Position21>
+      <Position22>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="54" TopLine="24"/>
+      </Position22>
+      <Position23>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="29" TopLine="21"/>
+      </Position23>
+      <Position24>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="61" TopLine="19"/>
+      </Position24>
+      <Position25>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="54" TopLine="21"/>
+      </Position25>
+      <Position26>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="29" TopLine="21"/>
+      </Position26>
+      <Position27>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="32" Column="31" TopLine="21"/>
+      </Position27>
+      <Position28>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="54" TopLine="21"/>
+      </Position28>
+      <Position29>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="29" TopLine="21"/>
+      </Position29>
+      <Position30>
+        <Filename Value="xWebDAV.lpr"/>
+        <Caret Line="32" TopLine="21"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="5">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="xLimit.lpr"/>
+        <Line Value="69"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="xWebDAV.lpr"/>
+        <Line Value="59"/>
+      </Item2>
+      <Item3>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="xWebDAV.lpr"/>
+        <Line Value="52"/>
+      </Item3>
+      <Item4>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="xWebDAV.lpr"/>
+        <Line Value="29"/>
+      </Item4>
+      <Item5>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="xWebDAV.lpr"/>
+        <Line Value="32"/>
+      </Item5>
+    </BreakPoints>
+    <Watches Count="2">
+      <Item1>
+        <Expression Value="FDOMNODE"/>
+      </Item1>
+      <Item2>
+        <Expression Value="FDOMNode.LocalName"/>
+      </Item2>
+    </Watches>
+  </Debugging>
+</CONFIG>

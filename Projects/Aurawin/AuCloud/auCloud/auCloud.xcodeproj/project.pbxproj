@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C735B2A615B257C600A525F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735B2A515B257C600A525F6 /* UIKit.framework */; };
+		C735B2A815B257C600A525F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735B2A715B257C600A525F6 /* Foundation.framework */; };
+		C735B2AA15B257C600A525F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735B2A915B257C600A525F6 /* CoreGraphics.framework */; };
+		C735B2B015B257C600A525F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C735B2AE15B257C600A525F6 /* InfoPlist.strings */; };
+		C735B2B215B257C600A525F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C735B2B115B257C600A525F6 /* main.m */; };
+		C735B2B615B257C600A525F6 /* auCloudAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C735B2B515B257C600A525F6 /* auCloudAppDelegate.m */; };
+		C735B2B915B257C600A525F6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C735B2B715B257C600A525F6 /* MainStoryboard_iPhone.storyboard */; };
+		C735B2BC15B257C600A525F6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C735B2BA15B257C600A525F6 /* MainStoryboard_iPad.storyboard */; };
+		C735B2BF15B257C600A525F6 /* auCloudViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C735B2BE15B257C600A525F6 /* auCloudViewController.m */; };
+		C735B2C715B257C600A525F6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735B2C615B257C600A525F6 /* SenTestingKit.framework */; };
+		C735B2C815B257C600A525F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735B2A515B257C600A525F6 /* UIKit.framework */; };
+		C735B2C915B257C600A525F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C735B2A715B257C600A525F6 /* Foundation.framework */; };
+		C735B2D115B257C600A525F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C735B2CF15B257C600A525F6 /* InfoPlist.strings */; };
+		C735B2D415B257C600A525F6 /* auCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C735B2D315B257C600A525F6 /* auCloudTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C735B2CA15B257C600A525F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C735B29815B257C500A525F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C735B2A015B257C600A525F6;
+			remoteInfo = auCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C735B2A115B257C600A525F6 /* auCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = auCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C735B2A515B257C600A525F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C735B2A715B257C600A525F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C735B2A915B257C600A525F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C735B2AD15B257C600A525F6 /* auCloud-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "auCloud-Info.plist"; sourceTree = "<group>"; };
+		C735B2AF15B257C600A525F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C735B2B115B257C600A525F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C735B2B315B257C600A525F6 /* auCloud-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auCloud-Prefix.pch"; sourceTree = "<group>"; };
+		C735B2B415B257C600A525F6 /* auCloudAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auCloudAppDelegate.h; sourceTree = "<group>"; };
+		C735B2B515B257C600A525F6 /* auCloudAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = auCloudAppDelegate.m; sourceTree = "<group>"; };
+		C735B2B815B257C600A525F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C735B2BB15B257C600A525F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C735B2BD15B257C600A525F6 /* auCloudViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auCloudViewController.h; sourceTree = "<group>"; };
+		C735B2BE15B257C600A525F6 /* auCloudViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = auCloudViewController.m; sourceTree = "<group>"; };
+		C735B2C515B257C600A525F6 /* auCloudTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = auCloudTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C735B2C615B257C600A525F6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C735B2CE15B257C600A525F6 /* auCloudTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "auCloudTests-Info.plist"; sourceTree = "<group>"; };
+		C735B2D015B257C600A525F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C735B2D215B257C600A525F6 /* auCloudTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auCloudTests.h; sourceTree = "<group>"; };
+		C735B2D315B257C600A525F6 /* auCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = auCloudTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C735B29E15B257C600A525F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735B2A615B257C600A525F6 /* UIKit.framework in Frameworks */,
+				C735B2A815B257C600A525F6 /* Foundation.framework in Frameworks */,
+				C735B2AA15B257C600A525F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735B2C115B257C600A525F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735B2C715B257C600A525F6 /* SenTestingKit.framework in Frameworks */,
+				C735B2C815B257C600A525F6 /* UIKit.framework in Frameworks */,
+				C735B2C915B257C600A525F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C735B29615B257C500A525F6 = {
+			isa = PBXGroup;
+			children = (
+				C735B2AB15B257C600A525F6 /* auCloud */,
+				C735B2CC15B257C600A525F6 /* auCloudTests */,
+				C735B2A415B257C600A525F6 /* Frameworks */,
+				C735B2A215B257C600A525F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C735B2A215B257C600A525F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C735B2A115B257C600A525F6 /* auCloud.app */,
+				C735B2C515B257C600A525F6 /* auCloudTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C735B2A415B257C600A525F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C735B2A515B257C600A525F6 /* UIKit.framework */,
+				C735B2A715B257C600A525F6 /* Foundation.framework */,
+				C735B2A915B257C600A525F6 /* CoreGraphics.framework */,
+				C735B2C615B257C600A525F6 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C735B2AB15B257C600A525F6 /* auCloud */ = {
+			isa = PBXGroup;
+			children = (
+				C735B2B415B257C600A525F6 /* auCloudAppDelegate.h */,
+				C735B2B515B257C600A525F6 /* auCloudAppDelegate.m */,
+				C735B2B715B257C600A525F6 /* MainStoryboard_iPhone.storyboard */,
+				C735B2BA15B257C600A525F6 /* MainStoryboard_iPad.storyboard */,
+				C735B2BD15B257C600A525F6 /* auCloudViewController.h */,
+				C735B2BE15B257C600A525F6 /* auCloudViewController.m */,
+				C735B2AC15B257C600A525F6 /* Supporting Files */,
+			);
+			path = auCloud;
+			sourceTree = "<group>";
+		};
+		C735B2AC15B257C600A525F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C735B2AD15B257C600A525F6 /* auCloud-Info.plist */,
+				C735B2AE15B257C600A525F6 /* InfoPlist.strings */,
+				C735B2B115B257C600A525F6 /* main.m */,
+				C735B2B315B257C600A525F6 /* auCloud-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C735B2CC15B257C600A525F6 /* auCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				C735B2D215B257C600A525F6 /* auCloudTests.h */,
+				C735B2D315B257C600A525F6 /* auCloudTests.m */,
+				C735B2CD15B257C600A525F6 /* Supporting Files */,
+			);
+			path = auCloudTests;
+			sourceTree = "<group>";
+		};
+		C735B2CD15B257C600A525F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C735B2CE15B257C600A525F6 /* auCloudTests-Info.plist */,
+				C735B2CF15B257C600A525F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C735B2A015B257C600A525F6 /* auCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C735B2D715B257C600A525F6 /* Build configuration list for PBXNativeTarget "auCloud" */;
+			buildPhases = (
+				C735B29D15B257C600A525F6 /* Sources */,
+				C735B29E15B257C600A525F6 /* Frameworks */,
+				C735B29F15B257C600A525F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = auCloud;
+			productName = auCloud;
+			productReference = C735B2A115B257C600A525F6 /* auCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C735B2C415B257C600A525F6 /* auCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C735B2DA15B257C600A525F6 /* Build configuration list for PBXNativeTarget "auCloudTests" */;
+			buildPhases = (
+				C735B2C015B257C600A525F6 /* Sources */,
+				C735B2C115B257C600A525F6 /* Frameworks */,
+				C735B2C215B257C600A525F6 /* Resources */,
+				C735B2C315B257C600A525F6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C735B2CB15B257C600A525F6 /* PBXTargetDependency */,
+			);
+			name = auCloudTests;
+			productName = auCloudTests;
+			productReference = C735B2C515B257C600A525F6 /* auCloudTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C735B29815B257C500A525F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = auCloud;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C735B29B15B257C500A525F6 /* Build configuration list for PBXProject "auCloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C735B29615B257C500A525F6;
+			productRefGroup = C735B2A215B257C600A525F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C735B2A015B257C600A525F6 /* auCloud */,
+				C735B2C415B257C600A525F6 /* auCloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C735B29F15B257C600A525F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735B2B015B257C600A525F6 /* InfoPlist.strings in Resources */,
+				C735B2B915B257C600A525F6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C735B2BC15B257C600A525F6 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735B2C215B257C600A525F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735B2D115B257C600A525F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C735B2C315B257C600A525F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C735B29D15B257C600A525F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735B2B215B257C600A525F6 /* main.m in Sources */,
+				C735B2B615B257C600A525F6 /* auCloudAppDelegate.m in Sources */,
+				C735B2BF15B257C600A525F6 /* auCloudViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C735B2C015B257C600A525F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C735B2D415B257C600A525F6 /* auCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C735B2CB15B257C600A525F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C735B2A015B257C600A525F6 /* auCloud */;
+			targetProxy = C735B2CA15B257C600A525F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C735B2AE15B257C600A525F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C735B2AF15B257C600A525F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C735B2B715B257C600A525F6 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C735B2B815B257C600A525F6 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C735B2BA15B257C600A525F6 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C735B2BB15B257C600A525F6 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C735B2CF15B257C600A525F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C735B2D015B257C600A525F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C735B2D515B257C600A525F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C735B2D615B257C600A525F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C735B2D815B257C600A525F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "auCloud/auCloud-Prefix.pch";
+				INFOPLIST_FILE = "auCloud/auCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C735B2D915B257C600A525F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "auCloud/auCloud-Prefix.pch";
+				INFOPLIST_FILE = "auCloud/auCloud-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C735B2DB15B257C600A525F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/auCloud.app/auCloud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "auCloud/auCloud-Prefix.pch";
+				INFOPLIST_FILE = "auCloudTests/auCloudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C735B2DC15B257C600A525F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/auCloud.app/auCloud";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "auCloud/auCloud-Prefix.pch";
+				INFOPLIST_FILE = "auCloudTests/auCloudTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C735B29B15B257C500A525F6 /* Build configuration list for PBXProject "auCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735B2D515B257C600A525F6 /* Debug */,
+				C735B2D615B257C600A525F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C735B2D715B257C600A525F6 /* Build configuration list for PBXNativeTarget "auCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735B2D815B257C600A525F6 /* Debug */,
+				C735B2D915B257C600A525F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C735B2DA15B257C600A525F6 /* Build configuration list for PBXNativeTarget "auCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C735B2DB15B257C600A525F6 /* Debug */,
+				C735B2DC15B257C600A525F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C735B29815B257C500A525F6 /* Project object */;
+}

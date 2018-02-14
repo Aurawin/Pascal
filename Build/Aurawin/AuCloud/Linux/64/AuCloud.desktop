@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=1.0
+Name=Aurawin Cloud
+GenericName=Aurawin Synchronize Application
+Comment=Synchronize social and personal media
+Exec=AuCloud
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=AuCloud.png
+Categories=Network;
+StartupNotify=true
+
+
+
