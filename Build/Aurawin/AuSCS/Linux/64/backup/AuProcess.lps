@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="9">
+      <Unit0>
+        <Filename Value="AuProcess.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="4" Y="7"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Uses.Servers.inc"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="6"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPd.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2681"/>
+        <CursorPos X="26" Y="2319"/>
+        <UsageCount Value="12"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Append.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="63" Y="25"/>
+        <UsageCount Value="12"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="49"/>
+        <UsageCount Value="12"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../Projects/SCS/Daemons/uIMAPManager.Process.CAPABILITY.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="3"/>
+        <UsageCount Value="12"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../Pascal/RSR.IMAP.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="2"/>
+        <CursorPos X="3" Y="43"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../Projects/Aurawin/SCS/Services/uHTTPd.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="144"/>
+        <CursorPos X="3" Y="165"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../../../../../Projects/Aurawin/SCS/Core/coProviders.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="24"/>
+        <CursorPos X="5" Y="45"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+    </Units>
+    <JumpHistory Count="6" HistoryIndex="5">
+      <Position1>
+        <Filename Value="AuProcess.lpr"/>
+        <Caret Line="23" Column="37"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Uses.Servers.inc"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../../../../Pascal/RSR.IMAP.pas"/>
+        <Caret Line="43" Column="3" TopLine="2"/>
+      </Position3>
+      <Position4>
+        <Filename Value="AuProcess.lpr"/>
+        <Caret Line="7" Column="4"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../../../../Projects/Aurawin/AuProcess/AuProcess.Uses.Servers.inc"/>
+        <Caret Line="6"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../../../../Projects/Aurawin/SCS/Services/uHTTPd.pas"/>
+        <Caret Line="165" Column="3" TopLine="144"/>
+      </Position6>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

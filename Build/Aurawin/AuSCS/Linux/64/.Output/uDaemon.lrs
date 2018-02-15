@@ -1,0 +1,8 @@
+LazarusResources.Add('TAurawinSCS','FORMDATA',[
+  'TPF0'#11'TAurawinSCS'#10'AurawinSCS'#8'OnCreate'#7#16'DataModuleCreate'#9'On'
+  +'Destroy'#7#17'DataModuleDestroy'#14'OldCreateOrder'#8#7'OnStart'#7#15'DataM'
+  +'oduleStart'#6'OnStop'#7#14'DataModuleStop'#7'OnPause'#7#15'DataModulePause'
+  +#10'OnContinue'#7#18'DataModuleContinue'#10'OnShutDown'#7#18'DataModuleShutD'
+  +'own'#13'OnControlCode'#7#21'DataModuleControlCode'#6'Height'#3'A'#1#16'Hori'
+  +'zontalOffset'#2'F'#14'VerticalOffset'#3#173#0#5'Width'#3#243#1#0#0
+]);

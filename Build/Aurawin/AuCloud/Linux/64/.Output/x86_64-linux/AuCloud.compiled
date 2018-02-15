@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/local/bin/fpc" Date="1518620131"/>
+  <Params Value=" -Tlinux -Px86_64 -MObjFPC -Schi -Cg -Crot -Ch2097152 -Cs2097152 -O1 -gw2 -gl -Xg -l -vewibq -vn-h- -Fi/Developer/Internal/Pascal/Build/Aurawin/AuCloud/Linux/64/.Output/x86_64-linux -Fi/Developer/Internal/Pascal/Build/RSRBuild/Linux/64 -Fi/Developer/Internal/Pascal/Build/AppBuild/Linux/64 -Fi/Developer/Internal/Pascal/Pascal -Fu/Developer/Internal/Pascal/Projects/Aurawin/AuCloud -Fu/Developer/Internal/Pascal/Pascal -Fu/Developer/Lazarus/lcl/units/x86_64-linux/gtk2 -Fu/Developer/Lazarus/lcl/units/x86_64-linux -Fu/Developer/Lazarus/components/lazutils/lib/x86_64-linux -Fu/Developer/Lazarus/packager/units/x86_64-linux -Fu/Developer/Internal/Pascal/Build/Aurawin/AuCloud/Linux/64/ -FU/Developer/Internal/Pascal/Build/Aurawin/AuCloud/Linux/64/.Output/x86_64-linux/ -dLCL -dLCLgtk2 -dxSyncRSR -dRSR_NO_LOCK -dxDebug -duseEventQueues -FcUTF8 AuCloud.lpr"/>
+</CONFIG>

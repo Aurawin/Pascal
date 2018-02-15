@@ -1,0 +1,10 @@
+LazarusResources.Add('TdmAurawin','FORMDATA',[
+  'TPF0'#10'TdmAurawin'#9'dmAurawin'#10'DaemonDefs'#14#1#15'DaemonClassName'#6
+  +#11'TAurawinSCS'#4'Name'#6#9'SCSDaemon'#11'Description'#6'UProvides domains '
+  +'with Email, Content Managment, Interactive Search, and Collaboration'#11'Di'
+  +'splayName'#6#31'Aurawin Social Computing Server'#7'Options'#11#11'doAllowSt'
+  +'op'#12'doAllowPause'#0#24'WinBindings.Dependencies'#14#0#21'WinBindings.Sta'
+  +'rtType'#7#6'stBoot'#20'WinBindings.WaitHint'#2#0#17'WinBindings.IDTag'#2#0
+  +#23'WinBindings.ServiceType'#7#7'stWin32'#25'WinBindings.ErrorSeverity'#7#8
+  +'esIgnore'#15'LogStatusReport'#8#0#0#4'left'#2'>'#3'top'#3#135#1#0#0
+]);

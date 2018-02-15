@@ -1,17 +1,17 @@
 App="AuCloud";
-Version=$(sed -n 1p /Developer/Source/Builds/AppBuild/Linux/64/AppBuild.inc);
+Version=$(sed -n 1p /Developer/Internal/Pascal/Build/AppBuild/Linux/64/AppBuild.inc);
 Version="${Version%\'}";
 Version="${Version#\'}";
 echo "Assembling $App-$Version ...";
 Opts="-9 -j";
-Root="/Developer/Source/Install/Aurawin/$App";
+Root="/Developer/Internal/Pascal/Install/Aurawin/$App";
 Base="$Root/Linux/64";
 Suffix="linux-x64.zip";
 ZipFile="$App-$Version-$Suffix";
 Zip="$Base/$ZipFile";
-Build_Base="/Developer/Source/Builds/Aurawin/$App";
+Build_Base="/Developer/Internal/Pascal/Build/Aurawin/$App";
 Build="$Build_Base/Linux/64";
-PTH_UL="/Developer/Source/Install/Aurawin/Uploads";
+PTH_UL="/Developer/Internal/Pascal/Install/Aurawin/Uploads";
 target="$Base/$App";
 Readme="$Base/Readme.txt";
 License="$Root/License.txt";
@@ -28,15 +28,13 @@ zip $Opts $Zip $Install
 zip $Opts $Zip $Remove
 zip $Opts $Zip $Icon
 zip $Opts $Zip $DesktopInf
-svn -q --force add $Zip
 
-echo "Assembling Uploads...";
 
+echo "Removing file pattern " $PTH_UL/$App"-*"$Suffix;
 rm -f $PTH_UL/$App-*$Suffix;
-cp -f $Zip $PTH_UL/$ZipFile;
-svn -q --force add $PTH_UL/$ZipFile;
+echo "Moving " $ZipFile "to Uploads...";
+mv -f $Zip $PTH_UL/$ZipFile;
 
-svn commit $Base -m "$App-$Version"
-svn commit $PTH_UL -m "$App-$Version"
 
 echo "Assembly of $App-$Version compelete!";
+echo "Check Upload Folder "$PTH_UL" for assembly.";

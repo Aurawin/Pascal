@@ -22,7 +22,7 @@
       <MajorVersionNr Value="2015"/>
       <MinorVersionNr Value="5"/>
       <RevisionNr Value="21"/>
-      <BuildNr Value="2218"/>
+      <BuildNr Value="2219"/>
       <Attributes pvaSpecialBuild="True"/>
       <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Social Computing Server Process" InternalName="AuProcess" LegalCopyright="2013-2015" LegalTrademarks="RSR, Aurawin" OriginalFilename="AuProcess" ProductName="Aurawin Social Computing Server" ProductVersion="2015"/>
     </VersionInfo>

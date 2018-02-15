@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="10"/>
+    <Version Value="11"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
@@ -18,7 +18,7 @@
       <MajorVersionNr Value="2015"/>
       <MinorVersionNr Value="7"/>
       <RevisionNr Value="5"/>
-      <BuildNr Value="1281"/>
+      <BuildNr Value="1284"/>
       <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Cloud Synchronization Software" InternalName="AuCloud" LegalCopyright="2012-2015" LegalTrademarks="Aurawin, RSR" OriginalFilename="AuCloud" ProductName="Aurawin Desktop Synchronization" ProductVersion="2015"/>
     </VersionInfo>
     <BuildModes Count="2">
@@ -92,9 +92,16 @@
     </PublishOptions>
     <RunParams>
       <local>
-        <FormatVersion Value="1"/>
         <CommandLineParams Value="service=13"/>
       </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="service=13"/>
+          </local>
+        </Mode0>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="1">
       <Item1>

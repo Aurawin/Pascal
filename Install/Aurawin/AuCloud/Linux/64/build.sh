@@ -1,1 +1,1 @@
-exec /Developer/Lazarus/lazbuild -B /Developer/Source/Builds/Aurawin/AuCloud/Linux/64/AuCloud.lpr
+exec /Developer/Lazarus/lazbuild -B /Developer/Internal/Pascal/Build/Aurawin/AuCloud/Linux/64/AuCloud.lpr

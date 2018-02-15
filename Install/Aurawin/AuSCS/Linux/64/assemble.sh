@@ -29,14 +29,12 @@ zip $Opts $Zip $License
 zip $Opts $Zip $Install
 zip $Opts $Zip $Remove
 zip $Opts $Zip $systemd
-svn -q --force add $Zip
-echo "Assembling Uploads...";
 
+echo "Removing file pattern " $PTH_UL/$App"-*"$Suffix;
 rm -f $PTH_UL/$App-*$Suffix;
-cp -f $Zip $PTH_UL/$ZipFile;
-git add -f $PTH_UL/$ZipFile;
 
-git commit $Base -m "$App-$Version"
-git commit $PTH_UL -m "$App-$Version"
+echo "Moving " $ZipFile "to Uploads...";
+mv -f $Zip $PTH_UL/$ZipFile;
 
 echo "Assembly of $App-$Version compelete!";
+echo "Check Upload Folder "$PTH_UL" for assembly.";

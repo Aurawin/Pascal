@@ -17,7 +17,7 @@
       <MajorVersionNr Value="2015"/>
       <MinorVersionNr Value="5"/>
       <RevisionNr Value="18"/>
-      <BuildNr Value="8655"/>
+      <BuildNr Value="8663"/>
       <StringTable Comments="Thanks for using Aurawin Social Computing Server" CompanyName="Aurawin LLC" FileDescription="Aurawin Social Computer Server" InternalName="AuConsole" LegalCopyright="2011-2015" LegalTrademarks="RSR,SCS,Aurawin" OriginalFilename="AuConsole" ProductName="Social Computing Server (SCS) Console" ProductVersion="2015"/>
     </VersionInfo>
     <BuildModes Count="2">
@@ -104,7 +104,7 @@
         <MinVersion Major="1" Valid="True"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="20">
+    <Units Count="9">
       <Unit0>
         <Filename Value="AuConsole.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -114,113 +114,6 @@
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="../../../../../Projects/SCS/FileManager/frmFileMan.pas"/>
-        <ComponentName Value="FileManager"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1170"/>
-        <CursorPos X="59" Y="1196"/>
-        <UsageCount Value="200"/>
-      </Unit1>
-      <Unit2>
-        <Filename Value="../../../../../Projects/SCS/Console/frmConsole.pas"/>
-        <ComponentName Value="ConsoleForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="1880"/>
-        <CursorPos X="47" Y="1905"/>
-        <ExtraEditorCount Value="1"/>
-        <ExtraEditor1>
-          <EditorIndex Value="-1"/>
-        </ExtraEditor1>
-        <UsageCount Value="210"/>
-        <Bookmarks Count="2">
-          <Item0 Y="1388" ID="4"/>
-          <Item1 Y="5501" ID="3"/>
-        </Bookmarks>
-      </Unit2>
-      <Unit3>
-        <Filename Value="../../../../../Projects/SCS/Editor/frmEdit.pas"/>
-        <ComponentName Value="SCSEditorForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="367"/>
-        <CursorPos X="32" Y="394"/>
-        <UsageCount Value="200"/>
-      </Unit3>
-      <Unit4>
-        <Filename Value="../../../../../Projects/SCS/Editor/frmProvider.pas"/>
-        <ComponentName Value="ProviderForm"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="100"/>
-        <CursorPos X="53" Y="142"/>
-        <UsageCount Value="205"/>
-      </Unit4>
-      <Unit5>
-        <Filename Value="../../../../../Projects/SCS/Login/frmLogin.pas"/>
-        <ComponentName Value="LoginForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="159"/>
-        <CursorPos Y="181"/>
-        <UsageCount Value="201"/>
-      </Unit5>
-      <Unit6>
-        <Filename Value="../../../../../Projects/SCS/Editor/frmKeyword.pas"/>
-        <ComponentName Value="KeywordForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="281"/>
-        <CursorPos X="34" Y="321"/>
-        <UsageCount Value="208"/>
-      </Unit6>
-      <Unit7>
-        <Filename Value="../../../../../Projects/SCS/Console/frmServices.pas"/>
-        <ComponentName Value="frmServices"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="168"/>
-        <CursorPos X="9" Y="214"/>
-        <UsageCount Value="201"/>
-      </Unit7>
-      <Unit8>
-        <Filename Value="../../../../../Projects/SCS/Viewers/frmImage.pas"/>
-        <ComponentName Value="ImageViewerForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="76"/>
-        <CursorPos X="24" Y="105"/>
-        <UsageCount Value="260"/>
-      </Unit8>
-      <Unit9>
-        <Filename Value="../../../../../Projects/SCS/RSAKey/frmRSA.pas"/>
-        <ComponentName Value="RSAGen"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="90"/>
-        <CursorPos X="3" Y="90"/>
-        <UsageCount Value="201"/>
-      </Unit9>
-      <Unit10>
-        <Filename Value="../../../../../Projects/SCS/CertReq/frmCertReq.pas"/>
-        <ComponentName Value="CertReqForm"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="134"/>
-        <CursorPos X="26" Y="169"/>
-        <UsageCount Value="200"/>
-      </Unit10>
-      <Unit11>
         <Filename Value="../../../../../Pascal/Form.Exception.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -228,8 +121,8 @@
         <TopLine Value="9"/>
         <CursorPos X="12" Y="58"/>
         <UsageCount Value="123"/>
-      </Unit11>
-      <Unit12>
+      </Unit1>
+      <Unit2>
         <Filename Value="../../../../../Pascal/Form.DBException.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -237,16 +130,16 @@
         <TopLine Value="48"/>
         <CursorPos Y="70"/>
         <UsageCount Value="124"/>
-      </Unit12>
-      <Unit13>
+      </Unit2>
+      <Unit3>
         <Filename Value="../../../../../Pascal/Form.YesNo.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="4" Y="58"/>
         <UsageCount Value="123"/>
-      </Unit13>
-      <Unit14>
+      </Unit3>
+      <Unit4>
         <Filename Value="../../../../../Projects/Aurawin/SCS/Views/frmCertReq.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -255,8 +148,8 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit14>
-      <Unit15>
+      </Unit4>
+      <Unit5>
         <Filename Value="../../../../../Projects/Aurawin/SCS/Views/frmFileMan.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -265,8 +158,8 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit15>
-      <Unit16>
+      </Unit5>
+      <Unit6>
         <Filename Value="../../../../../Projects/Aurawin/SCS/Views/frmImage.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -275,8 +168,8 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit16>
-      <Unit17>
+      </Unit6>
+      <Unit7>
         <Filename Value="../../../../../Projects/Aurawin/SCS/Views/frmLogin.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -285,8 +178,8 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit17>
-      <Unit18>
+      </Unit7>
+      <Unit8>
         <Filename Value="../../../../../Projects/Aurawin/SCS/Views/frmRSA.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -295,21 +188,9 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit18>
-      <Unit19>
-        <Filename Value="../../../../../../FPC/rtl/objpas/fgl.pp"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="916"/>
-        <CursorPos Y="937"/>
-        <UsageCount Value="10"/>
-      </Unit19>
+      </Unit8>
     </Units>
-    <JumpHistory Count="1">
-      <Position1>
-        <Filename Value="AuConsole.lpr"/>
-        <Caret Line="4" Column="105"/>
-      </Position1>
-    </JumpHistory>
+    <JumpHistory HistoryIndex="-1"/>
   </ProjectOptions>
   <CompilerOptions>
     <Version Value="11"/>
@@ -355,29 +236,4 @@
     </Other>
     <CompileReasons Run="False"/>
   </CompilerOptions>
-  <Debugging>
-    <BreakPoints Count="3">
-      <Item1>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="../../../../../Projects/SCS/CertReq/frmCertReq.pas"/>
-        <Line Value="170"/>
-      </Item1>
-      <Item2>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="../../../../../Projects/SCS/CertReq/frmCertReq.pas"/>
-        <Line Value="167"/>
-      </Item2>
-      <Item3>
-        <Kind Value="bpkSource"/>
-        <WatchScope Value="wpsLocal"/>
-        <WatchKind Value="wpkWrite"/>
-        <Source Value="../../../../../Projects/SCS/CertReq/frmCertReq.pas"/>
-        <Line Value="173"/>
-      </Item3>
-    </BreakPoints>
-  </Debugging>
 </CONFIG>

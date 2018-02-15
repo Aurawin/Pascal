@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <General>
+      <Flags>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="AuProcess"/>
+      <UseAppBundle Value="False"/>
+      <ResourceType Value="res"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="2015"/>
+      <MinorVersionNr Value="5"/>
+      <RevisionNr Value="21"/>
+      <BuildNr Value="2218"/>
+      <Attributes pvaSpecialBuild="True"/>
+      <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Social Computing Server Process" InternalName="AuProcess" LegalCopyright="2013-2015" LegalTrademarks="RSR, Aurawin" OriginalFilename="AuProcess" ProductName="Aurawin Social Computing Server" ProductVersion="2015"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+      <SharedMatrixOptions Count="1">
+        <Item1 ID="907604315524" Modes="Default" Value="-dEnableUTF8RTL"/>
+      </SharedMatrixOptions>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <CommandLineParams Value="service=31"/>
+      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <CommandLineParams Value="service=31"/>
+          </local>
+        </Mode0>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LazUtils"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="1">
+      <Unit0>
+        <Filename Value="AuProcess.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <Target>
+      <Filename Value="AuProcess"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir);../../../../../Pascal;../../../../../Projects/Aurawin/AuProcess;../../../../RSRBuild/Linux/64;../../../../AppBuild/Linux/64;../../../../../Projects/Aurawin/SCS/Core"/>
+      <Libraries Value="../../../../../Pascal"/>
+      <OtherUnitFiles Value="../../../../../Pascal;../../../../../Projects/Aurawin/SCS/Services;../../../../../Projects/Aurawin/SCS/Providers;../../../../../Projects/Aurawin/SCS/Core"/>
+      <UnitOutputDirectory Value=".Output"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <StackSize Value="4424832"/>
+    </CodeGeneration>
+    <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+        <ShowNotes Value="False"/>
+        <ShowHints Value="False"/>
+        <ShoLineNum Value="True"/>
+      </Verbosity>
+      <CustomOptions Value="-dxSyncRSR
+-dxRSR_DEBUG
+-dFPC_USE_LIBC
+-dxDROP_ALL_MAIL_RELAY
+-duseEventQueues
+-dRSR_NO_LOCK
+-dxRSR_IMAP_ONLY
+-FcUTF8"/>
+      <ExecuteBefore>
+        <Command Value="/bin/bash $(ProjPath)/prebuild.sh"/>
+        <CompileReasons Run="False"/>
+      </ExecuteBefore>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

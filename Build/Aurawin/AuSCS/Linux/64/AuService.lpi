@@ -19,7 +19,7 @@
       <MajorVersionNr Value="2015"/>
       <MinorVersionNr Value="5"/>
       <RevisionNr Value="21"/>
-      <BuildNr Value="469"/>
+      <BuildNr Value="471"/>
       <Language Value=""/>
       <CharSet Value=""/>
       <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Social Computing Server Service Application" InternalName="SCS" LegalCopyright="2012-2015" LegalTrademarks="RSR, SCS" OriginalFilename="AuSCS" ProductName="Aurawin SCS" ProductVersion="2015"/>
@@ -41,10 +41,6 @@
       <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <CommandLineParams Value="-r"/>
-        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
-      </local>
       <FormatVersion Value="2"/>
       <Modes Count="1">
         <Mode0 Name="default">
@@ -66,7 +62,7 @@
         <PackageName Value="FCL"/>
       </Item3>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="3">
       <Unit0>
         <Filename Value="AuService.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -76,29 +72,6 @@
         <UsageCount Value="203"/>
       </Unit0>
       <Unit1>
-        <Filename Value="..\..\..\..\..\Projects\SCS\Daemon\uDaemon.pas"/>
-        <ComponentName Value="AurawinSCS"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="DataModule"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="159"/>
-        <CursorPos X="36" Y="183"/>
-        <UsageCount Value="203"/>
-        <Bookmarks Count="3">
-          <Item0 Y="721" ID="4"/>
-          <Item1 Y="31" ID="1"/>
-          <Item2 X="22" Y="793" ID="2"/>
-        </Bookmarks>
-      </Unit1>
-      <Unit2>
-        <Filename Value="..\..\..\..\..\Projects\SCS\Daemon\uService.pas"/>
-        <ComponentName Value="dmAurawin"/>
-        <HasResources Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <UsageCount Value="203"/>
-      </Unit2>
-      <Unit3>
         <Filename Value="..\..\..\..\..\Projects\Aurawin\SCS\Service\uDaemon.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -107,8 +80,8 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit3>
-      <Unit4>
+      </Unit1>
+      <Unit2>
         <Filename Value="..\..\..\..\..\Projects\Aurawin\SCS\Service\uService.pas"/>
         <IsPartOfProject Value="True"/>
         <HasResources Value="True"/>
@@ -117,7 +90,7 @@
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
         <UsageCount Value="20"/>
-      </Unit4>
+      </Unit2>
     </Units>
     <JumpHistory HistoryIndex="-1"/>
   </ProjectOptions>
