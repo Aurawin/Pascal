@@ -1,0 +1,5 @@
+*.exe
+output
+.Output
+backup
+.backup

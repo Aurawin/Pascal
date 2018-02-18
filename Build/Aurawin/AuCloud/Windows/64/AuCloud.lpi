@@ -25,7 +25,7 @@
       <MajorVersionNr Value="2017"/>
       <MinorVersionNr Value="6"/>
       <RevisionNr Value="12"/>
-      <BuildNr Value="1238"/>
+      <BuildNr Value="1239"/>
       <StringTable Comments="Thanks for using Aurawin" CompanyName="Aurawin LLC" FileDescription="Aurawin Cloud Synchronization Software" InternalName="AuCloud" LegalCopyright="2012-2017" LegalTrademarks="Aurawin, RSR" OriginalFilename="AuCloud.exe" ProductName="Aurawin Desktop Synchronization" ProductVersion="2017"/>
     </VersionInfo>
     <BuildModes Count="1">
