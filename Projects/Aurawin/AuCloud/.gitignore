@@ -1,0 +1,8 @@
+*.exe
+output
+.Output
+backup
+.backup
+*.dbg
+link.res
+ppas.bat
