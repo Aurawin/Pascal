@@ -228,7 +228,7 @@ type
         QueueItemsMax                    : DWORD = 100;
         COMMAND_TIMEOUT                  : DWORD = 60*35;
         BUFFER_EMPTY_THRESHOLD           : DWORD = 1024*1024;
-        STACKSIZE_SCANNER                : DWORD = 1024*1024*5;   // 5MB Stack Size
+        STACKSIZE_SCANNER                : DWORD = 1024*1024*20;   // 5MB Stack Size
         STACKSIZE_COMMANDS               : DWORD = 1024*1024*10;  // 10MB Stack Size
       end;
     end;

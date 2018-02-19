@@ -9,6 +9,8 @@ private
 private
   function checkForFilesRefresh(RSRP:PRSR; Expires:Double):boolean;
   function checkForFoldersRefresh(RSRP:PRSR; Expires:Double):boolean;
+protected
+  procedure doTerminate();
 public
   constructor Create(
     aOwner   : TAuSocketMan;

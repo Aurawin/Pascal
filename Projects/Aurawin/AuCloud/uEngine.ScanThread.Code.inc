@@ -18,11 +18,23 @@ begin
   RTLEventDestroy(FSleepP);
   inherited Destroy;
 end;
+procedure TScanThread.doTerminate();
+begin
+  RTLEventDestroy(FSleepP);
+  FSleepP:=nil;
+end;
 
 procedure TScanThread.Execute();
+var
+   Pause:Dword;
 begin
   While (Terminated=false) and (FOwner.Terminated=false) do begin
-    RTLeventWaitFor(FSleepP,Process(FRSRP));
+    Pause:=Process(FRSRP);
+    Try
+      RTLeventWaitFor(FSleepP,Pause);
+    Except
+      Pause:=0;
+    end;
     Recycle(RecycleFlagged);
   end;
 end;

@@ -175,7 +175,7 @@ begin
   Threshold:=MEM_THRESHOLD;
 
   FTimerItem.Location:='Core.Timer._OnTimer';
-  FTimerItem.Expires:=IncSecond(dtNow,MEM_TIMER_SECONDS);
+  FTimerItem.Expires:=IncSecond(dtUT,MEM_TIMER_SECONDS);
   FTimerItem.Event:=@_OnTimer;
 
   Timer.RegisterEvent(FTimerItem,False);
@@ -195,7 +195,7 @@ begin
   Available:=MemoryInfo.Free_Ram;
   Load:=MemoryInfo.Load_Ram;
   Used:=MemoryInfo.Used_Ram;
-  FTimerItem.Expires:=IncSecond(dtNow,MEM_TIMER_SECONDS);
+  FTimerItem.Expires:=IncSecond(dtUt,MEM_TIMER_SECONDS);
 end;
 
 
@@ -209,7 +209,7 @@ begin
   Priority:=tpHigher;
   While Not (Terminated) do begin
     try
-      if dtNow>dtNextEnvQuery then begin
+      if dtUT>dtNextEnvQuery then begin
         iLength:=GetEnvironmentVariableCount;
         SetLength(Environment,iLength);
         for iLcv:=0 to iLength-1 do begin
@@ -217,7 +217,7 @@ begin
           Environment[iLcv]:=GetEnvironmentString(iLcv);
         end;
         sEnvironment:=Core.Arrays.VarString.toString(Environment);
-        dtNextEnvQuery:=DateUtils.IncSecond(dtNow,TIMER_ENVIRONMENT);
+        dtNextEnvQuery:=DateUtils.IncSecond(dtUT,TIMER_ENVIRONMENT);
       end;
       dtNow:=SysUtils.Now;
       dtUT:=DateUtils.IncMilliSecond(dtNow,BiasMinutes*60000);
@@ -337,7 +337,7 @@ begin
   Try
     While Not (Terminated) and (iLcv<FList.Count) do begin
       ItemP:=FList.Items[iLcv];
-      dtStamp:=dtNow;
+      dtStamp:=dtUT;
       FLastItemLocation:='Core.Timer.TTimerThread.ProcessItems.Inspecting';
       Try
         If (ItemP<>Nil) and (ItemP^.Expires<>0) and (dtStamp>ItemP^.Expires) then begin
@@ -486,6 +486,7 @@ end;
 
 initialization
   dtNow:=SysUtils.Now;
+  dtUT:=DateUtils.IncMilliSecond(dtNow,BiasMinutes*60000);
   SetupTZI();
   InitThreads();
 Finalization

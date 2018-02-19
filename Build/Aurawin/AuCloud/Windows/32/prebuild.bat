@@ -1,5 +1,5 @@
-SET BUILD_SRC = C:\Developer\Internal\Pascal\Build\AppBuild\Windows
+SET BUILD_SRC=C:\Developer\Internal\Pascal\Build
 echo Updating Application Build Stamp
-%BUILD_SRC%\32\AppBuild.exe
+%BUILD_SRC%\AppBuild\Windows\32\AppBuild.exe
 echo Updating RSR Build Stamp
-%BUILD_SRC\32\RSRBuilder.exe
+%BUILD_SRC%\RSRBuild\Windows\32\RSRBuilder.exe

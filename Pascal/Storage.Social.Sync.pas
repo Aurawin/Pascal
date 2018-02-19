@@ -660,9 +660,15 @@ begin
       Hdr.Modified:=toDouble(xItem,XML.Fields.Modified);
       if (xPipes<>nil) then begin
         if (ItemP<>nil) then begin
-          xItems:=getChildNode(xPipes,Storage.Social.Sync.Pipes.XML.Items);
-          if (xItems<>nil) then
-            Storage.Social.Sync.Pipes.fromXML(xItems,ItemP^.Pipes);
+          EnterCriticalSection(ItemP^.Lock);
+          Try
+            xItems:=getChildNode(xPipes,Storage.Social.Sync.Pipes.XML.Items);
+            if (xItems<>nil) then
+              Storage.Social.Sync.Pipes.fromXML(xItems,ItemP^.Pipes);
+
+          finally
+            LeaveCriticalSection(ItemP^.Lock);
+          end;
           ItemP^.statePipes:=rqsReceived;
         end else
           Hdr.Pipes:=getNodeText(xPipes);

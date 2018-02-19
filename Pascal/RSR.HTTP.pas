@@ -201,7 +201,7 @@ Type
 
 
 Const
-  HTTP_STACK_SIZE                = 1024*1024*2;
+  HTTP_STACK_SIZE                = {$ifdef Windows} 1024*1024*4 {$else} 1024*1024*2 {$endif};
   HTTP_PORT                      = 80;
   HTTPS_PORT                     = 443;
   HTTP_Protocol                  = 'HTTP';

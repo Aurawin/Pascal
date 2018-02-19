@@ -513,6 +513,7 @@ begin
     netP:=AuSockets.Networks[idx];
     hdrP:=AuSockets.getSync(netP^);
     sncP:=hdrP^.ItemP;
+
     pipeP:=AuSockets.getPipe(pnlName.Caption,sncP^);
     FLoading:=true;
     inc(pipeP^.Direction,1);
@@ -522,6 +523,7 @@ begin
     end else
       tgbSync.Checked:=true;
     sncP^.Modified:=true;
+
     tgbSync.Caption:=auLang.Table.Options.PipeFlow[pipeP^.Direction];
     Aurawin.tiSocialAutoSave.Expires:=IncMillisecond(Core.Timer.dtUT,AUTO_SAVE_DELAY);
     FLoading:=false;
@@ -705,7 +707,7 @@ end;
 
 procedure TAurawin.SocialSyncModified(var Item:Storage.Social.Sync.TSync);
 begin
-  tiSocialAutoSave.Expires:=IncMillisecond(Now,AUTO_SAVE_DELAY);
+  tiSocialAutoSave.Expires:=IncMillisecond(Core.Timer.dtUT,AUTO_SAVE_DELAY);
 end;
 
 procedure TAurawin.NetworksRetrieved(var Items:Storage.Social.Network.TNetworks);
@@ -1039,9 +1041,11 @@ var
   end;
 begin
   FDataRSRP^.Throttle.Consumption:=FDataRSRP^.SendBuffer.posWrite+FDataRSRP^.RecvBuffer.posWrite;
+
   for iPipesLcv:=0 to High(Item.Pipes) do begin
     PushProcessSocialSync(Item.Pipes[iPipesLcv]);
   end;
+
 end;
 
 procedure TAurawin.TI_ProcessSyncItems(ItemP:Core.Timer.PItem);
@@ -1065,6 +1069,7 @@ begin
   rcP:=AuSockets.getResource(Settings.ResourceID);
   listP:=AuSockets.getSyncList();
   if ( AuSockets.Connected and AuSockets.Authenticated and (rcP<>nil) and (listP<>nil) ) then begin
+
     for iLcv:=0 to High(listP^) do begin
       hdrP:=listP^[iLcv];
       if (hdrP<>nil) then begin
@@ -1282,10 +1287,12 @@ begin
       hdrP:=AuSockets.getSync(netP^);
       if (hdrP<>nil) then begin
         sncP:=hdrP^.ItemP;
+
         for iLcv:=0 to High(sncP^.Pipes) do begin
           pipeP:=sncP^.Pipes[iLcv];
           TPathEntry.CreateAsMyNetwork(pipeP);
         end;
+
       end;
     end;
     tsMyNetworksResize(Sender);
@@ -1378,7 +1385,7 @@ end;
 procedure TAurawin.lvResourcesSelectItem(Sender: TObject; Item: TListItem;
   Selected: Boolean);
 begin
-  tiSelectRc.Expires:=IncMillisecond(Now,400);
+  tiSelectRc.Expires:=IncMillisecond(dtUT,400);
 end;
 
 procedure TAurawin.miExitClick(Sender: TObject);

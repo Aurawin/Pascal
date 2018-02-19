@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectSession>
-    <Version Value="10"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="5">
+    <Units Count="8">
       <Unit0>
         <Filename Value="AuCloud.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="6"/>
         <CursorPos X="3" Y="17"/>
         <UsageCount Value="200"/>
-        <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.lfm"/>
@@ -26,9 +27,8 @@
         <ComponentName Value="Aurawin"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="1214"/>
-        <CursorPos Y="1219"/>
+        <TopLine Value="29"/>
+        <CursorPos X="8" Y="36"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit2>
@@ -49,7 +49,96 @@
         <CursorPos X="47" Y="125"/>
         <UsageCount Value="200"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/auSettings.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="29"/>
+        <CursorPos X="27" Y="48"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../../../../../Pascal/Core.Timer.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="206"/>
+        <CursorPos Y="220"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../Pascal/Core.XML.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="1577"/>
+        <CursorPos X="18" Y="1587"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="12" HistoryIndex="11">
+      <Position1>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="1225" Column="55" TopLine="1213"/>
+      </Position1>
+      <Position2>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="1515" Column="23" TopLine="1501"/>
+      </Position2>
+      <Position3>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="1519" Column="23" TopLine="1121"/>
+      </Position3>
+      <Position4>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="1515" Column="37" TopLine="1505"/>
+      </Position4>
+      <Position5>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="199" Column="23" TopLine="191"/>
+      </Position5>
+      <Position6>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="1160" Column="21" TopLine="1150"/>
+      </Position6>
+      <Position7>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="240" Column="15" TopLine="230"/>
+      </Position7>
+      <Position8>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="1059" TopLine="1056"/>
+      </Position8>
+      <Position9>
+        <Filename Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Caret Line="36" Column="8" TopLine="29"/>
+      </Position9>
+      <Position10>
+        <Filename Value="../../../../../Pascal/Core.Timer.pas"/>
+        <Caret Line="216" Column="40" TopLine="209"/>
+      </Position10>
+      <Position11>
+        <Filename Value="../../../../../Pascal/Core.Timer.pas"/>
+        <Caret Line="220" TopLine="206"/>
+      </Position11>
+      <Position12>
+        <Filename Value="../../../../../Pascal/Core.XML.pas"/>
+        <Caret Line="1589" Column="40" TopLine="1579"/>
+      </Position12>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../../../../../Projects/Aurawin/AuCloud/frmMain.pas"/>
+        <Line Value="1059"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>

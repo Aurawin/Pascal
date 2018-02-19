@@ -107,7 +107,6 @@ begin
   Owner:=aOwner;
   if (GetCurrentThreadId<>aOwner.Handle) then
     Raise Exception.Create('Cannot create external instance of this object');
-
   Owner.FRecycler.Add(Self);
 end;
 

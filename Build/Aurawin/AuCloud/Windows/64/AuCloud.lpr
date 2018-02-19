@@ -12,6 +12,7 @@ uses
 {$R *.res}
 
 begin
+  Application.Scaled:=True;
   RequireDerivedFormResource := True;
   DefaultSystemCodePage:=CP_UTF8;
 

@@ -211,9 +211,18 @@ Constructor TItem.Create(
   aLocalized     : Core.Strings.VarString;
   aRemote        : Core.Strings.VarString
 );
+
+var
+  aCallerId      : TThreadID;
+  aCurrentId     : TThreadID;
+
 begin
-  if (System.GetCurrentThreadId<>aThread.Handle) then
-    raise Exception.Create('Queue Item must be created in the context of specified thread');
+
+  aCallerId:=System.GetCurrentThreadId;
+  aCurrentId:=aThread.Handle;
+
+  //if (aCallerId<>aCurrentId) then
+  //  raise Exception.Create('Queue Item must be created in the context of specified thread');
 
   Kind:=aKind;
 
